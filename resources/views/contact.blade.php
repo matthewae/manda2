@@ -511,11 +511,6 @@
             window.open(mailtoLink, '_blank');
         }
 
-        document.getElementById("menu-toggle").addEventListener("click", function() {
-            const mobileMenu = document.getElementById("mobile-menu");
-            mobileMenu.classList.toggle("hidden");
-        });
-
         document.getElementById("contact-form").addEventListener("submit", function(event) {
             event.preventDefault();
 
@@ -556,6 +551,158 @@
                 });
         });
         // mobile
+        const heroCarousel = {
+            currentSlide: 0,
+            slides: document.querySelectorAll('.carousel-item'),
+            dots: document.querySelectorAll('.hero-dot'),
+            inner: document.querySelector('.carousel-inner'),
+            isAnimating: false,
+
+            init() {
+                // Clone first and last slides for smooth infinite loop
+                const firstSlideClone = this.slides[0].cloneNode(true);
+                const lastSlideClone = this.slides[this.slides.length - 1].cloneNode(true);
+                this.inner.appendChild(firstSlideClone);
+                this.inner.insertBefore(lastSlideClone, this.slides[0]);
+
+                this.showSlide(1); // Start at first actual slide
+                this.startAutoPlay();
+                this.setupEventListeners();
+            },
+
+            showSlide(index, isAuto = false) {
+                if (this.isAnimating) return;
+                this.isAnimating = true;
+
+                const totalSlides = this.slides.length;
+                const offset = -index * 100;
+                this.inner.style.transform = `translateX(${offset}%)`;
+
+                // Update dots based on actual slide position
+                let actualIndex = index - 1;
+                if (actualIndex === -1) actualIndex = totalSlides - 1;
+                if (actualIndex === totalSlides) actualIndex = 0;
+
+                this.dots.forEach((dot, i) => {
+                    dot.classList.toggle('active', i === actualIndex);
+                });
+
+                // Handle infinite scroll transition
+                if (index === 0 || index === totalSlides + 1) {
+                    setTimeout(() => {
+                        this.inner.classList.add('no-transition');
+                        const newIndex = index === 0 ? totalSlides : 1;
+                        this.inner.style.transform = `translateX(-${newIndex * 100}%)`;
+
+                        // Force reflow
+                        this.inner.offsetHeight;
+
+                        this.inner.classList.remove('no-transition');
+                        this.isAnimating = false;
+                        this.currentSlide = newIndex;
+                    }, 1000);
+                } else {
+                    setTimeout(() => {
+                        this.isAnimating = false;
+                        this.currentSlide = index;
+                    }, 1000);
+                }
+            },
+
+            nextSlide() {
+                this.showSlide(this.currentSlide + 1);
+            },
+
+            prevSlide() {
+                this.showSlide(this.currentSlide - 1);
+            },
+
+            startAutoPlay() {
+                setInterval(() => {
+                    if (!this.isAnimating) {
+                        this.nextSlide();
+                    }
+                }, 6000);
+            },
+
+            setupEventListeners() {
+                this.dots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => {
+                        if (!this.isAnimating) {
+                            this.showSlide(index + 1);
+                        }
+                    });
+                });
+            }
+        };
+
+        // Initialize carousel when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            heroCarousel.init();
+        });
+
+        // Client Section Carousel
+        let currentClientSlide = 0;
+        const clientSlides = document.querySelectorAll('.carousel-slide');
+        const clientDots = document.querySelectorAll('.client-dot');
+
+        function showClientSlide(index) {
+            if (index >= clientSlides.length) {
+                currentClientSlide = 0;
+            } else if (index < 0) {
+                currentClientSlide = clientSlides.length - 1;
+            } else {
+                currentClientSlide = index;
+            }
+
+            const offset = -currentClientSlide * 100;
+            document.querySelector('.carousel-track').style.transform = `translateX(${offset}%)`;
+
+            // Update dots
+            document.querySelectorAll('.client-dot').forEach((dot, i) => {
+                dot.classList.toggle('active', i === currentClientSlide);
+            });
+        }
+
+        function nextClientSlide() {
+            showClientSlide(currentClientSlide + 1);
+        }
+
+        // Auto advance client slides every 4 seconds
+        setInterval(() => {
+            nextClientSlide();
+        }, 4000);
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            // Show first slide
+            showClientSlide(0);
+        });
+
+        // Loading animation
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('loaded');
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+
+            document.addEventListener('scroll', function() {
+                const navbar = document.querySelector('.navbar');
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        });
+
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
