@@ -159,26 +159,26 @@
         </div>
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="md:hidden">
-                <div class="flex flex-col h-full">
-                    <ul class="flex flex-col space-y-4 mt-16">
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
-                        <li class="pt-4">
-                            <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
-                                target="_blank"
-                                class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
-                                <i class="fas fa-download mr-2"></i>Company Profile
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="flex flex-col h-full">
+                <ul class="flex flex-col space-y-4 mt-16">
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+                    <li class="pt-4">
+                        <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
+                            target="_blank"
+                            class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
+                            <i class="fas fa-download mr-2"></i>Company Profile
+                        </a>
+                    </li>
+                </ul>
             </div>
+        </div>
     </nav>
-    
+
     <!-- Vision Section -->
     <section class="py-16 bg-gradient-to-b from-gray-100 to-white fade-in mt-24">
         <div class="container mx-auto px-4">
@@ -594,23 +594,6 @@
     </footer>
 
     <script>
-        document.getElementById('menu-toggle').addEventListener('click', function() {
-            const mobileMenu = document.getElementById('mobile-menu');
-            if (mobileMenu.classList.contains('hidden')) {
-                mobileMenu.classList.remove('hidden');
-            } else {
-                mobileMenu.classList.add('hidden');
-            }
-        });
-
-        function toggleAccordion(id) {
-            const element = document.getElementById(id);
-            if (element.classList.contains('open')) {
-                element.classList.remove('open');
-            } else {
-                element.classList.add('open');
-            }
-        }
 
         // Update the JavaScript for menu toggle
         document.addEventListener('DOMContentLoaded', function() {
@@ -625,9 +608,10 @@
             function toggleMenu() {
                 mobileMenu.classList.toggle('active');
                 overlay.classList.toggle('active');
-                document.body.classList.toggle('menu-open');
+                document.body.classList.toggle('overflow-hidden');
             }
 
+            // Toggle menu
             menuToggle.addEventListener('click', function(e) {
                 e.stopPropagation();
                 toggleMenu();
