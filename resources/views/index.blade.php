@@ -232,6 +232,29 @@
         .delay-300 {
             animation-delay: 0.3s;
         }
+
+        .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.client-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.client-box:hover {
+    transform: scale(1.05);
+}
     </style>
 </head>
 
