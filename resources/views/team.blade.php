@@ -199,6 +199,7 @@
                 </ul>
             </div>
         </div>
+    </nav>
 
         <!-- Our Team Section -->
         <!-- <section class="py-16 bg-gradient-to-b from-gray-100 to-white fade-in">

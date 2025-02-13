@@ -78,7 +78,6 @@
             position: fixed;
             top: 0;
             left: -300px;
-            /* Start off-screen */
             width: 300px;
             height: 100vh;
             background-color: rgb(17, 24, 39);
@@ -94,7 +93,10 @@
 
         .menu-overlay {
             position: fixed;
-            inset: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
             background-color: rgba(0, 0, 0, 0.5);
             opacity: 0;
             visibility: hidden;
@@ -110,6 +112,17 @@
         #menu-toggle {
             position: relative;
             z-index: 60;
+        }
+
+        body.menu-open {
+            overflow: hidden;
+        }
+
+        main {
+            position: relative;
+            z-index: 1;
+            margin-top: 64px;
+            /* Adjust based on your navbar height */
         }
     </style>
 </head>
@@ -170,6 +183,7 @@
                 </ul>
             </div>
         </div>
+    </nav>
 
         <!-- Services Section -->
         <section class="py-16 bg-gradient-to-b from-gray-100 to-white fade-in mt-24">
@@ -826,6 +840,7 @@
         </footer>
         <script>
             // Replace the existing mobile menu JavaScript
+            // Update the JavaScript for menu toggle
             document.addEventListener('DOMContentLoaded', function() {
                 const menuToggle = document.getElementById('menu-toggle');
                 const mobileMenu = document.getElementById('mobile-menu');
@@ -838,10 +853,9 @@
                 function toggleMenu() {
                     mobileMenu.classList.toggle('active');
                     overlay.classList.toggle('active');
-                    document.body.classList.toggle('overflow-hidden');
+                    document.body.classList.toggle('menu-open');
                 }
 
-                // Toggle menu
                 menuToggle.addEventListener('click', function(e) {
                     e.stopPropagation();
                     toggleMenu();
