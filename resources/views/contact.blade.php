@@ -129,7 +129,7 @@
                 </button>
             </div>
 
-            <!-- Mobile Menu -->
+            <!-- Mobile Menu Panel -->
             <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-gray-900 bg-opacity-95 z-50">
                 <div class="flex justify-end p-4">
                     <button id="close-menu" class="text-gray-300 hover:text-white focus:outline-none p-2">
@@ -154,6 +154,7 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
 
                 <!-- Contact Section -->
                 <section class="py-16 bg-gradient-to-b from-gray-100 to-white fade-in mt-24">
