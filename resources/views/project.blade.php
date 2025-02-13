@@ -159,13 +159,13 @@
             </ul>
             <!-- Mobile Menu Button -->
             <div class="md:hidden">
-                <button class="text-gray-300 focus:outline-none text-2xl" id="menu-toggle">
+                <button id="menu-toggle" class="text-gray-300 focus:outline-none text-2xl">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
         <!-- Mobile Menu -->
-        <ul class="hidden md:hidden flex flex-col space-y-3 mt-4 bg-gray-800 p-4 rounded-lg shadow-lg" id="mobile-menu">
+        <ul id="mobile-menu" class="hidden md:hidden flex flex-col space-y-3 mt-4 bg-gray-800 p-4 rounded-lg shadow-lg">
             <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="/">Home</a></li>
             <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="service">Services</a></li>
             <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="project">Projects</a></li>
@@ -174,7 +174,7 @@
             <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="contact">Contact Us</a></li>
             <!-- Company Profile Button for Mobile -->
             <li>
-                <a class="border border-blue-500 text-blue-500 px-5 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300 text-center" href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing" target="_blank" class="border border-blue-500 text-blue-500 px-5 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300 text-center">
                     Company Profile
                 </a>
             </li>
