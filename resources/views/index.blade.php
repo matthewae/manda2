@@ -1,3 +1,7 @@
+<?php
+
+use Illuminate\Support\Facades\Storage;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -839,8 +843,7 @@
                         <!-- Client 1 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <alt="Logo of Client 1 class="w-full h-24 object-contain mb-4" src="{{ Storage::url('bandung.png') }}" />
-                            </div>
+                            <img src="{{ Storage::url('bandung.png') }}" />                            </div>
                         </div>
                         <!-- Client 2 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
