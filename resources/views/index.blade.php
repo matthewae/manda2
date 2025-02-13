@@ -234,27 +234,27 @@
         }
 
         .carousel-track {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-}
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
 
-.carousel-slide {
-    flex: 0 0 100%;
-    width: 100%;
-}
+        .carousel-slide {
+            flex: 0 0 100%;
+            width: 100%;
+        }
 
-.client-box {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease;
-}
+        .client-box {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease;
+        }
 
-.client-box:hover {
-    transform: scale(1.05);
-}
+        .client-box:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 
@@ -286,28 +286,32 @@
                     </a>
                 </li>
             </ul>
-            <!-- Mobile Menu Button -->
             <div class="md:hidden">
-                <button id="menu-toggle" class="text-gray-300 focus:outline-none text-2xl">
-                    <i class="fas fa-bars"></i>
+                <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
             </div>
-        </div>
-        <!-- Mobile Menu -->
-        <ul id="mobile-menu" class="hidden md:hidden flex flex-col space-y-3 mt-4 bg-gray-800 p-4 rounded-lg shadow-lg">
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="/">Home</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="service">Services</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="project">Projects</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="team">Our Team</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="client">Clients</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="contact">Contact Us</a></li>
-            <!-- Company Profile Button for Mobile -->
-            <li>
-                <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing" target="_blank" class="border border-blue-500 text-blue-500 px-5 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300 text-center">
-                    Company Profile
-                </a>
-            </li>
-        </ul>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 right-0 bg-gray-900 shadow-lg z-50">
+                <div class="container mx-auto px-4 py-2">
+                    <ul class="flex flex-col space-y-3">
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+                        <li class="py-2">
+                            <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
+                                target="_blank"
+                                class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
+                                Company Profile
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
     </nav>
 
     <!-- Hero Section with Carousel -->
@@ -1235,24 +1239,15 @@
             showClientSlide(currentClientSlide + 1);
         }
 
-        function prevClientSlide() {
-            showClientSlide(currentClientSlide - 1);
-        }
-
-
-
-        // Auto advance slides
-        setInterval(nextHeroSlide, 4000);
+        // Auto advance client slides every 4 seconds
         setInterval(() => {
-            currentClientSlide = (currentClientSlide + 1) % clientSlides.length;
-            showClientSlide(currentClientSlide);
-        }, 5000);
+            nextClientSlide();
+        }, 4000);
 
-        // Mobile Menu Toggle with animation
-        document.getElementById('menu-toggle').addEventListener('click', function() {
-            const mobileMenu = document.getElementById('mobile-menu');
-            mobileMenu.classList.toggle('hidden');
-            mobileMenu.classList.toggle('slide-in');
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            // Show first slide
+            showClientSlide(0);
         });
 
         // Loading animation
@@ -1276,6 +1271,25 @@
                 } else {
                     navbar.classList.remove('scrolled');
                 }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            menuToggle.addEventListener('click', function() {
+                // Toggle the hidden class
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('slide-in');
+            });
+
+            // Close menu when clicking a link
+            const mobileLinks = mobileMenu.getElementsByTagName('a');
+            Array.from(mobileLinks).forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                });
             });
         });
     </script>
