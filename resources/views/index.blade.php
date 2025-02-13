@@ -843,7 +843,7 @@ use Illuminate\Support\Facades\Storage;
                         <!-- Client 1 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                            <img src="{{ Storage::url('bandung.png') }}" />                            </div>
+                            <img alt="Company logo" class="h-21 w-20 company-logo" src="{{ asset('storage/bandung.png') }}" />                            </div>
                         </div>
                         <!-- Client 2 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
