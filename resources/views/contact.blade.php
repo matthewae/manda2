@@ -91,6 +91,35 @@
                 padding: 2rem 0;
             }
         }
+
+        #menu-toggle {
+            position: relative;
+            z-index: 60;
+        }
+
+        #mobile-menu {
+            position: fixed;
+            inset: 0;
+            z-index: 50;
+            backdrop-filter: blur(8px);
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        #mobile-menu.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        #mobile-menu:not(.hidden) {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        @media (max-width: 768px) {
+            #menu-toggle {
+                display: block;
+            }
+        }
     </style>
 </head>
 
@@ -122,7 +151,8 @@
                     </a>
                 </li>
             </ul>
-            <div class="md:hidden">
+            <!-- mobile -->
+            <div class="md:hidden z-50 relative">
                 <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>

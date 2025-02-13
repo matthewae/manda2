@@ -287,6 +287,7 @@
                     </a>
                 </li>
             </ul>
+            <!-- mobile -->
             <div class="md:hidden">
                 <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
                     <i class="fas fa-bars text-2xl"></i>
