@@ -461,12 +461,12 @@
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fas fa-phone text-blue-400"></i>
-                            <span class="text-gray-400">+62 22-2335599</span>
+                            <span class="text-gray-400">+62 852 2080 1593</span>
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fas fa-envelope text-blue-400"></i>
                             <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-blue-400 transition duration-300">
-                                info@mandajaya.com
+                                contact.us@mandajayarekayasakonstruksi.com
                             </a>
                         </li>
                     </ul>
@@ -479,10 +479,6 @@
                         <a href="https://www.facebook.com/profile.php?id=61569553317515"
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
                             <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-400 transition duration-300">
-                            <i class="fab fa-twitter"></i>
                         </a>
                         <a href="#"
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 transition duration-300">

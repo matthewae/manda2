@@ -83,6 +83,43 @@
         .company-logo:hover {
             transform: scale(1.05);
         }
+
+        #mobile-menu {
+            position: fixed;
+            top: 0;
+            left: -300px;
+            width: 300px;
+            height: 100vh;
+            background-color: rgb(17, 24, 39);
+            z-index: 50;
+            transition: left 0.3s ease-in-out;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 40;
+        }
+
+        body.menu-open {
+            overflow: hidden;
+        }
+
+        main {
+            position: relative;
+            z-index: 1;
+            margin-top: 64px;
+            /* Adjust based on your navbar height */
+        }
     </style>
 </head>
 
@@ -121,22 +158,27 @@
             </div>
         </div>
         <!-- Mobile Menu -->
-        <ul id="mobile-menu" class="hidden md:hidden flex flex-col space-y-3 mt-4 bg-gray-800 p-4 rounded-lg shadow-lg">
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="/">Home</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="service">Services</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="project">Projects</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="team">Our Team</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="client">Clients</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="contact">Contact Us</a></li>
-            <!-- Company Profile Button for Mobile -->
-            <li>
-                <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing" target="_blank" class="border border-blue-500 text-blue-500 px-5 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300 text-center">
-                    Company Profile
-                </a>
-            </li>
-        </ul>
+        <div id="mobile-menu" class="md:hidden">
+                <div class="flex flex-col h-full">
+                    <ul class="flex flex-col space-y-4 mt-16">
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+                        <li class="pt-4">
+                            <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
+                                target="_blank"
+                                class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
+                                <i class="fas fa-download mr-2"></i>Company Profile
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
     </nav>
-
+    
     <!-- Vision Section -->
     <section class="py-16 bg-gradient-to-b from-gray-100 to-white fade-in mt-24">
         <div class="container mx-auto px-4">
@@ -494,12 +536,12 @@
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fas fa-phone text-blue-400"></i>
-                            <span class="text-gray-400">+62 22-2335599</span>
+                            <span class="text-gray-400">+62 852 2080 1593</span>
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fas fa-envelope text-blue-400"></i>
                             <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-blue-400 transition duration-300">
-                                info@mandajaya.com
+                                contact.us@mandajayarekayasakonstruksi.com
                             </a>
                         </li>
                     </ul>
@@ -512,10 +554,6 @@
                         <a href="https://www.facebook.com/profile.php?id=61569553317515"
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
                             <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-400 transition duration-300">
-                            <i class="fab fa-twitter"></i>
                         </a>
                         <a href="#"
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 transition duration-300">
@@ -573,6 +611,37 @@
                 element.classList.add('open');
             }
         }
+
+        // Update the JavaScript for menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            // Create overlay
+            const overlay = document.createElement('div');
+            overlay.className = 'menu-overlay';
+            document.body.appendChild(overlay);
+
+            function toggleMenu() {
+                mobileMenu.classList.toggle('active');
+                overlay.classList.toggle('active');
+                document.body.classList.toggle('menu-open');
+            }
+
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                toggleMenu();
+            });
+
+            // Close on overlay click
+            overlay.addEventListener('click', toggleMenu);
+
+            // Close on link click
+            const mobileLinks = mobileMenu.getElementsByTagName('a');
+            Array.from(mobileLinks).forEach(link => {
+                link.addEventListener('click', toggleMenu);
+            });
+        });
     </script>
 </body>
 
