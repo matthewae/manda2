@@ -30,17 +30,6 @@
             transition: transform 0.3s ease-in-out;
         }
 
-        .accordion-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
-        }
-
-        .accordion-content.open {
-            max-height: 1000px;
-            padding-top: 1rem;
-        }
-
         .navbar {
             background: rgba(17, 24, 39, 0.95);
             backdrop-filter: blur(8px);
@@ -99,15 +88,27 @@
 
         .menu-overlay {
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            inset: 0;
             background-color: rgba(0, 0, 0, 0.5);
             opacity: 0;
             visibility: hidden;
             transition: all 0.3s ease;
             z-index: 40;
+        }
+
+        .menu-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        #menu-toggle {
+            position: relative;
+            z-index: 60;
+            cursor: pointer;
+        }
+
+        .overflow-hidden {
+            overflow: hidden;
         }
 
         body.menu-open {
@@ -624,17 +625,32 @@
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
+            const overlay = document.createElement('div');
+            overlay.className = 'menu-overlay';
+            document.body.appendChild(overlay);
 
             function toggleMenu() {
-                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('active');
+                overlay.classList.toggle('active');
+                document.body.classList.toggle('menu-open');
+
+                // Toggle translate class instead of hidden
+                if (mobileMenu.style.left === '0px') {
+                    mobileMenu.style.left = '-300px';
+                } else {
+                    mobileMenu.style.left = '0px';
+                }
             }
 
             menuToggle.addEventListener('click', function(e) {
+                e.preventDefault();
                 e.stopPropagation();
                 toggleMenu();
             });
 
-            // Close menu when clicking a link
+            overlay.addEventListener('click', toggleMenu);
+
+            // Close menu when clicking links
             const mobileLinks = mobileMenu.getElementsByTagName('a');
             Array.from(mobileLinks).forEach(link => {
                 link.addEventListener('click', toggleMenu);
@@ -643,7 +659,7 @@
             // Close menu when clicking outside
             document.addEventListener('click', function(e) {
                 if (!mobileMenu.contains(e.target) && !menuToggle.contains(e.target)) {
-                    if (!mobileMenu.classList.contains('hidden')) {
+                    if (mobileMenu.style.left === '0px') {
                         toggleMenu();
                     }
                 }
