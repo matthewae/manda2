@@ -80,38 +80,6 @@
                 box-sizing: border-box;
             }
 
-            /* Navigation Arrows */
-            /* .carousel-arrow {
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                width: 40px;
-                height: 40px;
-                background: rgba(0, 0, 0, 0.5);
-                border: none;
-                border-radius: 50%;
-                color: white;
-                font-size: 20px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                cursor: pointer;
-                transition: background-color 0.3s ease;
-                z-index: 10;
-            } */
-
-            /* .carousel-arrow:hover {
-                background: rgba(0, 0, 0, 0.8);
-            }
-
-            .carousel-arrow.prev {
-                left: 20px;
-            }
-
-            .carousel-arrow.next {
-                right: 20px;
-            } */
-
             /* Navigation Dots */
             .carousel-dots {
                 position: absolute;
@@ -190,6 +158,45 @@
             .company-logo:hover {
                 transform: scale(1.05);
             }
+
+            /* Replace the existing mobile menu styles in the <style> section */
+            #mobile-menu {
+                position: fixed;
+                top: 0;
+                left: -300px;
+                /* Start off-screen */
+                width: 300px;
+                height: 100vh;
+                background-color: rgb(17, 24, 39);
+                z-index: 50;
+                transition: left 0.3s ease-in-out;
+                padding: 2rem;
+                overflow-y: auto;
+            }
+
+            #mobile-menu.active {
+                left: 0;
+            }
+
+            .menu-overlay {
+                position: fixed;
+                inset: 0;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.3s ease;
+                z-index: 40;
+            }
+
+            .menu-overlay.active {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            #menu-toggle {
+                position: relative;
+                z-index: 60;
+            }
         </style>
     </head>
 
@@ -228,20 +235,26 @@
             </div>
         </div>
         <!-- Mobile Menu -->
-        <ul id="mobile-menu" class="hidden md:hidden flex flex-col space-y-3 mt-4 bg-gray-800 p-4 rounded-lg shadow-lg">
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="/">Home</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="service">Services</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="project">Projects</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="team">Our Team</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="client">Clients</a></li>
-            <li><a class="text-gray-300 hover:text-blue-400 transition duration-300" href="contact">Contact Us</a></li>
-            <!-- Company Profile Button for Mobile -->
-            <li>
-                <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing" target="_blank" class="border border-blue-500 text-blue-500 px-5 py-2 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300 text-center">
-                    Company Profile
-                </a>
-            </li>
-        </ul>
+        <!-- Update the mobile menu HTML structure -->
+        <div id="mobile-menu" class="md:hidden">
+            <div class="flex flex-col h-full">
+                <ul class="flex flex-col space-y-4 mt-16">
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
+                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+                    <li class="pt-4">
+                        <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
+                            target="_blank"
+                            class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
+                            <i class="fas fa-download mr-2"></i>Company Profile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!-- Clients Section -->
@@ -529,9 +542,36 @@
     </footer>
     <script>
         // Mobile menu toggle
-        document.getElementById('menu-toggle').addEventListener('click', function() {
+        // Replace the existing mobile menu JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
-            mobileMenu.classList.toggle('hidden');
+
+            // Create overlay
+            const overlay = document.createElement('div');
+            overlay.className = 'menu-overlay';
+            document.body.appendChild(overlay);
+
+            function toggleMenu() {
+                mobileMenu.classList.toggle('active');
+                overlay.classList.toggle('active');
+                document.body.classList.toggle('overflow-hidden');
+            }
+
+            // Toggle menu
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                toggleMenu();
+            });
+
+            // Close on overlay click
+            overlay.addEventListener('click', toggleMenu);
+
+            // Close on link click
+            const mobileLinks = mobileMenu.getElementsByTagName('a');
+            Array.from(mobileLinks).forEach(link => {
+                link.addEventListener('click', toggleMenu);
+            });
         });
 
         // Carousel functionality
