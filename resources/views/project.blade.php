@@ -164,23 +164,17 @@
                 </button>
             </div>
 
-            <!-- Mobile Menu Panel -->
-            <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-gray-900 bg-opacity-95 z-50">
-                <div class="flex justify-end p-4">
-                    <button id="close-menu" class="text-gray-300 hover:text-white focus:outline-none p-2">
-                        <i class="fas fa-times text-2xl"></i>
-                    </button>
-                </div>
-
-                <nav class="px-4 py-2">
-                    <ul class="flex flex-col space-y-4">
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
-                        <li class="pt-4">
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 right-0 bg-gray-900 shadow-lg z-50">
+                <div class="container mx-auto px-4 py-2">
+                    <ul class="flex flex-col space-y-3">
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
+                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+                        <li class="py-2">
                             <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                                 target="_blank"
                                 class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
@@ -188,8 +182,8 @@
                             </a>
                         </li>
                     </ul>
+                </div>
             </div>
-        </div>
     </nav>
 
     <section class="py-16 bg-gradient-to-b from-gray-100 to-white fade-in mt-24"> <!-- mt-24 adds spacing from navbar -->
@@ -545,23 +539,28 @@
             document.getElementById('overlay').classList.remove('open');
         }
 
+        // mobile
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('menu-toggle');
-            const closeMenu = document.getElementById('close-menu');
             const mobileMenu = document.getElementById('mobile-menu');
 
-            function toggleMenu() {
+            menuToggle.addEventListener('click', function() {
                 mobileMenu.classList.toggle('hidden');
-                document.body.classList.toggle('overflow-hidden');
-            }
+            });
 
-            menuToggle.addEventListener('click', toggleMenu);
-            closeMenu.addEventListener('click', toggleMenu);
-
-            // Close menu when clicking on a link
+            // Close menu when clicking a link
             const mobileLinks = mobileMenu.getElementsByTagName('a');
             Array.from(mobileLinks).forEach(link => {
-                link.addEventListener('click', toggleMenu);
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!mobileMenu.contains(event.target) && !menuToggle.contains(event.target)) {
+                    mobileMenu.classList.add('hidden');
+                }
             });
         });
     </script>
