@@ -124,9 +124,9 @@
 </head>
 
 <body class="font-roboto">
+    <!-- Navbar -->
     <nav class="navbar p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
-            <!-- Logo and company name -->
             <div class="flex items-center space-x-3">
                 <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ asset('storage/Logo FI.png') }}" />
                 <a class="text-white text-2xl font-bold tracking-wide hover:text-blue-400 transition duration-300 group" href="/">
@@ -152,7 +152,7 @@
                 </li>
             </ul>
             <!-- mobile -->
-            <div class="md:hidden z-50 relative">
+            <div class="md:hidden">
                 <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
