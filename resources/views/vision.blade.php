@@ -122,10 +122,27 @@
             /* Adjust based on your navbar height */
         }
 
+        #mobile-menu.active {
+            left: 0;
+        }
+
+        #menu-toggle {
+            position: relative;
+            z-index: 60;
+            cursor: pointer;
+        }
+
         /* Update the mobile menu styles */
         #mobile-menu {
-            background-color: rgba(17, 24, 39, 0.95);
-            backdrop-filter: blur(8px);
+            position: fixed;
+            top: 0;
+            left: -280px;
+            width: 280px;
+            height: 100vh;
+            background-color: rgb(17, 24, 39);
+            z-index: 50;
+            transition: left 0.3s ease-in-out;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
         }
 
         .navbar {
@@ -544,47 +561,25 @@
 
     <script>
         // Update the mobile menu JavaScript
+        // Update the JavaScript for the menu
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
-            const overlay = document.createElement('div');
-            overlay.className = 'menu-overlay';
-            document.body.appendChild(overlay);
 
-            function toggleMenu() {
-                mobileMenu.classList.toggle('active');
-                overlay.classList.toggle('active');
-                document.body.classList.toggle('menu-open');
-
-                // Toggle translate class instead of hidden
-                if (mobileMenu.style.left === '0px') {
-                    mobileMenu.style.left = '-300px';
-                } else {
-                    mobileMenu.style.left = '0px';
+            function toggleMenu(e) {
+                if (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
                 }
+                mobileMenu.classList.toggle('active');
             }
 
-            menuToggle.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                toggleMenu();
-            });
-
-            overlay.addEventListener('click', toggleMenu);
+            menuToggle.addEventListener('click', toggleMenu);
 
             // Close menu when clicking links
             const mobileLinks = mobileMenu.getElementsByTagName('a');
             Array.from(mobileLinks).forEach(link => {
                 link.addEventListener('click', toggleMenu);
-            });
-
-            // Close menu when clicking outside
-            document.addEventListener('click', function(e) {
-                if (!mobileMenu.contains(e.target) && !menuToggle.contains(e.target)) {
-                    if (mobileMenu.style.left === '0px') {
-                        toggleMenu();
-                    }
-                }
             });
         });
     </script>
