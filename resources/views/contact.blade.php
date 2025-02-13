@@ -56,12 +56,48 @@
         .company-logo:hover {
             transform: scale(1.05);
         }
+
+        /* mobile */
+        #mobile-menu {
+            backdrop-filter: blur(8px);
+        }
+
+        .overflow-hidden {
+            overflow: hidden;
+        }
+
+        main {
+            min-height: calc(100vh - 64px);
+            /* Adjust based on your navbar height */
+        }
+
+        @media (max-width: 768px) {
+            #mobile-menu {
+                height: 100vh;
+                overflow-y: auto;
+            }
+
+            #mobile-menu nav {
+                min-height: calc(100vh - 80px);
+                display: flex;
+                flex-direction: column;
+            }
+
+            #mobile-menu ul {
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 2rem 0;
+            }
+        }
     </style>
 </head>
 
 <body class="font-roboto">
     <nav class="navbar p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo and company name -->
             <div class="flex items-center space-x-3">
                 <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ asset('storage/Logo FI.png') }}" />
                 <a class="text-white text-2xl font-bold tracking-wide hover:text-blue-400 transition duration-300 group" href="/">
