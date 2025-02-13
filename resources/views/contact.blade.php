@@ -99,10 +99,30 @@
 
         #mobile-menu {
             position: fixed;
-            inset: 0;
+            top: 0;
+            left: -300px;
+            /* Start off-screen */
+            width: 300px;
+            height: 100vh;
+            background-color: rgb(17, 24, 39);
             z-index: 50;
-            backdrop-filter: blur(8px);
-            transition: opacity 0.3s ease, visibility 0.3s ease;
+            transition: left 0.3s ease-in-out;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        #mobile-menu.active {
+            left: 0;
+        }
+
+        .menu-overlay {
+            position: fixed;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 40;
         }
 
         #mobile-menu.hidden {
@@ -113,6 +133,16 @@
         #mobile-menu:not(.hidden) {
             opacity: 1;
             visibility: visible;
+        }
+
+        .menu-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        #menu-toggle {
+            position: relative;
+            z-index: 60;
         }
 
         @media (max-width: 768px) {
@@ -159,9 +189,9 @@
             </div>
 
             <!-- Mobile Menu -->
-            <div id="mobile-menu">
-                <div class="container px-4 py-2">
-                    <ul class="flex flex-col space-y-4">
+            <div id="mobile-menu" class="md:hidden">
+                <div class="flex flex-col h-full">
+                    <ul class="flex flex-col space-y-4 mt-16">
                         <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
                         <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
                         <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
@@ -553,11 +583,12 @@
 
         // mobile
 
+        // Replace the existing mobile menu JavaScript
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
 
-            // Create overlay element
+            // Create overlay
             const overlay = document.createElement('div');
             overlay.className = 'menu-overlay';
             document.body.appendChild(overlay);
@@ -568,15 +599,16 @@
                 document.body.classList.toggle('overflow-hidden');
             }
 
+            // Toggle menu
             menuToggle.addEventListener('click', function(e) {
                 e.stopPropagation();
                 toggleMenu();
             });
 
-            // Close menu when clicking overlay
+            // Close on overlay click
             overlay.addEventListener('click', toggleMenu);
 
-            // Close menu when clicking links
+            // Close on link click
             const mobileLinks = mobileMenu.getElementsByTagName('a');
             Array.from(mobileLinks).forEach(link => {
                 link.addEventListener('click', toggleMenu);
