@@ -72,8 +72,9 @@
         }
 
         @media (max-width: 768px) {
-            #mobile-menu nav {
-                padding: 1rem;
+            #mobile-menu {
+                height: 100vh;
+                overflow-y: auto;
             }
 
             #mobile-menu nav {
@@ -83,12 +84,12 @@
             }
 
             #mobile-menu ul {
-                margin-top: 4rem;
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 2rem 0;
             }
-        }
-
-        #mobile-menu.active {
-            left: 0;
         }
 
         #menu-toggle {
@@ -98,17 +99,10 @@
 
         #mobile-menu {
             position: fixed;
-            top: 0;
-            left: -100%;
-            /* Start off-screen */
-            width: 300px;
-            /* Fixed width */
-            height: 100vh;
-            background-color: rgba(17, 24, 39, 0.95);
-            backdrop-filter: blur(8px);
+            inset: 0;
             z-index: 50;
-            transition: left 0.3s ease-in-out;
-            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(8px);
+            transition: opacity 0.3s ease, visibility 0.3s ease;
         }
 
         #mobile-menu.hidden {
@@ -165,20 +159,20 @@
             </div>
 
             <!-- Mobile Menu -->
-            <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 right-0 bg-gray-900 shadow-lg z-50">
-                <div class="container mx-auto px-4 py-2">
-                    <ul class="flex flex-col space-y-3">
-                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
-                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
-                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
-                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
-                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
-                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
-                        <li class="py-2">
+            <div id="mobile-menu">
+                <div class="container px-4 py-2">
+                    <ul class="flex flex-col space-y-4">
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+                        <li class="pt-4">
                             <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                                 target="_blank"
                                 class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
-                                Company Profile
+                                <i class="fas fa-download mr-2"></i>Company Profile
                             </a>
                         </li>
                     </ul>
@@ -556,24 +550,36 @@
                     });
                 });
         });
+
         // mobile
 
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
 
-            menuToggle.addEventListener('click', function() {
-                // Toggle the hidden class
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('slide-in');
+            // Create overlay element
+            const overlay = document.createElement('div');
+            overlay.className = 'menu-overlay';
+            document.body.appendChild(overlay);
+
+            function toggleMenu() {
+                mobileMenu.classList.toggle('active');
+                overlay.classList.toggle('active');
+                document.body.classList.toggle('overflow-hidden');
+            }
+
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                toggleMenu();
             });
 
-            // Close menu when clicking a link
+            // Close menu when clicking overlay
+            overlay.addEventListener('click', toggleMenu);
+
+            // Close menu when clicking links
             const mobileLinks = mobileMenu.getElementsByTagName('a');
             Array.from(mobileLinks).forEach(link => {
-                link.addEventListener('click', function() {
-                    mobileMenu.classList.add('hidden');
-                });
+                link.addEventListener('click', toggleMenu);
             });
         });
     </script>
