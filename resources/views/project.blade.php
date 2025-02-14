@@ -274,7 +274,7 @@
                 <!-- Residential Project -->
                 <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="residential">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
-                        <img alt="Residential Building" src="{{ url('images/resident.jpeg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <img alt="Residential Building" src="{{ url('images/resident.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
                                 <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Residential</span>
@@ -284,7 +284,7 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Residential Building</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art residential building designed and managed by our expert team.</p>
-                        <button onclick="showOverlay('Residential Building', 'A state-of-the-art residential building designed and managed by our expert team.', 'images/resident.jpeg', 'This residential building features modern architecture and is equipped with the latest technology.')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <button onclick="showOverlay('Residential Building', 'A state-of-the-art residential building designed and managed by our expert team.', 'images/resident.jpg', 'This residential building features modern architecture and is equipped with the latest technology.')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </button>
