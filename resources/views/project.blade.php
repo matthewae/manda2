@@ -450,15 +450,15 @@
                     <h4 class="text-lg font-semibold text-white mb-6">Contact Us</h4>
                     <ul class="space-y-3">
                         <li class="flex items-start space-x-3">
-                            <i class="fas fa-map-marker-alt mt-1 text-blue-400"></i>
+                            <i class="fas fa-map-marker-alt mt-1 text-red-400"></i>
                             <span class="text-gray-400">Jl. Kota Mas 1 No.18, Kota Cimahi, Jawa Barat, 40511</span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <i class="fas fa-phone text-blue-400"></i>
+                            <i class="fas fa-phone text-white-400"></i>
                             <span class="text-gray-400">+62 852 2080 1593</span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <i class="fas fa-envelope text-blue-400"></i>
+                            <i class="fas fa-envelope text-white-400"></i>
                             <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-blue-400 transition duration-300">
                                 contact.us@mandajayarekayasakonstruksi.com
                             </a>
@@ -475,7 +475,7 @@
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="#"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 transition duration-300">
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition duration-300">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                         <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
