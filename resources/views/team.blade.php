@@ -140,6 +140,29 @@
             position: relative;
             z-index: 60;
         }
+
+        .card {
+            perspective: 1000px;
+        }
+
+        .card:hover .social-links {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .social-links {
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+        }
+
+        .card img {
+            backface-visibility: hidden;
+        }
+
+        .card:hover img {
+            filter: brightness(0.9);
+        }
     </style>
 </head>
 
@@ -148,7 +171,7 @@
     <nav class="navbar p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ url('images/Logo FI.png') }}" />
+                <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ url('images/logo fix2.png') }}" />
                 <a class="text-white text-2xl font-bold tracking-wide hover:text-blue-400 transition duration-300 group" href="/">
                     <span class="text-white group-hover:text-yellow-500 transition duration-300">Mandajaya Rekayasa Konstruksi</span>
                 </a>
@@ -201,289 +224,8 @@
         </div>
     </nav>
 
-    <!-- Our Team Section -->
-    <!-- <section class="py-16 bg-gradient-to-b from-gray-100 to-white fade-in">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold mb-4">Meet Our Team</h2>
-                <div class="w-24 h-1 bg-blue-500 mx-auto mb-6"></div>
-                <p class="text-gray-600 max-w-2xl mx-auto">
-                    Our diverse team of experts brings together years of experience and dedication to deliver exceptional results
-                </p>
-            </div> -->
 
-    <!-- Leadership Team -->
-    <!-- <div class="mb-16">
-                <h3 class="text-2xl font-bold mb-8 text-center">Leadership Team</h3>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    Leaders Card Template -->
-    <!-- <div class="group">
-                        <div class="relative overflow-hidden rounded-xl bg-white shadow-lg transform hover:-translate-y-2 transition duration-500">
-                            <div class="relative h-80">
-                                <img alt="Portrait of John Doe, Founder and CEO"
-                                    class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/Z4uwvphkmZKGGoxWqyz4DmpIBef1kzfxJkmLfpo2n9c.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold mb-1">John Doe</h3>
-                                <p class="text-blue-500 font-semibold mb-3">Founder & CEO</p>
-                                <p class="text-gray-600 text-sm mb-4">
-                                    John has over 20 years of experience in the construction industry and is the visionary behind our company.
-                                </p>
-                                <div class="flex space-x-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                    <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">
-                                        <i class="fas fa-envelope"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- Repeat for other leadership team members -->
-    <!-- <div class="group">
-                        <div class="relative overflow-hidden rounded-xl bg-white shadow-lg transform hover:-translate-y-2 transition duration-500">
-                            <div class="relative h-80">
-                                <img alt="Portrait of John Doe, Founder and CEO"
-                                    class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/Z4uwvphkmZKGGoxWqyz4DmpIBef1kzfxJkmLfpo2n9c.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold mb-1">John Doe</h3>
-                                <p class="text-blue-500 font-semibold mb-3">Founder & CEO</p>
-                                <p class="text-gray-600 text-sm mb-4">
-                                    John has over 20 years of experience in the construction industry and is the visionary behind our company.
-                                </p>
-                                <div class="flex space-x-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                    <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">
-                                        <i class="fas fa-envelope"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group">
-                        <div class="relative overflow-hidden rounded-xl bg-white shadow-lg transform hover:-translate-y-2 transition duration-500">
-                            <div class="relative h-80">
-                                <img alt="Portrait of John Doe, Founder and CEO"
-                                    class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/Z4uwvphkmZKGGoxWqyz4DmpIBef1kzfxJkmLfpo2n9c.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="p-6">
-                                <h3 class="text-xl font-bold mb-1">John Doe</h3>
-                                <p class="text-blue-500 font-semibold mb-3">Founder & CEO</p>
-                                <p class="text-gray-600 text-sm mb-4">
-                                    John has over 20 years of experience in the construction industry and is the visionary behind our company.
-                                </p>
-                                <div class="flex space-x-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                    <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300">
-                                        <i class="fas fa-envelope"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-    <!-- Experts Section -->
-    <!-- <div class="mb-16">
-                <h3 class="text-2xl font-bold mb-8 text-center">Our Experts</h3>
-                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6"> -->
-    <!-- Expert Card Template -->
-    <!-- <div class="group">
-                        <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                            <div class="relative h-64">
-                                <img alt="Portrait of Expert"
-                                    class="w-full h-full object-cover"
-                                    src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 left-4 text-white">
-                                        <p class="text-sm font-medium">Project Manager</p>
-                                        <p class="text-xs opacity-75">15+ years experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-4">
-                                <h4 class="font-bold mb-1">John Doe</h4>
-                                <p class="text-sm text-gray-600">Specializes in large-scale construction management</p>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- Repeat for other experts -->
-    <!-- <div class="group">
-                        <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                            <div class="relative h-64">
-                                <img alt="Portrait of Expert"
-                                    class="w-full h-full object-cover"
-                                    src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 left-4 text-white">
-                                        <p class="text-sm font-medium">Project Manager</p>
-                                        <p class="text-xs opacity-75">15+ years experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-4">
-                                <h4 class="font-bold mb-1">John Doe</h4>
-                                <p class="text-sm text-gray-600">Specializes in large-scale construction management</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group">
-                        <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                            <div class="relative h-64">
-                                <img alt="Portrait of Expert"
-                                    class="w-full h-full object-cover"
-                                    src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 left-4 text-white">
-                                        <p class="text-sm font-medium">Project Manager</p>
-                                        <p class="text-xs opacity-75">15+ years experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-4">
-                                <h4 class="font-bold mb-1">John Doe</h4>
-                                <p class="text-sm text-gray-600">Specializes in large-scale construction management</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group">
-                        <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                            <div class="relative h-64">
-                                <img alt="Portrait of Expert"
-                                    class="w-full h-full object-cover"
-                                    src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 left-4 text-white">
-                                        <p class="text-sm font-medium">Project Manager</p>
-                                        <p class="text-xs opacity-75">15+ years experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-4">
-                                <h4 class="font-bold mb-1">John Doe</h4>
-                                <p class="text-sm text-gray-600">Specializes in large-scale construction management</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group">
-                        <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                            <div class="relative h-64">
-                                <img alt="Portrait of Expert"
-                                    class="w-full h-full object-cover"
-                                    src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 left-4 text-white">
-                                        <p class="text-sm font-medium">Project Manager</p>
-                                        <p class="text-xs opacity-75">15+ years experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-4">
-                                <h4 class="font-bold mb-1">John Doe</h4>
-                                <p class="text-sm text-gray-600">Specializes in large-scale construction management</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group">
-                        <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                            <div class="relative h-64">
-                                <img alt="Portrait of Expert"
-                                    class="w-full h-full object-cover"
-                                    src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 left-4 text-white">
-                                        <p class="text-sm font-medium">Project Manager</p>
-                                        <p class="text-xs opacity-75">15+ years experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-4">
-                                <h4 class="font-bold mb-1">John Doe</h4>
-                                <p class="text-sm text-gray-600">Specializes in large-scale construction management</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-    <!-- Staff Section -->
-    <!-- <div>
-                <h3 class="text-2xl font-bold mb-8 text-center">Supporting Team</h3>
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-6"> -->
-    <!-- Staff Card Template -->
-    <!-- <div class="group">
-                        <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300">
-                            <div class="relative w-20 h-20 mx-auto mb-3">
-                                <img alt="Staff Member"
-                                    class="w-full h-full object-cover rounded-full"
-                                    src="https://storage.googleapis.com/a1aa/image/Koaws9GC3mBe5rIzrAdn9ELXnUdG7b7D6mlPuAdNyNA.jpg" />
-                            </div>
-                            <div class="text-center">
-                                <h4 class="font-semibold mb-1">Sarah Johnson</h4>
-                                <p class="text-sm text-gray-500">Financial Analyst</p>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- Repeat for other staff members -->
-    <!-- <div class="group">
-                        <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300">
-                            <div class="relative w-20 h-20 mx-auto mb-3">
-                                <img alt="Staff Member"
-                                    class="w-full h-full object-cover rounded-full"
-                                    src="https://storage.googleapis.com/a1aa/image/Koaws9GC3mBe5rIzrAdn9ELXnUdG7b7D6mlPuAdNyNA.jpg" />
-                            </div>
-                            <div class="text-center">
-                                <h4 class="font-semibold mb-1">Sarah Johnson</h4>
-                                <p class="text-sm text-gray-500">Financial Analyst</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group">
-                        <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300">
-                            <div class="relative w-20 h-20 mx-auto mb-3">
-                                <img alt="Staff Member"
-                                    class="w-full h-full object-cover rounded-full"
-                                    src="https://storage.googleapis.com/a1aa/image/Koaws9GC3mBe5rIzrAdn9ELXnUdG7b7D6mlPuAdNyNA.jpg" />
-                            </div>
-                            <div class="text-center">
-                                <h4 class="font-semibold mb-1">Sarah Johnson</h4>
-                                <p class="text-sm text-gray-500">Financial Analyst</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group">
-                        <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300">
-                            <div class="relative w-20 h-20 mx-auto mb-3">
-                                <img alt="Staff Member"
-                                    class="w-full h-full object-cover rounded-full"
-                                    src="https://storage.googleapis.com/a1aa/image/Koaws9GC3mBe5rIzrAdn9ELXnUdG7b7D6mlPuAdNyNA.jpg" />
-                            </div>
-                            <div class="text-center">
-                                <h4 class="font-semibold mb-1">Sarah Johnson</h4>
-                                <p class="text-sm text-gray-500">Financial Analyst</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Our Team Section -->
-    <section class="py-12 bg-gray-100 fade-in mt-24"> <!-- Added mt-24 class -->
+    <section class="py-12 bg-gray-100 fade-in mt-24">
         <div class="container mx-auto text-center px-4">
             <!-- Section Header -->
             <div class="text-center mb-12">
@@ -493,359 +235,595 @@
                     Meet the dedicated professionals behind our success
                 </p>
             </div>
+
             <!-- Founders -->
-            <h3 class="text-2xl font-bold mb-4">
-                Founders
-            </h3>
-            <div class="flex flex-wrap justify-center mb-12">
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of John Doe, Founder and CEO" class="w-full h-64 object-cover mb-4" height="256" src="https://storage.googleapis.com/a1aa/image/Z4uwvphkmZKGGoxWqyz4DmpIBef1kzfxJkmLfpo2n9c.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            John Doe
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Founder &amp; CEO
-                        </p>
-                        <p class="text-gray-700">
-                            John has over 20 years of experience in the construction industry and is the visionary behind our company.
-                        </p>
+            <!-- Founders Section -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold mb-8">Founders</h3>
+                <div class="flex flex-wrap justify-center -mx-4">
+                    <!-- CEO Card -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of John Doe, Founder and CEO"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/Z4uwvphkmZKGGoxWqyz4DmpIBef1kzfxJkmLfpo2n9c.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    John Doe
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">
+                                    Founder & CEO
+                                </p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    John has over 20 years of experience in the construction industry and is the visionary behind our company.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:john@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of Jane Smith, Co-Founder and COO" class="w-full h-64 object-cover mb-4" height="256" src="https://storage.googleapis.com/a1aa/image/1w8b2Pk0ZBhruWcTFdXRP_QVVeiXNt-2z_7g0_XukOY.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Jane Smith
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Co-Founder &amp; COO
-                        </p>
-                        <p class="text-gray-700">
-                            Jane oversees the daily operations and ensures that our projects run smoothly and efficiently.
-                        </p>
+
+                    <!-- COO Card -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of Jane Smith, Co-Founder and COO"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/1w8b2Pk0ZBhruWcTFdXRP_QVVeiXNt-2z_7g0_XukOY.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    Jane Smith
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">
+                                    Co-Founder & COO
+                                </p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Jane oversees the daily operations and ensures that our projects run smoothly and efficiently.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:jane@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of Michael Brown, Co-Founder and CFO" class="w-full h-64 object-cover mb-4" height="256" src="https://storage.googleapis.com/a1aa/image/jdzTtnwfCpb3tZFPmfMYb4ZmqV3ZysS9YqQ0uvCFnA0.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Michael Brown
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Co-Founder &amp; CFO
-                        </p>
-                        <p class="text-gray-700">
-                            Michael manages the financial aspects of the company, ensuring fiscal responsibility and growth.
-                        </p>
+
+                    <!-- CFO Card -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of Michael Brown, Co-Founder and CFO"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/jdzTtnwfCpb3tZFPmfMYb4ZmqV3ZysS9YqQ0uvCFnA0.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    Michael Brown
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">
+                                    Co-Founder & CFO
+                                </p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Michael manages the financial aspects of the company, ensuring fiscal responsibility and growth.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:michael@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Experts -->
-            <h3 class="text-2xl font-bold mb-4">
-                Experts
-            </h3>
-            <div class="flex flex-wrap justify-center mb-12">
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of John Doe, Project Manager" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            John Doe
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Project Manager
-                        </p>
-                        <p class="text-gray-700">
-                            John has over 15 years of experience in project management and has successfully led numerous large-scale construction projects.
-                        </p>
+
+            <!-- Experts Section -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold mb-8">Experts</h3>
+                <div class="flex flex-wrap justify-center -mx-4">
+                    <!-- Project Manager Card -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of John Wilson, Project Manager"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    John Wilson
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">
+                                    Project Manager
+                                </p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    15+ years of experience managing large-scale construction projects with exceptional results.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:john.wilson@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of Jane Smith, Lead Architect" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/wGh2zXMsGIMx98jqq9xCUCpIdWcUg2OEeKFE6wrSxCo.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Jane Smith
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Lead Architect
-                        </p>
-                        <p class="text-gray-700">
-                            Jane is a highly skilled architect with a passion for sustainable design and innovative solutions.
-                        </p>
+
+                    <!-- Lead Architect Card -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of Sarah Anderson, Lead Architect"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/wGh2zXMsGIMx98jqq9xCUCpIdWcUg2OEeKFE6wrSxCo.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    Sarah Anderson
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">
+                                    Lead Architect
+                                </p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Passionate about sustainable design and innovative architectural solutions.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:sarah.anderson@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of Michael Brown, Construction Supervisor" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/R-tpEYSnwRmxr50CpHeIbGSRqn5yZUrt2UZxLsEFXf4.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Michael Brown
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Construction Supervisor
-                        </p>
-                        <p class="text-gray-700">
-                            Michael has extensive experience in construction supervision and ensures that all projects meet the highest standards of quality and safety.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of Emily Davis, Design Consultant" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/C6ENz2is4itlf83cvngelGU0Q7PjAW1V3xPlpq6hRKU.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Emily Davis
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Design Consultant
-                        </p>
-                        <p class="text-gray-700">
-                            Emily specializes in creating functional and aesthetically pleasing spaces that meet the unique needs of each client.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of David Wilson, Quality Assurance Manager" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/8cpUC2nHxvKBPxWe52qQcb_PZFPsF4k3PQ-d3Jo7ymQ.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            David Wilson
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Quality Assurance Manager
-                        </p>
-                        <p class="text-gray-700">
-                            David is dedicated to ensuring that all construction projects adhere to the highest standards of quality and safety.
-                        </p>
+
+                    <!-- Construction Supervisor Card -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of David Chen, Construction Supervisor"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/R-tpEYSnwRmxr50CpHeIbGSRqn5yZUrt2UZxLsEFXf4.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    David Chen
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">
+                                    Construction Supervisor
+                                </p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Ensures project quality and safety standards are met with precision and expertise.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:david.chen@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Staff -->
-            <h3 class="text-2xl font-bold mb-4">
-                Staff
-            </h3>
-            <div class="flex flex-wrap justify-center">
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of Sarah Johnson, Financial Analyst" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/Koaws9GC3mBe5rIzrAdn9ELXnUdG7b7D6mlPuAdNyNA.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Sarah Johnson
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Financial Analyst
-                        </p>
-                        <p class="text-gray-700">
-                            Sarah provides financial analysis and budgeting expertise to ensure the financial success of our projects.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of John Doe, Staff Member" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/a33wk-58zXK8TPPi7tkOj5ZnKYvMAmqBgqyC8Zr9UlI.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            John Doe
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Staff Member
-                        </p>
-                        <p class="text-gray-700">
-                            John is a dedicated team member who supports various projects and ensures smooth operations.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of Jane Smith, Staff Member" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/FlEnDH2myV0hHDJFpjHIw7FeaHx3O0zloBFz1CWy6BA.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Jane Smith
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Staff Member
-                        </p>
-                        <p class="text-gray-700">
-                            Jane is a key player in our team, contributing her skills and expertise to various projects.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of Michael Brown, Staff Member" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/fv8YkifnZpn2OxU6PJ3B8Q5Jsyl9uC9MvlJelhjZifs.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Michael Brown
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Staff Member
-                        </p>
-                        <p class="text-gray-700">
-                            Michael is a reliable team member who ensures that all tasks are completed efficiently.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of Emily Davis, Staff Member" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/z6m57vf5iQew7k92qHzsXpDHjJi1DR3T8liAANP3UbY.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Emily Davis
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Staff Member
-                        </p>
-                        <p class="text-gray-700">
-                            Emily is a dedicated team member who supports various projects and ensures smooth operations.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4 card">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="Portrait of David Wilson, Staff Member" class="w-full h-48 object-cover mb-4" height="192" src="https://storage.googleapis.com/a1aa/image/-BMTdgGSJ9Hi9fL1JONZS1bGjUBtAiJrDWAef3eHrPY.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            David Wilson
-                        </h3>
-                        <p class="text-gray-700 mb-2">
-                            Staff Member
-                        </p>
-                        <p class="text-gray-700">
-                            David is a key player in our team, contributing his skills and expertise to various projects.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-gray-300">
-        <!-- Main Footer -->
-        <div class="container mx-auto px-4 py-12">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Company Info -->
-                <div class="space-y-4">
-                    <div class="flex items-center space-x-3 mb-6">
-                        <img src="{{ url('images/Logo FI.png') }}" alt="MRK Logo" class="h-10 w-10">
-                        <h3 class="text-xl font-bold text-white">Mandajaya Rekayasa Konstruksi</h3>
-                    </div>
-                    <p class="text-sm text-gray-400 leading-relaxed">
-                        Providing top-notch construction consulting services with a commitment to excellence, innovation, and client satisfaction.
-                    </p>
-                </div>
 
-                <!-- Quick Links -->
-                <div>
-                    <h4 class="text-lg font-semibold text-white mb-6">Quick Links</h4>
-                    <ul class="space-y-3">
-                        <li>
-                            <a href="/" class="text-gray-400 hover:text-blue-400 transition duration-300">Home</a>
-                        </li>
-                        <li>
-                            <a href="service" class="text-gray-400 hover:text-blue-400 transition duration-300">Services</a>
-                        </li>
-                        <li>
-                            <a href="project" class="text-gray-400 hover:text-blue-400 transition duration-300">Projects</a>
-                        </li>
-                        <li>
-                            <a href="team" class="text-gray-400 hover:text-blue-400 transition duration-300">Our Team</a>
-                        </li>
-                        <li>
-                            <a href="client" class="text-gray-400 hover:text-blue-400 transition duration-300">Clients</a>
-                        </li>
-                    </ul>
-                </div>
+            <!-- Staff Section -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold mb-8">Staff</h3>
 
-                <!-- Contact Info -->
-                <div>
-                    <h4 class="text-lg font-semibold text-white mb-6">Contact Us</h4>
-                    <ul class="space-y-3">
-                        <li class="flex items-start space-x-3">
-                            <i class="fas fa-map-marker-alt mt-1 text-blue-400"></i>
-                            <span class="text-gray-400">Jl. Kota Mas 1 No.18, Kota Cimahi, Jawa Barat, 40511</span>
-                        </li>
-                        <li class="flex items-center space-x-3">
-                            <i class="fas fa-phone text-blue-400"></i>
-                            <span class="text-gray-400">+62 852 2080 1593</span>
-                        </li>
-                        <li class="flex items-center space-x-3">
-                            <i class="fas fa-envelope text-blue-400"></i>
-                            <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-blue-400 transition duration-300">
-                                contact.us@mandajayarekayasakonstruksi.com
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <!-- First Row - 3 Cards -->
+                <div class="flex flex-wrap justify-center -mx-4 mb-8">
+                    <!-- Staff 1 - Admin Assistant -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of Emily Davis, Administrative Assistant"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/-BMTdgGSJ9Hi9fL1JONZS1bGjUBtAiJrDWAef3eHrPY.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- Social Media & Newsletter -->
-                <div>
-                    <h4 class="text-lg font-semibold text-white mb-6">Connect With Us</h4>
-                    <div class="flex space-x-4 mb-6">
-                        <a href="https://www.facebook.com/profile.php?id=61569553317515"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 transition duration-300">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition duration-300">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    Mark Andrew
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">Administrative Assistant</p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Manages office operations and provides excellent administrative support.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Company Profile Button -->
-                    <!-- <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
+                    <!-- Staff 2 - Technical Assistant -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of Emily Davis, Administrative Assistant"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/z6m57vf5iQew7k92qHzsXpDHjJi1DR3T8liAANP3UbY.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    Emily Davis
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">Technical Assistant</p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Manages office operations and provides excellent administrative support.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Staff 3 - Site Inspector -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of Emily Davis, Administrative Assistant"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/fv8YkifnZpn2OxU6PJ3B8Q5Jsyl9uC9MvlJelhjZifs.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    Frank Johnson
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">Site Inspector</p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Manages office operations and provides excellent administrative support.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second Row - 2 Cards -->
+                    <!-- Staff 4 - Safety Officer -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of Emily Davis, Administrative Assistant"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/FlEnDH2myV0hHDJFpjHIw7FeaHx3O0zloBFz1CWy6BA.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    Maria Brinson
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">Safety Officer</p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Manages office operations and provides excellent administrative support.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Staff 5 - Quality Control -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of Emily Davis, Administrative Assistant"
+                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="https://storage.googleapis.com/a1aa/image/a33wk-58zXK8TPPi7tkOj5ZnKYvMAmqBgqyC8Zr9UlI.jpg" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    Kurt Morse
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">Quality Control</p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Manages office operations and provides excellent administrative support.
+                                </p>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <footer class="bg-gray-900 text-gray-300">
+                    <!-- Main Footer -->
+                    <div class="container mx-auto px-4 py-12">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                            <!-- Company Info -->
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-3 mb-6">
+                                    <img src="{{ url('images/logo fix2.png') }}" alt="MRK Logo" class="h-10 w-10">
+                                    <h3 class="text-xl font-bold text-white">Mandajaya Rekayasa Konstruksi</h3>
+                                </div>
+                                <p class="text-sm text-gray-400 leading-relaxed">
+                                    Providing top-notch construction consulting services with a commitment to excellence, innovation, and client satisfaction.
+                                </p>
+                            </div>
+
+                            <!-- Quick Links -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-white mb-6">Quick Links</h4>
+                                <ul class="space-y-3">
+                                    <li>
+                                        <a href="/" class="text-gray-400 hover:text-blue-400 transition duration-300">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="service" class="text-gray-400 hover:text-blue-400 transition duration-300">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="project" class="text-gray-400 hover:text-blue-400 transition duration-300">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="team" class="text-gray-400 hover:text-blue-400 transition duration-300">Our Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="client" class="text-gray-400 hover:text-blue-400 transition duration-300">Clients</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Contact Info -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-white mb-6">Contact Us</h4>
+                                <ul class="space-y-3">
+                                    <li class="flex items-start space-x-3">
+                                        <i class="fas fa-map-marker-alt mt-1 text-blue-400"></i>
+                                        <span class="text-gray-400">Jl. Kota Mas 1 No.18, Kota Cimahi, Jawa Barat, 40511</span>
+                                    </li>
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-phone text-blue-400"></i>
+                                        <span class="text-gray-400">+62 852 2080 1593</span>
+                                    </li>
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-envelope text-blue-400"></i>
+                                        <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                                            contact.us@mandajayarekayasakonstruksi.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Social Media & Newsletter -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-white mb-6">Connect With Us</h4>
+                                <div class="flex space-x-4 mb-6">
+                                    <a href="https://www.facebook.com/profile.php?id=61569553317515"
+                                        class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#"
+                                        class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 transition duration-300">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
+                                        class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition duration-300">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                                <!-- Company Profile Button -->
+                                <!-- <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                         target="_blank"
                         class="inline-flex items-center space-x-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300">
                         <i class="fas fa-download"></i>
                         <span>Download Company Profile</span>
                     </a> -->
-                </div>
-            </div>
-        </div>
-
-        <!-- Bottom Footer -->
-        <div class="border-t border-gray-800">
-            <div class="container mx-auto px-4 py-6">
-                <div class="md:flex md:items-center md:justify-between text-sm">
-                    <div class="text-center md:text-left">
-                        <p>&copy; 2022 Mandajaya Rekayasa Konstruksi. All rights reserved.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="mt-4 md:mt-0 text-center md:text-right">
-                        <a href="privacy" class="text-gray-400 hover:text-blue-400 transition duration-300 mx-2">Privacy Policy</a>
-                        <span class="text-gray-600">|</span>
-                        <a href="term" class="text-gray-400 hover:text-blue-400 transition duration-300 mx-2">Terms of Service</a>
+
+                    <!-- Bottom Footer -->
+                    <div class="border-t border-gray-800">
+                        <div class="container mx-auto px-4 py-6">
+                            <div class="md:flex md:items-center md:justify-between text-sm">
+                                <div class="text-center md:text-left">
+                                    <p>&copy; 2022 Mandajaya Rekayasa Konstruksi. All rights reserved.</p>
+                                </div>
+                                <div class="mt-4 md:mt-0 text-center md:text-right">
+                                    <a href="privacy" class="text-gray-400 hover:text-blue-400 transition duration-300 mx-2">Privacy Policy</a>
+                                    <span class="text-gray-600">|</span>
+                                    <a href="term" class="text-gray-400 hover:text-blue-400 transition duration-300 mx-2">Terms of Service</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script>
-        // Replace the existing mobile menu JavaScript
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuToggle = document.getElementById('menu-toggle');
-            const mobileMenu = document.getElementById('mobile-menu');
+                </footer>
+                <script>
+                    // Replace the existing mobile menu JavaScript
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const menuToggle = document.getElementById('menu-toggle');
+                        const mobileMenu = document.getElementById('mobile-menu');
 
-            // Create overlay
-            const overlay = document.createElement('div');
-            overlay.className = 'menu-overlay';
-            document.body.appendChild(overlay);
+                        // Create overlay
+                        const overlay = document.createElement('div');
+                        overlay.className = 'menu-overlay';
+                        document.body.appendChild(overlay);
 
-            function toggleMenu() {
-                mobileMenu.classList.toggle('active');
-                overlay.classList.toggle('active');
-                document.body.classList.toggle('overflow-hidden');
-            }
+                        function toggleMenu() {
+                            mobileMenu.classList.toggle('active');
+                            overlay.classList.toggle('active');
+                            document.body.classList.toggle('overflow-hidden');
+                        }
 
-            // Toggle menu
-            menuToggle.addEventListener('click', function(e) {
-                e.stopPropagation();
-                toggleMenu();
-            });
+                        // Toggle menu
+                        menuToggle.addEventListener('click', function(e) {
+                            e.stopPropagation();
+                            toggleMenu();
+                        });
 
-            // Close on overlay click
-            overlay.addEventListener('click', toggleMenu);
+                        // Close on overlay click
+                        overlay.addEventListener('click', toggleMenu);
 
-            // Close on link click
-            const mobileLinks = mobileMenu.getElementsByTagName('a');
-            Array.from(mobileLinks).forEach(link => {
-                link.addEventListener('click', toggleMenu);
-            });
-        });
-    </script>
+                        // Close on link click
+                        const mobileLinks = mobileMenu.getElementsByTagName('a');
+                        Array.from(mobileLinks).forEach(link => {
+                            link.addEventListener('click', toggleMenu);
+                        });
+                    });
+                </script>
 </body>
 
 </html>

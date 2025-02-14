@@ -17,7 +17,7 @@
         <div class="container mx-auto max-w-4xl">
             <div class="flex items-center justify-between">
                 <a href="/" class="flex items-center space-x-3 group">
-                    <img src="{{ url('images/Logo FI.png') }}" alt="MRK Logo" class="h-12 w-12">
+                    <img src="{{ url('images/logo fix2.png') }}" alt="MRK Logo" class="h-12 w-12">
                     <div>
                         <h1 class="text-lg md:text-xl font-bold group-hover:text-blue-400 transition duration-300">Mandajaya Rekayasa Konstruksi</h1>
                         <p class="text-sm text-gray-400">Company Legal Documents</p>
@@ -285,7 +285,7 @@
                 <!-- Company Info -->
                 <div class="space-y-4">
                     <div class="flex items-center space-x-3 mb-6">
-                        <img src="{{ url('images/Logo FI.png') }}" alt="MRK Logo" class="h-10 w-10">
+                        <img src="{{ url('images/logo fix2.png') }}" alt="MRK Logo" class="h-10 w-10">
                         <h3 class="text-xl font-bold text-white">Mandajaya Rekayasa Konstruksi</h3>
                     </div>
                     <p class="text-sm text-gray-400 leading-relaxed">

@@ -204,7 +204,7 @@
     <nav class="navbar p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ url('images/Logo FI.png') }}" />
+                <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ url('images/logo fix2.png') }}" />
                 <a class="text-white text-2xl font-bold tracking-wide hover:text-blue-400 transition duration-300 group" href="/">
                     <span class="text-white group-hover:text-yellow-500 transition duration-300">Mandajaya Rekayasa Konstruksi</span>
                 </a>
@@ -258,7 +258,7 @@
     </nav>
 
     <!-- Clients Section -->
-    <section class="py-12 fade-in">
+    <section class="py-12 fade-in mt-24"> <!-- Added mt-24 for navbar spacing -->
         <div class="container mx-auto text-center px-4">
             <h2 class="text-3xl font-bold mb-6">
                 Our Clients
@@ -375,51 +375,51 @@
                         <!-- Client 17 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 17" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/Tlbt6CyVRvFAPc-2LGPMmIQaWnM8T4oCmxj1zpc9YAs.jpg" width="200" />
+                                <img alt="Logo of Client 17" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/mclarens2.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 18 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
                                 <img alt="Logo of Client 18" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/S20oaOWT8s2eaTGzdgQmcHZGK8Pq-rJZ39N6lGDbPns.jpg" width="200" />
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Client 19 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
                                 <img alt="Logo of Client 19" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/lg4LKe0I2G2i4tnO0TNoiiOOFPeMm8cGm-Rx6RIICVg.jpg" width="200" />
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Client 20 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
                                 <img alt="Logo of Client 20" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/Trr55l8kxtQh_CxjmdKKSKfbvtjaKxIUyA7k9R6TkZE.jpg" width="200" />
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Client 21 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
                                 <img alt="Logo of Client 21" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/o1HKmHV7sOv-DjDiJ1vseTQWAs9_TUr68TujvftgpDk.jpg" width="200" />
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Client 22 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
                                 <img alt="Logo of Client 22" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/4aFC0Z4SbYNOTcKproTPHUe6fBMnoFLowsU2Xe6eEVM.jpg" width="200" />
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Client 23 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
                                 <img alt="Logo of Client 23" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/f0TneKS1zb9hKsdu27_MMnXvtzcmePNZb6TnLxuiWls.jpg" width="200" />
                             </div>
-                        </div>
+                        </div> -->
                         <!-- Client 24 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
                                 <img alt="Logo of Client 24" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/WeSuQ5WdirZgN4mu1COHfQh9KSnIDRqPUjzg3kSfFRQ.jpg" width="200" />
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="carousel-dots">
@@ -440,7 +440,7 @@
                 <!-- Company Info -->
                 <div class="space-y-4">
                     <div class="flex items-center space-x-3 mb-6">
-                        <img src="{{ url('images/Logo FI.png') }}" alt="MRK Logo" class="h-10 w-10">
+                        <img src="{{ url('images/logo fix2.png') }}" alt="MRK Logo" class="h-10 w-10">
                         <h3 class="text-xl font-bold text-white">Mandajaya Rekayasa Konstruksi</h3>
                     </div>
                     <p class="text-sm text-gray-400 leading-relaxed">

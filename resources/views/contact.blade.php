@@ -158,7 +158,7 @@
     <nav class="navbar p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ url('images/Logo FI.png') }}" />
+                <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ url('images/logo fix2.png') }}" />
                 <a class="text-white text-2xl font-bold tracking-wide hover:text-blue-400 transition duration-300 group" href="/">
                     <span class="text-white group-hover:text-yellow-500 transition duration-300">Mandajaya Rekayasa Konstruksi</span>
                 </a>
@@ -307,7 +307,7 @@
                                 </div>
                                 <div>
                                     <h4 class="text-lg font-semibold mb-1">Phone Number</h4>
-                                    <p class="text-gray-600">+62 22-2335599</p>
+                                    <p class="text-gray-600">+62 852 2080 1593</p>
                                 </div>
                             </div>
 
@@ -321,7 +321,7 @@
                                 <div>
                                     <h4 class="text-lg font-semibold mb-1">Email</h4>
                                     <a href="mailto:info@mandajaya.com" class="text-blue-500 hover:text-blue-600 transition duration-300">
-                                        info@mandajaya.com
+                                        contact.us@mandajayarekayasakonstruksi.com
                                     </a>
                                 </div>
                             </div>
@@ -421,7 +421,7 @@
                 <!-- Company Info -->
                 <div class="space-y-4">
                     <div class="flex items-center space-x-3 mb-6">
-                        <img src="{{ url('images/Logo FI.png') }}" alt="MRK Logo" class="h-10 w-10">
+                        <img src="{{ url('images/logo fix2.png') }}" alt="MRK Logo" class="h-10 w-10">
                         <h3 class="text-xl font-bold text-white">Mandajaya Rekayasa Konstruksi</h3>
                     </div>
                     <p class="text-sm text-gray-400 leading-relaxed">
