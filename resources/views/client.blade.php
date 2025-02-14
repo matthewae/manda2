@@ -324,7 +324,7 @@
                         <!-- Client 9 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="BI" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/Bi.png') }}" width="200" />
+                                <img alt="BI" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/BI.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 10 -->
