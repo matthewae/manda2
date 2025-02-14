@@ -204,7 +204,7 @@
     <nav class="navbar p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ asset('storage/Logo FI.png') }}" />
+                <img alt="Company logo" class="h-12 w-12 company-logo" src="{{ url('images/Logo FI.png') }}" />
                 <a class="text-white text-2xl font-bold tracking-wide hover:text-blue-400 transition duration-300 group" href="/">
                     <span class="text-white group-hover:text-yellow-500 transition duration-300">Mandajaya Rekayasa Konstruksi</span>
                 </a>
@@ -273,49 +273,49 @@
                         <!-- Client 1 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 1" class="w-full h-24 object-contain mb-4" src="{{ asset('storage/bandung.png') }}" />
+                                <img alt="Logo of Client 1" class="w-full h-24 object-contain mb-4" src="{{ url('images/bandung.png') }}" />
                             </div>
                         </div>
                         <!-- Client 2 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 2" class="w-full h-24 object-contain mb-4" src="{{ asset('storage/Logo-cimahi.png') }}" />
+                                <img alt="Logo of Client 2" class="w-full h-24 object-contain mb-4" src="{{ url('images/Logo-cimahi.png') }}" />
                             </div>
                         </div>
                         <!-- Client 3 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 3" class="w-full h-24 object-contain mb-4" src="{{ asset('storage/bogor.png') }}" />
+                                <img alt="Logo of Client 3" class="w-full h-24 object-contain mb-4" src="{{ url('images/Kota Bogor.png') }}" />
                             </div>
                         </div>
                         <!-- Client 4 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 4" class="w-full h-24 object-contain mb-4" src="{{ asset('storage/takalar.png') }}" />
+                                <img alt="Logo of Client 4" class="w-full h-24 object-contain mb-4" src="{{ url('images/Kabupaten Takalar.png') }}" />
                             </div>
                         </div>
                         <!-- Client 5 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 5" class="w-full h-24 object-contain mb-4" src="{{ asset('storage/jakarta.png') }}" />
+                                <img alt="Logo of Client 5" class="w-full h-24 object-contain mb-4" src="{{ url('images/jakarta.png') }}" />
                             </div>
                         </div>
                         <!-- Client 6 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 6" class="w-full h-24 object-contain mb-4" src="{{ asset('storage/esdm.png') }}" />
+                                <img alt="Logo of Client 6" class="w-full h-24 object-contain mb-4" src="{{ url('images/esdm.png') }}" />
                             </div>
                         </div>
                         <!-- Client 7 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 7" class="w-full h-24 object-contain mb-4" src="{{ asset('storage/BAP.png') }}" />
+                                <img alt="Logo of Client 7" class="w-full h-24 object-contain mb-4" src="{{ url('images/BAP.png') }}" />
                             </div>
                         </div>
                         <!-- Client 8 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 8" class="w-full h-24 object-contain mb-4" src="{{ asset('storage/pupr 2.png') }}" />
+                                <img alt="Logo of Client 8" class="w-full h-24 object-contain mb-4" src="{{ url('images/pupr 2.png') }}" />
                             </div>
                         </div>
                     </div>
@@ -324,49 +324,49 @@
                         <!-- Client 9 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 9" class="w-full h-24 object-contain mb-4" height="100" src="{{ asset('storage/Bi.png') }}" width="200" />
+                                <img alt="Logo of Client 9" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/Bi.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 10 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 10" class="w-full h-24 object-contain mb-4" height="100" src="{{ asset('storage/BNI.png') }}" width="200" />
+                                <img alt="Logo of Client 10" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/BNI.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 11 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 11" class="w-full h-24 object-contain mb-4" height="100" src="{{ asset('storage/KAI.jpg') }}" width="200" />
+                                <img alt="Logo of Client 11" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/KAI.jpg') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 12 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 12" class="w-full h-24 object-contain mb-4" height="100" src="{{ asset('storage/POS.png') }}" width="200" />
+                                <img alt="Logo of Client 12" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/POS.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 13 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 13" class="w-full h-24 object-contain mb-4" height="100" src="{{ asset('storage/bukit.png') }}" width="200" />
+                                <img alt="Logo of Client 13" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/bukit.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 14 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 14" class="w-full h-24 object-contain mb-4" height="100" src="{{ asset('storage/rskgm.png') }}" width="200" />
+                                <img alt="Logo of Client 14" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/rskgm.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 15 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 15" class="w-full h-24 object-contain mb-4" height="100" src="{{ asset('storage/KimiaFarma.png') }}" width="200" />
+                                <img alt="Logo of Client 15" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/KimiaFarma.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 16 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 16" class="w-full h-24 object-contain mb-4" height="100" src="{{ asset('storage/dpkp 3.png') }}" width="200" />
+                                <img alt="Logo of Client 16" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/dpkp 3.png') }}" width="200" />
                             </div>
                         </div>
                     </div>
