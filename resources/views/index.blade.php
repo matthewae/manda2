@@ -485,10 +485,10 @@ use Illuminate\Support\Facades\Storage;
             <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
                 <div class="space-y-6">
                     <h3 class="text-2xl font-bold text-gray-800">Our Story</h3>
-                    <p class="text-gray-700 leading-relaxed">
+                    <p class="text-gray-700 leading-relaxed text-justify">
                         PT. Mandajaya Rekayasa Konstruksi (MRK) was founded in 2022 with a vision of providing top-notch construction consulting services. Over the years, we have grown into a leading firm in the industry, known for our commitment to quality, innovation, and client satisfaction.
                     </p>
-                    <p class="text-gray-700 leading-relaxed">
+                    <p class="text-gray-700 leading-relaxed text-justify">
                         Our expertise spans various sectors, including infrastructure, commercial, and residential projects, allowing us to offer comprehensive solutions tailored to each client's unique needs.
                     </p>
 
@@ -666,7 +666,7 @@ use Illuminate\Support\Facades\Storage;
                             <i class="fas fa-hard-hat text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-4">Project Management</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed text-justify">
                             Professional project planning, execution, and monitoring for optimal results.
                         </p>
                     </div>
@@ -679,7 +679,7 @@ use Illuminate\Support\Facades\Storage;
                             <i class="fas fa-drafting-compass text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-4">Design Consultation</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed text-justify">
                             Expert design solutions that blend functionality with aesthetics.
                         </p>
                     </div>
@@ -692,7 +692,7 @@ use Illuminate\Support\Facades\Storage;
                             <i class="fas fa-tools text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-4">Construction Supervision</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed text-justify">
                             Thorough oversight ensuring quality and compliance throughout construction.
                         </p>
                     </div>
@@ -705,7 +705,7 @@ use Illuminate\Support\Facades\Storage;
                             <i class="fas fa-building text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
                         </div>
                         <h3 class="text-xl font-bold mb-4">Quality Assurance</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed text-justify">
                             Rigorous quality control standards for superior project outcomes.
                         </p>
                     </div>
