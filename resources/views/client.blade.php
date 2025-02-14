@@ -273,49 +273,49 @@
                         <!-- Client 1 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 1" class="w-full h-24 object-contain mb-4" src="{{ url('images/bandung.png') }}" />
+                                <img alt="Bandung" class="w-full h-24 object-contain mb-4" src="{{ url('images/bandung.png') }}" />
                             </div>
                         </div>
                         <!-- Client 2 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 2" class="w-full h-24 object-contain mb-4" src="{{ url('images/Logo-Cimahi.png') }}" />
+                                <img alt="Cimahi" class="w-full h-24 object-contain mb-4" src="{{ url('images/Logo-Cimahi.png') }}" />
                             </div>
                         </div>
                         <!-- Client 3 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 3" class="w-full h-24 object-contain mb-4" src="{{ url('images/Kota Bogor.png') }}" />
+                                <img alt="Bogor" class="w-full h-24 object-contain mb-4" src="{{ url('images/Kota Bogor.png') }}" />
                             </div>
                         </div>
                         <!-- Client 4 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 4" class="w-full h-24 object-contain mb-4" src="{{ url('images/Kabupaten Takalar.png') }}" />
+                                <img alt="Takalar" class="w-full h-24 object-contain mb-4" src="{{ url('images/Kabupaten Takalar.png') }}" />
                             </div>
                         </div>
                         <!-- Client 5 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 5" class="w-full h-24 object-contain mb-4" src="{{ url('images/jakarta.png') }}" />
+                                <img alt="Jakarta" class="w-full h-24 object-contain mb-4" src="{{ url('images/jakarta.png') }}" />
                             </div>
                         </div>
                         <!-- Client 6 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 6" class="w-full h-24 object-contain mb-4" src="{{ url('images/esdm.png') }}" />
+                                <img alt="ESDM" class="w-full h-24 object-contain mb-4" src="{{ url('images/esdm.png') }}" />
                             </div>
                         </div>
                         <!-- Client 7 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 7" class="w-full h-24 object-contain mb-4" src="{{ url('images/BAP.png') }}" />
+                                <img alt="BAP" class="w-full h-24 object-contain mb-4" src="{{ url('images/BAP.png') }}" />
                             </div>
                         </div>
                         <!-- Client 8 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 8" class="w-full h-24 object-contain mb-4" src="{{ url('images/pupr 2.png') }}" />
+                                <img alt="PUPR" class="w-full h-24 object-contain mb-4" src="{{ url('images/pupr 2.png') }}" />
                             </div>
                         </div>
                     </div>
@@ -324,49 +324,49 @@
                         <!-- Client 9 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 9" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/Bi.png') }}" width="200" />
+                                <img alt="BI" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/Bi.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 10 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 10" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/BNI.png') }}" width="200" />
+                                <img alt="BNI" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/BNI.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 11 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 11" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/KAI.jpg') }}" width="200" />
+                                <img alt="KAI" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/KAI.jpg') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 12 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 12" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/POS.png') }}" width="200" />
+                                <img alt="POS" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/POS.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 13 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 13" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/bukit.png') }}" width="200" />
+                                <img alt="Bukit Asam" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/bukit.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 14 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 14" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/rskgm.png') }}" width="200" />
+                                <img alt="RSKGM" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/rskgm.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 15 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 15" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/KimiaFarma.png') }}" width="200" />
+                                <img alt="Kimia Farma" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/KimiaFarma.png') }}" width="200" />
                             </div>
                         </div>
                         <!-- Client 16 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 16" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/dpkp 3.png') }}" width="200" />
+                                <img alt="DPKP" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/dpkp 3.png') }}" width="200" />
                             </div>
                         </div>
                     </div>
