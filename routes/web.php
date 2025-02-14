@@ -25,6 +25,10 @@ use App\Mail\ContactMail;
     Route::get('service', [HomeController::class, 'service'])->name('service');
     Route::get('contact', [HomeController::class, 'contact'])->name('contact');
     Route::get('vision', [HomeController::class, 'vision'])->name('vision');
+    Route::get('privacy', [HomeController::class, 'privacy'])->name('privacy');
+    Route::get('term', [HomeController::class, 'term'])->name('term');
+
+
     
 // Contact Form Route
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');

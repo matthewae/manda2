@@ -503,9 +503,9 @@
                         <p>&copy; 2022 Mandajaya Rekayasa Konstruksi. All rights reserved.</p>
                     </div>
                     <div class="mt-4 md:mt-0 text-center md:text-right">
-                        <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300 mx-2">Privacy Policy</a>
+                        <a href="privacy" class="text-gray-400 hover:text-blue-400 transition duration-300 mx-2">Privacy Policy</a>
                         <span class="text-gray-600">|</span>
-                        <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300 mx-2">Terms of Service</a>
+                        <a href="term" class="text-gray-400 hover:text-blue-400 transition duration-300 mx-2">Terms of Service</a>
                     </div>
                 </div>
             </div>
