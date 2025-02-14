@@ -279,7 +279,7 @@
                         <!-- Client 2 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 2" class="w-full h-24 object-contain mb-4" src="{{ url('images/Logo-cimahi.png') }}" />
+                                <img alt="Logo of Client 2" class="w-full h-24 object-contain mb-4" src="{{ url('images/Logo-Cimahi.png') }}" />
                             </div>
                         </div>
                         <!-- Client 3 -->
