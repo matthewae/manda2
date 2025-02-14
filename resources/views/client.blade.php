@@ -440,7 +440,7 @@
                 <!-- Company Info -->
                 <div class="space-y-4">
                     <div class="flex items-center space-x-3 mb-6">
-                        <img src="{{ asset('storage/Logo FI.png') }}" alt="MRK Logo" class="h-10 w-10">
+                        <img src="{{ url('images/Logo FI.png') }}" alt="MRK Logo" class="h-10 w-10">
                         <h3 class="text-xl font-bold text-white">Mandajaya Rekayasa Konstruksi</h3>
                     </div>
                     <p class="text-sm text-gray-400 leading-relaxed">
