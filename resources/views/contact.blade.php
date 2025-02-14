@@ -289,7 +289,7 @@
                             <div class="flex items-start space-x-4">
                                 <div class="flex-shrink-0">
                                     <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                        <i class="fas fa-map-marker-alt text-xl text-blue-500"></i>
+                                        <i class="fas fa-map-marker-alt text-xl text-red-500"></i>
                                     </div>
                                 </div>
                                 <div>
@@ -302,7 +302,7 @@
                             <div class="flex items-start space-x-4">
                                 <div class="flex-shrink-0">
                                     <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                        <i class="fas fa-phone text-xl text-blue-500"></i>
+                                        <i class="fas fa-phone text-xl text-black-500"></i>
                                     </div>
                                 </div>
                                 <div>
@@ -315,7 +315,7 @@
                             <div class="flex items-start space-x-4">
                                 <div class="flex-shrink-0">
                                     <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                        <i class="fas fa-envelope text-xl text-blue-500"></i>
+                                        <i class="fas fa-envelope text-xl text-black-500"></i>
                                     </div>
                                 </div>
                                 <div>
@@ -348,70 +348,6 @@
         </div>
     </section>
 
-    <!-- Contact -->
-    <!-- <section class="py-12 bg-gray-100">
-        <div class="container mx-auto text-center px-4">
-            <h2 class="text-3xl font-bold mb-6">
-                Contact Us
-            </h2>
-            <p class="text-gray-700 mb-6">
-                We would love to hear from you! Please fill out the form below to get in touch with us.
-            </p>
-            <div class="flex flex-wrap justify-center">
-                <div class="w-full md:w-1/2 p-4">
-                    <form class="bg-white p-6 rounded-lg shadow-lg h-full" id="contact-form">
-                        <div class="mb-4">
-                            <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
-                                Name
-                            </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" placeholder="Your Name" required="" type="text" />
-                        </div>
-                        <div class="mb-4">
-                            <label class="block text-gray-700 text-sm font-bold mb-2" for="phone">
-                                Phone
-                            </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phone" name="phone" placeholder="Your Phone Number" required="" type="tel" />
-                        </div>
-                        <div class="mb-4">
-                            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
-                                Email
-                            </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" placeholder="Your Email" required="" type="email" />
-                        </div>
-                        <div class="mb-4">
-                            <label class="block text-gray-700 text-sm font-bold mb-2" for="subject">
-                                Subject
-                            </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="subject" name="subject" placeholder="Subject" required="" type="text" />
-                        </div>
-                        <div class="mb-4">
-                            <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
-                                Message
-                            </label>
-                            <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" placeholder="Your Message" required="" rows="5"></textarea>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" onclick="sendEmail()" type="button">
-                                Send Message
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <div class="w-full md:w-1/2 p-4 flex justify-center items-center">
-                    <div class="bg-white p-6 rounded-lg shadow-lg w-full h-full flex flex-col">
-                        <h3 class="text-2xl font-bold mb-4">
-                            Our Location
-                        </h3>
-                        <p class="text-gray-700 mb-4">
-                            Jl.Kota Mas 1 no.18 - Kota Cimahi - Jawa Barat - 40511
-                        </p>
-                        <iframe class="w-full flex-grow border-0 rounded-lg shadow-lg" src="https://www.google.com/maps?q=-6.866557,107.539226&amp;hl=es;z=14&amp;output=embed">
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300">
