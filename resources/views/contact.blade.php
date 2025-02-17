@@ -106,20 +106,20 @@
         #mobile-menu {
             position: fixed;
             top: 0;
-            right: -300px;
-            /* Change from left to right */
+            left: -300px;
+            /* Change from right to left */
             width: 300px;
             height: 100vh;
             background-color: rgb(17, 24, 39);
             z-index: 50;
-            transition: right 0.3s ease-in-out;
+            transition: left 0.3s ease-in-out;
             /* Update transition property */
             padding: 2rem;
             overflow-y: auto;
         }
 
         #mobile-menu.active {
-            right: 0;
+            left: 0;
         }
 
         .menu-overlay {
@@ -157,6 +157,7 @@
         #menu-toggle {
             position: relative;
             z-index: 60;
+            display: block;
         }
 
         @media (max-width: 768px) {
@@ -176,9 +177,9 @@
         }
 
         /* Add these styles for better mobile visibility */
-        .navbar .md\:hidden {
-            display: block !important;
-            /* Force display on mobile */
+        .md\:hidden.fixed {
+            position: fixed;
+            z-index: 60;
         }
 
         @media (min-width: 768px) {
@@ -219,7 +220,8 @@
                 </li> -->
             </ul>
             <!-- mobile -->
-            <div class="md:hidden absolute">
+            <!-- Update the mobile menu button container -->
+            <div class="md:hidden fixed right-4 top-4">
                 <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
