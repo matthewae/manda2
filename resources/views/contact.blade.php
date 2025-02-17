@@ -151,13 +151,6 @@
             opacity: 1;
             visibility: visible;
         }
-
-        #menu-toggle {
-            position: relative;
-            z-index: 60;
-            display: block;
-        }
-
         @media (max-width: 768px) {
             #menu-toggle {
                 display: block;
@@ -174,13 +167,10 @@
             padding-right: 1rem;
         }
 
-        /* Add these styles for better mobile visibility */
         .md\:hidden.fixed {
             position: fixed;
             right: 1rem;
-            /* Reduced from right-4 */
             top: 1rem;
-            /* Reduced from top-4 */
             z-index: 60;
         }
 
@@ -199,25 +189,20 @@
             padding-right: 1rem;
         }
 
-        /* Update the contact section spacing */
         .py-16 {
             padding-top: 4rem;
-            /* Reduced from original */
             padding-bottom: 4rem;
         }
 
         .mt-24 {
             margin-top: 5rem;
-            /* Reduced from original */
         }
 
         .contact-info-email {
             word-break: break-all;
-            /* Changed from word-wrap */
             max-width: 100%;
             display: inline-block;
             font-size: 0.95rem;
-            /* Slightly smaller font size */
         }
 
         .map-container {
@@ -276,7 +261,6 @@
                 </li> -->
             </ul>
             <!-- mobile -->
-            <!-- Update the mobile menu button container -->
             <div class="md:hidden fixed right-4 top-4">
                 <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
                     <i class="fas fa-bars text-2xl"></i>

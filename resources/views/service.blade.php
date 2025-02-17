@@ -73,7 +73,6 @@
             transform: scale(1.05);
         }
 
-        /* Replace the existing mobile menu styles in the <style> section */
         #mobile-menu {
             position: fixed;
             top: 0;
@@ -122,7 +121,6 @@
             position: relative;
             z-index: 1;
             margin-top: 64px;
-            /* Adjust based on your navbar height */
         }
     </style>
 </head>
@@ -163,7 +161,6 @@
             </div>
         </div>
         <!-- Mobile Menu -->
-        <!-- Update the mobile menu HTML structure -->
         <div id="mobile-menu" class="md:hidden">
             <div class="flex flex-col h-full">
                 <ul class="flex flex-col space-y-4 mt-16">
@@ -328,7 +325,6 @@
                     </div>
                 </div>
 
-                <!-- Repeat similar structure for other services -->
                 <!-- Design Consultation Section -->
                 <div id="design-consultation" class="scroll-mt-24">
                     <div class="grid md:grid-cols-2 gap-12 items-center">

@@ -22,14 +22,6 @@ use Illuminate\Support\Facades\Storage;
             animation: fadeIn 2s ease-in-out;
         }
 
-        .slide-in {
-            animation: slideIn 0.5s ease-out;
-        }
-
-        .fade-up {
-            animation: fadeUp 0.5s ease-out;
-        }
-
         @keyframes fadeIn {
             0% {
                 opacity: 0;
@@ -85,12 +77,10 @@ use Illuminate\Support\Facades\Storage;
             opacity: 1;
         }
 
-        /* Add this for smooth infinite loop */
         .carousel-inner.no-transition {
             transition: none;
         }
 
-        /* Interactive Elements */
         .card {
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
@@ -258,7 +248,6 @@ use Illuminate\Support\Facades\Storage;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
             height: 140px;
-            /* Fixed height for all client boxes */
         }
 
         .client-box:hover {
@@ -449,42 +438,6 @@ use Illuminate\Support\Facades\Storage;
         </div>
     </section>
 
-    <!-- Hero Section with Carousel -->
-    <!-- <section class="relative fade-in carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item">
-                <img alt="A construction site with cranes and building materials" class="w-full h-screen object-cover"
-                    src="https://storage.googleapis.com/a1aa/image/2w6BKAWJxzyfcjYrrDjt1RYrVFjsM30VudM8t55dJos.jpg" />
-            </div>
-            <div class="carousel-item">
-                <img alt="A team of construction consultants in a meeting" class="w-full h-screen object-cover"
-                    src="https://storage.googleapis.com/a1aa/image/VkfnTaHx8Ms9h7goIZNN_bZAvjX4IVvynWI1esfv6pw.jpg" />
-            </div>
-            <div class="carousel-item">
-                <img alt="A construction site with workers and machinery" class="w-full h-screen object-cover"
-                    src="https://storage.googleapis.com/a1aa/image/XhHRNsT_PydtlbeP8FLp-aT0ykQ01SRkYd700FJXAbo.jpg" />
-            </div>
-        </div>
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="text-center text-white px-4">
-                <h1 class="text-4xl md:text-6xl font-bold mb-4">Building the Future, Restoring the Past</h1>
-                <p class="text-lg md:text-2xl mb-6">Expert construction consulting services for your projects</p>
-            </div>
-        </div> -->
-    <!-- Add Hero Carousel Navigation -->
-    <!-- <div class="carousel-dots">
-            <button class="dot active" onclick="showHeroSlide(0)" aria-label="Slide 1"></button>
-            <button class="dot" onclick="showHeroSlide(1)" aria-label="Slide 2"></button>
-            <button class="dot" onclick="showHeroSlide(2)" aria-label="Slide 3"></button>
-        </div>
-        <button class="carousel-arrow prev" onclick="prevHeroSlide()" aria-label="Previous slide">
-            <i class="fas fa-chevron-left"></i>
-        </button>
-        <button class="carousel-arrow next" onclick="nextHeroSlide()" aria-label="Next slide">
-            <i class="fas fa-chevron-right"></i>
-        </button>
-    </section> -->
-
     <!-- About Section -->
     <section class="py-16 bg-gray-100 fade-in">
         <div class="container mx-auto px-4">
@@ -606,63 +559,7 @@ use Illuminate\Support\Facades\Storage;
             </div>
         </div>
     </section>
-    <!-- About Section -->
-    <!-- <section class="py-12 bg-gray-100 fade-in">
-        <div class="container mx-auto text-center px-4">
-            <h2 class="text-3xl font-bold mb-6">
-                About Us
-            </h2>
-            <p class="text-gray-700 mb-6 text-justify">
-                PT. Mandajaya Rekayasa Konstruksi (MRK) was founded in 2022 with a vision of providing top-notch construction
-                consulting services. Over the years, we have grown into a leading firm in the industry, known for our commitment
-                to quality, innovation, and client satisfaction. Our expertise spans various sectors, including infrastructure,
-                commercial, and residential projects, allowing us to offer comprehensive solutions tailored to each client’s unique needs.
-            </p>
-            <p class="text-gray-700 mb-6 text-justify">
-                Our team of experienced professionals brings together technical excellence, industry insights, and a client-focused
-                approach to ensure that every project is executed with precision and efficiency. We leverage the latest technologies and
-                best practices in construction management, ensuring sustainable and cost-effective outcomes. At MRK, we believe in building
-                long-term relationships with our clients, partners, and stakeholders by consistently delivering projects that exceed expectations.
-                Through continuous improvement and dedication to excellence, we strive to shape the future of the construction industry
-                and contribute to the development of a better-built environment.
-            </p>
-            <div class="flex flex-wrap justify-center">
-                <a class="w-full md:w-1/3 p-4 card" href="team">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="A team of construction consultants in a meeting" class="w-full h-48 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/VkfnTaHx8Ms9h7goIZNN_bZAvjX4IVvynWI1esfv6pw.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Our Team
-                        </h3>
-                        <p class="text-gray-700">
-                            Our team of experienced consultants is dedicated to providing the best service and solutions for your construction needs.
-                        </p>
-                    </div>
-                </a>
-                <a class="w-full md:w-1/3 p-4 card" href="project">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="A construction site with workers and machinery" class="w-full h-48 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/XhHRNsT_PydtlbeP8FLp-aT0ykQ01SRkYd700FJXAbo.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Our Projects
-                        </h3>
-                        <p class="text-gray-700">
-                            We have successfully completed numerous projects across various sectors, including commercial, residential, and industrial.
-                        </p>
-                    </div>
-                </a>
-                <a class="w-full md:w-1/3 p-4 card" href="vision">
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <img alt="A blueprint and construction tools on a table" class="w-full h-48 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/xhGlafHv9-UB_Qk6X0nW9YjoomS1u90eWqCJObEBk5k.jpg" width="300" />
-                        <h3 class="text-xl font-bold mb-2">
-                            Our Vision
-                        </h3>
-                        <p class="text-gray-700">
-                            Our vision is to be the most trusted and innovative construction consulting firm, delivering exceptional value to our clients.
-                        </p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section> -->
+
     <!-- Services Section -->
     <section class="py-16 bg-gradient-to-b from-white to-gray-50 fade-in">
         <div class="container mx-auto px-4">

@@ -191,7 +191,6 @@
             </div>
         </div>
         <!-- Mobile Menu -->
-        <!-- Update the mobile menu HTML structure -->
         <div id="mobile-menu" class="md:hidden">
             <div class="flex flex-col h-full">
                 <ul class="flex flex-col space-y-4 mt-16">
@@ -551,8 +550,6 @@
     </footer>
 
     <script>
-        // Update the mobile menu JavaScript
-        // Update the JavaScript for the menu
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');

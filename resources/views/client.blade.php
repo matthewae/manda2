@@ -538,7 +538,6 @@
     </footer>
     <script>
         // Mobile menu toggle
-        // Replace the existing mobile menu JavaScript
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
