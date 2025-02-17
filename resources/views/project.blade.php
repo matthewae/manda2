@@ -131,7 +131,6 @@
             position: fixed;
             top: 0;
             left: -300px;
-            /* Start off-screen */
             width: 300px;
             height: 100vh;
             background-color: rgb(17, 24, 39);
@@ -244,6 +243,7 @@
                     <button data-category="residential" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Residential</button>
                     <button data-category="industrial" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Industrial</button>
                     <button data-category="healthcare" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Healthcare</button>
+                    <button data-category="Infrastructure" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Infrastructure</button>
                 </div>
             </div>
 
@@ -309,6 +309,27 @@
                     </div>
                 </div>
 
+                <!-- Infrastructure Project -->
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="Infrastructure">
+                    <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
+                        <img alt="Infrastructure Building" src="{{ url('images/infra.jpeg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Infrastructure</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Infrastructure Project</h3>
+                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Infrastructure project designed and managed by our expert team.</p>
+                        <button onclick="showOverlay('Infrastructure Building', 'A state-of-the-art infrastructure building designed and managed by our expert team.', 'images/infra.jpeg', 'This infrastructure building features modern architecture and is equipped with the latest technology.')"
+                            class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
+                            <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                        </button>
+                    </div>
+                </div>
+
                 <!-- Healthcare Project -->
                 <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="healthcare">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
@@ -329,7 +350,7 @@
                     </div>
                 </div>
             </div>
-
+        </div>
     </section>
     <!-- Overlay -->
     <div class="overlay" id="overlay">
@@ -420,7 +441,6 @@
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
-
                     <!-- Company Profile Button -->
                     <!-- <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                         target="_blank"
