@@ -170,6 +170,25 @@
             outline: 1px solid rgba(255, 255, 255, 0.1);
             /* Helps visualize the clickable area */
         }
+
+        .md\:hidden.fixed {
+            pointer-events: auto;
+            /* Ensure clicks are registered */
+        }
+
+        #menu-toggle {
+            pointer-events: auto;
+        }
+
+        .navbar {
+            pointer-events: none;
+            /* Prevent navbar from blocking clicks */
+        }
+
+        .navbar>* {
+            pointer-events: auto;
+            /* Re-enable clicks for navbar content */
+        }
     </style>
 </head>
 
@@ -201,8 +220,10 @@
                 </li> -->
             </ul>
             <!-- Mobile Menu Button -->
-            <div class="md:hidden fixed right-4 top-4 z-50">
-                <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
+            <div class="md:hidden fixed">
+                <button id="menu-toggle"
+                    class="text-gray-300 hover:text-white focus:outline-none"
+                    aria-label="Toggle mobile menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
             </div>
