@@ -137,10 +137,11 @@
             position: fixed;
             top: 0;
             left: -280px;
+            /* Start off-screen */
             width: 280px;
             height: 100vh;
             background-color: rgb(17, 24, 39);
-            z-index: 50;
+            z-index: 40;
             transition: left 0.3s ease-in-out;
             box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -157,6 +158,8 @@
         #menu-toggle {
             position: relative;
             z-index: 60;
+            cursor: pointer;
+            display: block;
         }
 
         @media (max-width: 768px) {
@@ -195,22 +198,22 @@
                 </li> -->
             </ul>
             <!-- Mobile Menu Button -->
-            <div class="md:hidden">
+            <div class="md:hidden fixed right-4 top-4 z-50">
                 <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
             </div>
 
             <!-- Update the Mobile Menu markup - move it outside the navbar -->
-            <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 right-0 bg-gray-900 shadow-lg z-50">
-                <div class="container mx-auto px-4 py-2">
-                    <ul class="flex flex-col space-y-3">
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+            <div id="mobile-menu" class="fixed inset-y-0 left-0 w-64 bg-gray-900 transform -translate-x-full transition-transform duration-300 ease-in-out z-40">
+                <div class="p-6">
+                    <ul class="space-y-4">
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="/">Home</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="service">Services</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="project">Projects</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="team">Our Team</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="client">Clients</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="contact">Contact Us</a></li>
                         <!-- <li class="py-2">
                             <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                                 target="_blank"
@@ -565,21 +568,29 @@
         document.addEventListener('DOMContentLoaded', function() {
             const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
+            const body = document.body;
 
-            function toggleMenu(e) {
-                if (e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                }
+            menuToggle.addEventListener('click', function(e) {
+                e.preventDefault();
                 mobileMenu.classList.toggle('active');
-            }
-
-            menuToggle.addEventListener('click', toggleMenu);
+                body.classList.toggle('overflow-hidden');
+            });
 
             // Close menu when clicking links
             const mobileLinks = mobileMenu.getElementsByTagName('a');
             Array.from(mobileLinks).forEach(link => {
-                link.addEventListener('click', toggleMenu);
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.remove('active');
+                    body.classList.remove('overflow-hidden');
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!mobileMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                    mobileMenu.classList.remove('active');
+                    body.classList.remove('overflow-hidden');
+                }
             });
         });
     </script>
