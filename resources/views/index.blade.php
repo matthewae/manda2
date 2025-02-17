@@ -260,15 +260,18 @@ use Illuminate\Support\Facades\Storage;
             height: 140px;
             /* Fixed height for all client boxes */
         }
+
         .client-box:hover {
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
         }
+
         .client-box img {
             max-height: 100%;
             width: auto;
             object-fit: contain;
             transition: transform 0.3s ease;
         }
+
         .client-box img:hover {
             transform: scale(1.05);
         }
@@ -339,7 +342,7 @@ use Illuminate\Support\Facades\Storage;
             <div class="carousel-item relative">
                 <img alt="A construction site with cranes and building materials"
                     class="w-full h-screen object-cover"
-                    src="https://storage.googleapis.com/a1aa/image/2w6BKAWJxzyfcjYrrDjt1RYrVFjsM30VudM8t55dJos.jpg" />
+                    src="{{ url('images/hero1.jpeg') }}" />
                 <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent">
                     <div class="container mx-auto px-4 h-full flex items-center">
                         <div class="max-w-3xl text-white space-y-6">
@@ -370,7 +373,7 @@ use Illuminate\Support\Facades\Storage;
             <div class="carousel-item relative">
                 <img alt="A team of construction consultants in a meeting"
                     class="w-full h-screen object-cover"
-                    src="https://storage.googleapis.com/a1aa/image/VkfnTaHx8Ms9h7goIZNN_bZAvjX4IVvynWI1esfv6pw.jpg" />
+                    src="{{ url('images/hero2.jpeg') }}" />
                 <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent">
                     <div class="container mx-auto px-4 h-full flex items-center">
                         <div class="max-w-3xl text-white space-y-6">
@@ -401,7 +404,7 @@ use Illuminate\Support\Facades\Storage;
             <div class="carousel-item relative">
                 <img alt="A construction site with workers and machinery"
                     class="w-full h-screen object-cover"
-                    src="https://storage.googleapis.com/a1aa/image/XhHRNsT_PydtlbeP8FLp-aT0ykQ01SRkYd700FJXAbo.jpg" />
+                    src="{{ url('images/hero3.jpeg') }}" />
                 <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent">
                     <div class="container mx-auto px-4 h-full flex items-center">
                         <div class="max-w-3xl text-white space-y-6">
@@ -532,24 +535,24 @@ use Illuminate\Support\Facades\Storage;
                 <div class="grid grid-cols-2 gap-4">
                     <div class="space-y-4">
                         <div class="relative overflow-hidden rounded-lg h-48">
-                            <img src="https://storage.googleapis.com/a1aa/image/6uX7DH_UdlYTo8lGIrgYHyS9ltoithyUY4ZwL3ayTQ4.jpg"
+                            <img src="{{ url('images/story1.jpeg') }}"
                                 alt="Construction project"
                                 class="w-full h-full object-cover transform hover:scale-110 transition duration-500" />
                         </div>
                         <div class="relative overflow-hidden rounded-lg h-32">
-                            <img src="https://storage.googleapis.com/a1aa/image/Mtzk_0i-wvNSq3E1X0vZsetVrXnh6q78IsdzDzYNlQQ.jpg"
+                            <img src="{{ url('images/story3.jpeg') }}"
                                 alt="Team meeting"
                                 class="w-full h-full object-cover transform hover:scale-110 transition duration-500" />
                         </div>
                     </div>
                     <div class="space-y-4 pt-8">
                         <div class="relative overflow-hidden rounded-lg h-32">
-                            <img src="https://storage.googleapis.com/a1aa/image/gy0ekscxTGJT9LsrsvJLDnLz16xboHeTBQhkKdiu7pQ.jpg"
+                            <img src="{{ url('images/story2.jpeg') }}"
                                 alt="Construction site"
                                 class="w-full h-full object-cover transform hover:scale-110 transition duration-500" />
                         </div>
                         <div class="relative overflow-hidden rounded-lg h-48">
-                            <img src="https://storage.googleapis.com/a1aa/image/5GeLStJhXeIzCZz6r3NfaKNUojKTk22cx0Wdxzxwg2Q.jpg"
+                            <img src="{{ url('images/story4.jpeg') }}"
                                 alt="Project planning"
                                 class="w-full h-full object-cover transform hover:scale-110 transition duration-500" />
                         </div>
@@ -774,7 +777,7 @@ use Illuminate\Support\Facades\Storage;
                 <div class="group relative overflow-hidden rounded-xl">
                     <div class="relative overflow-hidden">
                         <img
-                            src="https://storage.googleapis.com/a1aa/image/seYcKjF8wP_Wk6O1puBWMiqbQI2rmvp166DUnlAtO8g.jpg"
+                            src="{{ url('images/office.jpeg') }}"
                             alt="Commercial Building"
                             class="w-full h-[300px] object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
@@ -794,7 +797,7 @@ use Illuminate\Support\Facades\Storage;
                 <div class="group relative overflow-hidden rounded-xl">
                     <div class="relative overflow-hidden">
                         <img
-                            src="https://storage.googleapis.com/a1aa/image/fV8LLHNOLa443yshurbQ0Zy-uUJeUW_YsVfNbFbJ5zY.jpg"
+                            src="{{ url('images/hero3.jpeg') }}"
                             alt="Residential Complex"
                             class="w-full h-[300px] object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
