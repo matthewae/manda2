@@ -210,6 +210,12 @@
             margin-top: 5rem;
             /* Reduced from original */
         }
+
+        .contact-info-email {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%;
+        }
     </style>
 </head>
 
@@ -373,15 +379,17 @@
                             </div>
 
                             <!-- Email -->
+                            <!-- Update the Email section in the Contact Information -->
                             <div class="flex items-start space-x-4">
                                 <div class="flex-shrink-0">
                                     <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
                                         <i class="fas fa-envelope text-xl text-black-500"></i>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="flex-1">
                                     <h4 class="text-lg font-semibold mb-1">Email</h4>
-                                    <a href="mailto:info@mandajaya.com" class="text-blue-500 hover:text-blue-600 transition duration-300">
+                                    <a href="mailto:contact.us@mandajayarekayasakonstruksi.com"
+                                        class="text-blue-500 hover:text-blue-600 transition duration-300 contact-info-email">
                                         contact.us@mandajayarekayasakonstruksi.com
                                     </a>
                                 </div>
@@ -390,14 +398,14 @@
                     </div>
 
                     <!-- Map -->
+                    <!-- Update the Map section -->
                     <div class="bg-white rounded-xl shadow-lg p-8">
                         <h3 class="text-2xl font-bold mb-6">Our Location</h3>
-                        <div class="h-[400px] rounded-lg overflow-hidden shadow-lg">
+                        <div class="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.58028266450397!2d107.53916944721766!3d-6.866556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTEnNTkuNiJTIDEwN8KwMzInMjEuMiJF!5e0!3m2!1sen!2sid!4v1707732844297!5m2!1sen!2sid"
-                                width="100%"
-                                height="100%"
-                                style="border:0; border-radius: 0.75rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);"
+                                class="absolute inset-0 w-full h-full"
+                                style="border: 0;"
                                 allowfullscreen=""
                                 loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade">
