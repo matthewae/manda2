@@ -151,6 +151,7 @@
             opacity: 1;
             visibility: visible;
         }
+
         @media (max-width: 768px) {
             #menu-toggle {
                 display: block;
@@ -347,82 +348,93 @@
                                 placeholder="Your Message"></textarea>
                         </div>
 
-                        <!-- Submit Button -->
-                        <div class="flex justify-end">
-                            <button onclick="sendEmail()" type="button"
+                        <div class="flex justify-between items-center space-x-4">
+                            <!-- Submit Button -->
+                            <button id="submit-btn" onclick="sendEmail()" type="button"
                                 class="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-blue-600 transform hover:-translate-y-1 transition duration-300 flex items-center space-x-2">
-                                <span>Send Message</span>
-                                <i class="fas fa-paper-plane ml-2"></i>
+                                <span id="submit-text">Send Message</span>
+                                <i id="submit-icon" class="fas fa-paper-plane ml-2"></i>
+                                <svg id="loading-spinner" class="hidden animate-spin h-5 w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                            </button>
+
+                            <!-- Reset Button -->
+                            <button type="button" onclick="resetForm()"
+                                class="bg-gray-500 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition duration-300 flex items-center">
+                                <i class="fas fa-undo-alt mr-2"></i>
+                                Reset
                             </button>
                         </div>
                     </form>
                 </div>
 
-                <!-- Contact Information -->
-                <div class="space-y-8">
-                    <!-- Info Card -->
-                    <div class="bg-white rounded-xl shadow-lg p-8">
-                        <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
-                        <div class="space-y-6">
-                            <!-- Address -->
-                            <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0">
-                                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                        <i class="fas fa-map-marker-alt text-xl text-red-500"></i>
+                        <!-- Contact Information -->
+                        <div class="space-y-8">
+                            <!-- Info Card -->
+                            <div class="bg-white rounded-xl shadow-lg p-8">
+                                <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                                <div class="space-y-6">
+                                    <!-- Address -->
+                                    <div class="flex items-start space-x-4">
+                                        <div class="flex-shrink-0">
+                                            <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
+                                                <i class="fas fa-map-marker-alt text-xl text-red-500"></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-lg font-semibold mb-1">Our Location</h4>
+                                            <p class="text-gray-600">Jl. Kota Mas 1 No.18, Kota Cimahi, Jawa Barat, 40511</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div>
-                                    <h4 class="text-lg font-semibold mb-1">Our Location</h4>
-                                    <p class="text-gray-600">Jl. Kota Mas 1 No.18, Kota Cimahi, Jawa Barat, 40511</p>
+
+                                    <!-- Phone -->
+                                    <div class="flex items-start space-x-4">
+                                        <div class="flex-shrink-0">
+                                            <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
+                                                <i class="fas fa-phone text-xl text-black-500"></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h4 class="text-lg font-semibold mb-1">Phone Number</h4>
+                                            <p class="text-gray-600">+62 852 2080 1593</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Email -->
+                                    <div class="flex items-start space-x-4">
+                                        <div class="flex-shrink-0">
+                                            <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
+                                                <i class="fas fa-envelope text-xl text-black-500"></i>
+                                            </div>
+                                        </div>
+                                        <div class="contact-info-container">
+                                            <h4 class="text-lg font-semibold mb-1">Email</h4>
+                                            <a href="mailto:contact.us@mandajayarekayasakonstruksi.com"
+                                                class="contact-info-email text-blue-500 hover:text-blue-600 transition duration-300">
+                                                contact.us@mandajayarekayasakonstruksi.com
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Phone -->
-                            <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0">
-                                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                        <i class="fas fa-phone text-xl text-black-500"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h4 class="text-lg font-semibold mb-1">Phone Number</h4>
-                                    <p class="text-gray-600">+62 852 2080 1593</p>
-                                </div>
-                            </div>
-
-                            <!-- Email -->
-                            <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0">
-                                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                        <i class="fas fa-envelope text-xl text-black-500"></i>
-                                    </div>
-                                </div>
-                                <div class="contact-info-container">
-                                    <h4 class="text-lg font-semibold mb-1">Email</h4>
-                                    <a href="mailto:contact.us@mandajayarekayasakonstruksi.com"
-                                        class="contact-info-email text-blue-500 hover:text-blue-600 transition duration-300">
-                                        contact.us@mandajayarekayasakonstruksi.com
-                                    </a>
+                            <!-- Map -->
+                            <div class="bg-white rounded-xl shadow-lg p-8">
+                                <h3 class="text-2xl font-bold mb-6">Our Location</h3>
+                                <div class="map-container shadow-lg">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.58028266450397!2d107.53916944721766!3d-6.866556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTEnNTkuNiJTIDEwN8KwMzInMjEuMiJF!5e0!3m2!1sen!2sid!4v1707732844297!5m2!1sen!2sid"
+                                        allowfullscreen=""
+                                        loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <!-- Map -->
-                    <div class="bg-white rounded-xl shadow-lg p-8">
-                        <h3 class="text-2xl font-bold mb-6">Our Location</h3>
-                        <div class="map-container shadow-lg">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.58028266450397!2d107.53916944721766!3d-6.866556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTEnNTkuNiJTIDEwN8KwMzInMjEuMiJF!5e0!3m2!1sen!2sid!4v1707732844297!5m2!1sen!2sid"
-                                allowfullscreen=""
-                                loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
 
@@ -623,6 +635,23 @@
                 link.addEventListener('click', toggleMenu);
             });
         });
+
+        // reset
+        function resetForm() {
+            Swal.fire({
+                title: 'Clear form?',
+                text: "This will reset all fields. Are you sure?",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3B82F6',
+                cancelButtonColor: '#EF4444',
+                confirmButtonText: 'Yes, clear it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    document.getElementById('contact-form').reset();
+                }
+            });
+        }
     </script>
 </body>
 

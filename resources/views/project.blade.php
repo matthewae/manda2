@@ -247,7 +247,7 @@
                 </div>
             </div>
 
-            <!-- Example project cards with different categories -->
+            <!-- project cards with different categories -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Commercial Project -->
                 <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="commercial">
@@ -364,6 +364,8 @@
             <p class="text-gray-700" id="overlay-detail">Detailed description</p>
         </div>
     </div>
+
+    
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300">

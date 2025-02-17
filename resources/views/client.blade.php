@@ -4,6 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="Our trusted clients at Mandajaya Rekayasa Konstruksi include government institutions, private corporations, and more.">
+    <meta name="keywords" content="construction clients, Indonesian construction, government projects">
+
     <title>
         Mandajaya Rekayasa Konstruksi
     </title>
@@ -196,6 +199,22 @@
             #menu-toggle {
                 position: relative;
                 z-index: 60;
+            }
+
+            .client-skeleton {
+                animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            }
+
+            @keyframes pulse {
+
+                0%,
+                100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: .5;
+                }
             }
         </style>
     </head>
@@ -695,14 +714,22 @@
 
             if (Math.abs(difference) > swipeThreshold) {
                 if (difference > 0) {
-                    // Swipe left
                     nextSlide();
                 } else {
-                    // Swipe right
                     prevSlide();
                 }
                 resetInterval();
             }
+        }
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Mandajaya Rekayasa Konstruksi",
+            "url": "https://mandajayarekayasakonstruksi.com",
+            "logo": "{{ url('images/logo fix2.png') }}"
         }
     </script>
 </body>
