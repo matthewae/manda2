@@ -21,11 +21,11 @@
             width: 100%;
             top: 0;
             left: 0;
-            /* Add this */
             right: 0;
-            /* Add this */
             z-index: 50;
             transition: all 0.3s ease;
+            padding: 1rem;
+            /* Reduced padding */
         }
 
         .navbar.scrolled {
@@ -107,14 +107,12 @@
             position: fixed;
             top: 0;
             left: -300px;
-            /* Change from right to left */
             width: 300px;
             height: 100vh;
             background-color: rgb(17, 24, 39);
             z-index: 50;
             transition: left 0.3s ease-in-out;
-            /* Update transition property */
-            padding: 2rem;
+            padding: 1.5rem;
             overflow-y: auto;
         }
 
@@ -168,17 +166,21 @@
 
         .container {
             position: relative;
-            max-width: 100%;
-            /* Add this */
+            width: 100%;
+            max-width: 1280px;
+            /* Add max-width */
+            margin: 0 auto;
             padding-left: 1rem;
-            /* Add this */
             padding-right: 1rem;
-            /* Add this */
         }
 
         /* Add these styles for better mobile visibility */
         .md\:hidden.fixed {
             position: fixed;
+            right: 1rem;
+            /* Reduced from right-4 */
+            top: 1rem;
+            /* Reduced from top-4 */
             z-index: 60;
         }
 
@@ -187,6 +189,26 @@
                 display: none !important;
                 /* Hide on desktop */
             }
+        }
+
+        section {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        /* Update the contact section spacing */
+        .py-16 {
+            padding-top: 4rem;
+            /* Reduced from original */
+            padding-bottom: 4rem;
+        }
+
+        .mt-24 {
+            margin-top: 5rem;
+            /* Reduced from original */
         }
     </style>
 </head>
