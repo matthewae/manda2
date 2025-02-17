@@ -249,14 +249,27 @@ use Illuminate\Support\Facades\Storage;
         }
 
         .client-box {
-            height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            height: 140px;
+            /* Fixed height for all client boxes */
+        }
+        .client-box:hover {
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+        .client-box img {
+            max-height: 100%;
+            width: auto;
+            object-fit: contain;
             transition: transform 0.3s ease;
         }
-
-        .client-box:hover {
+        .client-box img:hover {
             transform: scale(1.05);
         }
     </style>
@@ -949,7 +962,10 @@ use Illuminate\Support\Facades\Storage;
                         <!-- Client 17 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="mclarens" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/mclarens2.png') }}" width="250" />
+                                <img
+                                    alt="mclarens"
+                                    class="w-full h-32 object-contain mb-4 transform hover:scale-105 transition-transform duration-300"
+                                    src="{{ url('images/mclarens2.png') }}" />
                             </div>
                         </div>
                         <!-- Client 18 -->
@@ -971,7 +987,7 @@ use Illuminate\Support\Facades\Storage;
                             </div>
                         </div>
                     </div> -->
-                    <!-- <div class="carousel-slide flex flex-wrap justify-center"> -->
+                        <!-- <div class="carousel-slide flex flex-wrap justify-center"> -->
                         <!-- Client 21 -->
                         <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">

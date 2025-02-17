@@ -95,6 +95,8 @@
         #menu-toggle {
             position: relative;
             z-index: 60;
+            display: block;
+            /* Make sure it's always displayed on mobile */
         }
 
         #mobile-menu {
@@ -130,6 +132,13 @@
             visibility: hidden;
         }
 
+        @media (min-width: 768px) {
+            #menu-toggle {
+                display: none;
+                /* Hide only on desktop */
+            }
+        }
+
         #mobile-menu:not(.hidden) {
             opacity: 1;
             visibility: visible;
@@ -148,6 +157,24 @@
         @media (max-width: 768px) {
             #menu-toggle {
                 display: block;
+            }
+        }
+
+        .container {
+            position: relative;
+            /* Add this */
+        }
+
+        /* Add these styles for better mobile visibility */
+        .navbar .md\:hidden {
+            display: block !important;
+            /* Force display on mobile */
+        }
+
+        @media (min-width: 768px) {
+            .navbar .md\:hidden {
+                display: none !important;
+                /* Hide on desktop */
             }
         }
     </style>
@@ -182,7 +209,7 @@
                 </li> -->
             </ul>
             <!-- mobile -->
-            <div class="md:hidden">
+            <div class="md:hidden absolute right-4 top-1/2 transform -translate-y-1/2">
                 <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
