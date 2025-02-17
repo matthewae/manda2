@@ -36,8 +36,10 @@
             position: fixed;
             width: 100%;
             top: 0;
-            z-index: 50;
-            transition: all 0.3s ease;
+            left: 0;
+            right: 0;
+            z-index: 40;
+            /* Reduced from 50 */
         }
 
         .navbar.scrolled {
@@ -71,19 +73,6 @@
 
         .company-logo:hover {
             transform: scale(1.05);
-        }
-
-        #mobile-menu {
-            position: fixed;
-            top: 0;
-            left: -300px;
-            width: 300px;
-            height: 100vh;
-            background-color: rgb(17, 24, 39);
-            z-index: 50;
-            transition: left 0.3s ease-in-out;
-            padding: 2rem;
-            overflow-y: auto;
         }
 
         .menu-overlay {
@@ -146,26 +135,40 @@
             box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .navbar {
-            background: rgba(17, 24, 39, 0.95);
-            backdrop-filter: blur(8px);
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 50;
-        }
-
         #menu-toggle {
             position: relative;
-            z-index: 60;
+            z-index: 999;
+            /* Match parent z-index */
             cursor: pointer;
             display: block;
+            padding: 0.5rem;
+            width: 100%;
+            /* Fill parent container */
+            height: 100%;
+            /* Fill parent container */
         }
 
         @media (max-width: 768px) {
             #mobile-menu {
                 border-top: 1px solid rgba(255, 255, 255, 0.1);
             }
+        }
+
+        .md\:hidden.fixed {
+            position: fixed;
+            right: 1rem;
+            top: 1rem;
+            z-index: 999;
+            /* Highest z-index to ensure clickability */
+            width: 40px;
+            /* Add explicit width */
+            height: 40px;
+            /* Add explicit height */
+        }
+
+        .md\:hidden.fixed {
+            outline: 1px solid rgba(255, 255, 255, 0.1);
+            /* Helps visualize the clickable area */
         }
     </style>
 </head>
