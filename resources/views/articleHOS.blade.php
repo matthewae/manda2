@@ -31,6 +31,16 @@
 </head>
 
 <body class="bg-gray-50">
+
+    <!-- Back to Projects Button -->
+    <a href="/project"
+        class="fixed bottom-8 right-8 bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition-all duration-300 z-50 group">
+        <i class="fas fa-th text-xl group-hover:scale-110 transition-transform"></i>
+        <span class="absolute right-full mr-2 bg-gray-900 text-white px-2 py-1 rounded text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">
+            Back to Projects
+        </span>
+    </a>
+
     <!-- Hero Section -->
     <header class="relative h-[60vh] overflow-hidden">
         <img src="{{ url('images/hospital.jpg') }}"
@@ -211,7 +221,7 @@
 
             <!-- Copyright -->
             <div class="text-center text-gray-500 mt-12 pt-8 border-t border-gray-700">
-                <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+                <p>&copy; 2022 Mandajaya Rekayasa Konstruksi. All rights reserved.</p>
             </div>
         </div>
     </footer>

@@ -31,6 +31,15 @@
 </head>
 
 <body class="bg-gray-50">
+    <!-- Back to Projects Button -->
+    <a href="/project"
+        class="fixed bottom-8 right-8 bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition-all duration-300 z-50 group">
+        <i class="fas fa-th text-xl group-hover:scale-110 transition-transform"></i>
+        <span class="absolute right-full mr-2 bg-gray-900 text-white px-2 py-1 rounded text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">
+            Back to Projects
+        </span>
+    </a>
+
     <!-- Hero Section -->
     <header class="relative h-[60vh] overflow-hidden">
         <img src="{{ url('images/office.jpeg') }}"
@@ -191,18 +200,18 @@
                 </div>
 
                 <div>
-                    <h4 class="text-lg font-semibold text-white mb-6">Connect With Us</h4>
-                    <div class="flex space-x-4 mb-6">
+                    <h4 class="text-xl font-bold mb-4">Share Project</h4>
+                    <div class="flex gap-4">
                         <a href="https://www.facebook.com/profile.php?id=61569553317515"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="#"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition duration-300">
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition-colors">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                         <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition duration-300">
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition-colors">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
@@ -211,7 +220,7 @@
 
             <!-- Copyright -->
             <div class="text-center text-gray-500 mt-12 pt-8 border-t border-gray-700">
-                <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+                <p>&copy; 2022 Mandajaya Rekayasa Konstruksi. All rights reserved.</p>
             </div>
         </div>
     </footer>
