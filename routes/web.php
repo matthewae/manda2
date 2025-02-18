@@ -27,6 +27,11 @@ use App\Mail\ContactMail;
     Route::get('vision', [HomeController::class, 'vision'])->name('vision');
     Route::get('privacy', [HomeController::class, 'privacy'])->name('privacy');
     Route::get('term', [HomeController::class, 'term'])->name('term');
+    Route::get('articleCOM', [HomeController::class, 'articleCOM'])->name('articleCOM');
+    Route::get('articleRES', [HomeController::class, 'articleRES'])->name('articleRES');
+    Route::get('articleIND', [HomeController::class, 'articleIND'])->name('articleIND');
+    Route::get('articleINF', [HomeController::class, 'articleINF'])->name('articleINF');
+    Route::get('articleHOS', [HomeController::class, 'articleHOS'])->name('articleHOS');
 
 
     

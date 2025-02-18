@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Facility Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <header class="relative h-[60vh] overflow-hidden">
+        <img src="{{ url('images/hospital.jpg') }}"
+            alt="Healthcare Facility Project"
+            class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/50">
+            <div class="container mx-auto px-4 h-full flex items-end pb-16">
+                <div class="text-white fade-in">
+                    <span class="px-4 py-2 bg-blue-500 rounded-full text-sm">Healthcare Project</span>
+                    <h1 class="text-5xl font-bold mt-4 mb-2">Modern Healthcare Facility</h1>
+                    <p class="text-xl text-gray-200">State-of-the-art medical center designed for optimal patient care</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <!-- Left Column - Main Content -->
+                <div class="lg:col-span-2">
+                    <section class="bg-white p-8 rounded-xl shadow-lg mb-8">
+                        <h2 class="text-3xl font-bold mb-6">Project Overview</h2>
+                        <p class="text-gray-600 leading-relaxed mb-8">
+                            Our healthcare facility project represents the pinnacle of medical infrastructure design.
+                            This modern hospital combines cutting-edge medical technology with patient-centered
+                            architecture to create a healing environment that promotes recovery and wellness.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                            <img src="{{ url('images/hospital-interior.jpg') }}"
+                                alt="Hospital Interior"
+                                class="rounded-lg shadow-lg">
+                            <img src="{{ url('images/hospital-exterior.jpg') }}"
+                                alt="Hospital Exterior"
+                                class="rounded-lg shadow-lg">
+                        </div>
+                        <div class="mt-8">
+                            <h3 class="text-2xl font-bold mb-4">Facility Features</h3>
+                            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <li class="flex items-center gap-2 text-gray-600">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                    Advanced Medical Equipment
+                                </li>
+                                <li class="flex items-center gap-2 text-gray-600">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                    Emergency Care Unit
+                                </li>
+                                <li class="flex items-center gap-2 text-gray-600">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                    Specialized Departments
+                                </li>
+                                <li class="flex items-center gap-2 text-gray-600">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                    Patient Recovery Zones
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Right Column - Sidebar -->
+                <aside class="lg:col-span-1">
+                    <div class="sticky top-8 space-y-6">
+                        <!-- Project Info Card -->
+                        <div class="bg-white p-6 rounded-xl shadow-lg">
+                            <h3 class="text-xl font-bold mb-4">Project Information</h3>
+                            <ul class="space-y-3 text-gray-600">
+                                <li class="flex justify-between">
+                                    <span>Location:</span>
+                                    <span>Medical District</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>Status:</span>
+                                    <span class="text-green-500">Operational</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>Completion:</span>
+                                    <span>2024</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>Capacity:</span>
+                                    <span>300 Beds</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact Card -->
+                        <div class="bg-blue-50 p-6 rounded-xl shadow-lg">
+                            <h3 class="text-xl font-bold mb-4">Interested?</h3>
+                            <p class="text-gray-600 mb-6">
+                                Contact us to learn more about our healthcare facility projects or discuss your medical infrastructure needs.
+                            </p>
+                            <a href="/contact"
+                                class="block text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-4">
+            <!-- Navigation -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 border-b border-gray-700 pb-12 mb-12">
+                <a href="/articleINF" class="group">
+                    <span class="text-gray-400 text-sm">Previous Project</span>
+                    <div class="flex items-center gap-3 mt-2">
+                        <i class="fas fa-arrow-left group-hover:-translate-x-2 transition-transform"></i>
+                        <span class="text-xl">Infrastructure Project</span>
+                    </div>
+                </a>
+                <a href="/articleCOM" class="group text-right">
+                    <span class="text-gray-400 text-sm">Next Project</span>
+                    <div class="flex items-center justify-end gap-3 mt-2">
+                        <span class="text-xl">Commercial Building</span>
+                        <i class="fas fa-arrow-right group-hover:translate-x-2 transition-transform"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Footer Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">About This Project</h4>
+                    <p class="text-gray-400">
+                        A modern healthcare facility designed to provide excellent medical care while
+                        ensuring comfort and efficiency for both patients and medical staff.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>
+                            <a href="#" class="hover:text-blue-400 transition-colors flex items-center gap-2">
+                                <i class="fas fa-file-pdf"></i>
+                                Download Facility Guide
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-blue-400 transition-colors flex items-center gap-2">
+                                <i class="fas fa-images"></i>
+                                View Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contact" class="hover:text-blue-400 transition-colors flex items-center gap-2">
+                                <i class="fas fa-envelope"></i>
+                                Contact Team
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-6">Connect With Us</h4>
+                    <div class="flex space-x-4 mb-6">
+                        <a href="https://www.facebook.com/profile.php?id=61569553317515"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center text-gray-500 mt-12 pt-8 border-t border-gray-700">
+                <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

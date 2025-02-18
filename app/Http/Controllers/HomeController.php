@@ -55,4 +55,29 @@ class HomeController extends Controller
     {
         return view('term');
     }
+
+    public function articleCOM()
+    {
+        return view('articleCOM');
+    }
+
+    public function articleRES()
+    {
+        return view('articleRES');
+    }
+
+    public function articleIND()
+    {
+        return view('articleIND');
+    }
+
+    public function articleINF()
+    {
+        return view('articleINF');
+    }
+
+    public function articleHOS()
+    {
+        return view('articleHOS');
+    }
 }

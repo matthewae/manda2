@@ -163,6 +163,10 @@
             position: relative;
             z-index: 60;
         }
+
+        #article-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -262,7 +266,7 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Commercial Building</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p>
-                        <button onclick="showOverlay('Commercial Building', 'A state-of-the-art commercial building designed and managed by our expert team.', 'images/office.jpeg', 'This commercial building features modern architecture and is equipped with the latest technology.')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <button onclick="showOverlay('Commercial Building', 'A state-of-the-art commercial building designed and managed by our expert team.', 'images/office.jpeg', 'This commercial building features modern architecture and is equipped with the latest technology')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </button>
@@ -302,8 +306,7 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Industrial Building</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Industriial building designed and managed by our expert team.</p>
-                        <button onclick="showOverlay('Indutrial Building', 'A state-of-the-art industrial building designed and managed by our expert team.', 'images/industrial.jpg', 'This industrial building features modern architecture and is equipped with the latest technology.')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
-                            Learn More
+                        <button onclick="showOverlay('Industrial Building', 'A state-of-the-art industrial building designed and managed by our expert team.', 'images/industrial.jpg', 'This industrial building features modern architecture and is equipped with the latest technology.')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2"> Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </button>
                     </div>
@@ -358,14 +361,21 @@
             <button class="text-red-500 hover:text-red-700 float-right" onclick="closeOverlay()">
                 <i class="fas fa-times"></i>
             </button>
-            <img alt="Overlay image" class="w-full h-48 object-cover rounded-lg mb-4" height="192" id="overlay-img" src="https://storage.googleapis.com/a1aa/image/prt_JyBmYB3zq83EKZFxxoH5q86eIxm5hlypQ8WrBR0.jpg" width="300" />
-            <h3 class="text-2xl font-bold mb-4" id="overlay-title">Title</h3>
-            <p class="text-gray-700 mb-4" id="overlay-desc">Description</p>
-            <p class="text-gray-700" id="overlay-detail">Detailed description</p>
+            <img alt="Overlay image" class="w-full h-48 object-cover rounded-lg mb-4" id="overlay-img" />
+            <h3 class="text-2xl font-bold mb-4" id="overlay-title"></h3>
+            <p class="text-gray-700 mb-4" id="overlay-desc"></p>
+            <p class="text-gray-700 mb-6" id="overlay-detail"></p>
+
+            <div class="mt-6 pt-4 border-t border-gray-200">
+                <a href="" id="article-link" class="inline-flex items-center text-blue-500 hover:text-blue-600 transition duration-300 group">
+                    Read Full Article
+                    <i class="fas fa-book-open ml-2 group-hover:translate-x-1 transition-transform"></i>
+                </a>
+            </div>
         </div>
     </div>
 
-    
+
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300">
@@ -477,6 +487,30 @@
             document.getElementById('overlay-desc').innerText = description;
             document.getElementById('overlay-img').src = imgSrc;
             document.getElementById('overlay-detail').innerText = detail;
+
+            const articleLink = document.getElementById('article-link');
+            if (articleLink) {
+                switch (title) {
+                    case 'Commercial Building':
+                        articleLink.href = '/articleCOM';
+                        break;
+                    case 'Residential Building':
+                        articleLink.href = '/articleRES';
+                        break;
+                    case 'Industrial Building':
+                        articleLink.href = '/articleIND';
+                        break;
+                    case 'Infrastructure Building':
+                        articleLink.href = '/articleINF';
+                        break;
+                    case 'Hospital Building':
+                        articleLink.href = '/articleHOS';
+                        break;
+                    default:
+                        articleLink.href = '/article';
+                }
+            }
+
             const overlay = document.getElementById('overlay');
             overlay.classList.add('open');
         }
