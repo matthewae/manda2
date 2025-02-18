@@ -145,82 +145,85 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-16">
+    <footer class="bg-gray-900 text-white py-8 md:py-16">
         <div class="container mx-auto px-4">
             <!-- Navigation -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 border-b border-gray-700 pb-12 mb-12">
-                <a href="/articleRES" class="group">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 border-b border-gray-700 pb-8 md:pb-12 mb-8 md:mb-12">
+                <a href="/articleRES" class="group p-4 md:p-0 hover:bg-gray-800 md:hover:bg-transparent rounded-lg md:rounded-none transition-colors">
                     <span class="text-gray-400 text-sm">Previous Project</span>
-                    <div class="flex items-center gap-3 mt-2">
+                    <div class="flex items-center gap-3 mt-1 md:mt-2">
                         <i class="fas fa-arrow-left group-hover:-translate-x-2 transition-transform"></i>
-                        <span class="text-xl">Residential Complex</span>
+                        <span class="text-lg md:text-xl">Residential Complex</span>
                     </div>
                 </a>
-                <a href="/articleIND" class="group text-right">
+                <a href="/articleIND" class="group p-4 md:p-0 hover:bg-gray-800 md:hover:bg-transparent rounded-lg md:rounded-none transition-colors text-right">
                     <span class="text-gray-400 text-sm">Next Project</span>
-                    <div class="flex items-center justify-end gap-3 mt-2">
-                        <span class="text-xl">Industrial Hub</span>
+                    <div class="flex items-center justify-end gap-3 mt-1 md:mt-2">
+                        <span class="text-lg md:text-xl">Industrial Hub</span>
                         <i class="fas fa-arrow-right group-hover:translate-x-2 transition-transform"></i>
                     </div>
                 </a>
             </div>
 
             <!-- Footer Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div>
-                    <h4 class="text-xl font-bold mb-4">About This Project</h4>
-                    <p class="text-gray-400">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
+                <!-- About Section -->
+                <div class="p-4 md:p-0">
+                    <h4 class="text-lg md:text-xl font-bold mb-3 md:mb-4">About This Project</h4>
+                    <p class="text-gray-400 text-sm md:text-base">
                         A flagship commercial development showcasing our commitment to sustainable
                         and modern architecture in urban environments.
                     </p>
                 </div>
 
-                <div>
-                    <h4 class="text-xl font-bold mb-4">Quick Links</h4>
-                    <ul class="space-y-2 text-gray-400">
+                <!-- Quick Links -->
+                <div class="p-4 md:p-0">
+                    <h4 class="text-lg md:text-xl font-bold mb-3 md:mb-4">Quick Links</h4>
+                    <ul class="space-y-3 md:space-y-2 text-gray-400">
                         <li>
-                            <a href="#" class="hover:text-blue-400 transition-colors flex items-center gap-2">
-                                <i class="fas fa-file-pdf"></i>
-                                Download Project Brief
+                            <a href="#" class="flex items-center gap-2 text-sm md:text-base hover:text-blue-400 transition-colors p-2 md:p-0 hover:bg-gray-800 md:hover:bg-transparent rounded-lg md:rounded-none">
+                                <i class="fas fa-file-pdf w-5"></i>
+                                <span>Download Project Brief</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="hover:text-blue-400 transition-colors flex items-center gap-2">
-                                <i class="fas fa-images"></i>
-                                View Gallery
+                            <a href="#" class="flex items-center gap-2 text-sm md:text-base hover:text-blue-400 transition-colors p-2 md:p-0 hover:bg-gray-800 md:hover:bg-transparent rounded-lg md:rounded-none">
+                                <i class="fas fa-images w-5"></i>
+                                <span>View Gallery</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/contact" class="hover:text-blue-400 transition-colors flex items-center gap-2">
-                                <i class="fas fa-envelope"></i>
-                                Contact Team
+                            <a href="/contact" class="flex items-center gap-2 text-sm md:text-base hover:text-blue-400 transition-colors p-2 md:p-0 hover:bg-gray-800 md:hover:bg-transparent rounded-lg md:rounded-none">
+                                <i class="fas fa-envelope w-5"></i>
+                                <span>Contact Team</span>
                             </a>
                         </li>
                     </ul>
                 </div>
 
-                <div>
-                    <h4 class="text-xl font-bold mb-4">Share Project</h4>
-                    <div class="flex gap-4">
+                <!-- Social Links -->
+                <div class="p-4 md:p-0">
+                    <h4 class="text-lg md:text-xl font-bold mb-3 md:mb-4">Connect With Us</h4>
+                    <div class="flex gap-3 md:gap-4">
                         <a href="https://www.facebook.com/profile.php?id=61569553317515"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
-                            <i class="fab fa-facebook-f"></i>
+                            class="w-12 h-12 md:w-10 md:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
+                            <i class="fab fa-facebook-f text-lg md:text-base"></i>
                         </a>
                         <a href="#"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition-colors">
-                            <i class="fab fa-linkedin-in"></i>
+                            class="w-12 h-12 md:w-10 md:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition-colors">
+                            <i class="fab fa-linkedin-in text-lg md:text-base"></i>
                         </a>
                         <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition-colors">
-                            <i class="fab fa-instagram"></i>
+                            class="w-12 h-12 md:w-10 md:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition-colors">
+                            <i class="fab fa-instagram text-lg md:text-base"></i>
                         </a>
                     </div>
                 </div>
             </div>
 
             <!-- Copyright -->
-            <div class="text-center text-gray-500 mt-12 pt-8 border-t border-gray-700">
-                <p>&copy; 2022 Mandajaya Rekayasa Konstruksi. All rights reserved.</p>
+            <div class="text-center text-gray-500 mt-8 md:mt-12 pt-8 border-t border-gray-700">
+                <p class="text-sm md:text-base">&copy; 2024 Mandajaya Rekayasa Konstruksi. All rights reserved.</p>
             </div>
         </div>
     </footer>
