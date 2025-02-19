@@ -303,7 +303,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Medcom Construction</h3>
+                        <h3 class="font-bold text-xl mb-2">Bizcom Construction</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
@@ -329,7 +329,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Medcom Construction</h3>
+                        <h3 class="font-bold text-xl mb-2">Merdeka Construction</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
@@ -338,7 +338,7 @@
                 <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
                     <div class="aspect-video h-[400px] relative">
                         <iframe
-                            src="https://www.merdeka.com/tag/konstruksi-bangunan"
+                            src="https://www.kompas.com/tag/konstruksi-bangunan"
                             class="w-full h-full"
                             loading="lazy"
                             allowfullscreen
@@ -355,7 +355,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Medcom Construction</h3>
+                        <h3 class="font-bold text-xl mb-2">Kompas Construction</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
@@ -381,7 +381,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">PU News</h3>
+                        <h3 class="font-bold text-xl mb-2">Detik News</h3>
                         <p class="text-gray-600 mb-4">Government Construction Projects</p>
                     </div>
                 </div>
