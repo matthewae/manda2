@@ -196,80 +196,81 @@
 
             <!-- Service Overview Cards -->
             <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-16">
-                <!-- Project Management Card -->
+                <!-- Feasibility Study Card -->
                 <div class="bg-white rounded-xl shadow-lg p-6 transform hover:-translate-y-2 transition duration-300">
                     <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center">
-                        <i class="fas fa-tasks text-3xl text-blue-500"></i>
+                        <i class="fas fa-chart-line text-3xl text-blue-500"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Project Management</h3>
-                    <p class="text-gray-600 mb-4">Comprehensive project planning and execution for optimal results.</p>
+                    <h3 class="text-xl font-bold mb-3">Feasibility Study</h3>
+                    <p class="text-gray-600 mb-4">Technical and financial analysis for project viability assessment.</p>
                     <a href="#project-management" class="text-blue-500 hover:text-blue-600 flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
                     </a>
                 </div>
 
-                <!-- Design Consultation Card -->
+                <!-- Risk Analysis Card -->
                 <div class="bg-white rounded-xl shadow-lg p-6 transform hover:-translate-y-2 transition duration-300">
                     <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center">
-                        <i class="fas fa-drafting-compass text-3xl text-blue-500"></i>
+                        <i class="fas fa-shield-alt text-3xl text-blue-500"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Design Consultation</h3>
-                    <p class="text-gray-600 mb-4">Expert design solutions that blend functionality with aesthetics.</p>
+                    <h3 class="text-xl font-bold mb-3">Risk Analysis</h3>
+                    <p class="text-gray-600 mb-4">Comprehensive risk assessment and mitigation strategies.</p>
                     <a href="#design-consultation" class="text-blue-500 hover:text-blue-600 flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
                     </a>
                 </div>
 
-                <!-- Construction Supervision Card -->
+                <!-- Claim, Contract, Dispute Resolution Card -->
                 <div class="bg-white rounded-xl shadow-lg p-6 transform hover:-translate-y-2 transition duration-300">
                     <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center">
-                        <i class="fas fa-hard-hat text-3xl text-blue-500"></i>
+                        <i class="fas fa-gavel text-3xl text-blue-500"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Construction Supervision</h3>
-                    <p class="text-gray-600 mb-4">Thorough oversight ensuring quality and compliance throughout construction.</p>
+                    <h3 class="text-xl font-bold mb-3">Claim, Contract, Dispute Resolution</h3>
+                    <p class="text-gray-600 mb-4">Expert contract management and dispute resolution services.</p>
                     <a href="#construction-supervision" class="text-blue-500 hover:text-blue-600 flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
                     </a>
                 </div>
 
-                <!-- Quality Assurance Card -->
+
+                <!-- Auditor & Loss Adjuster Card -->
                 <div class="bg-white rounded-xl shadow-lg p-6 transform hover:-translate-y-2 transition duration-300">
                     <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center">
                         <i class="fas fa-clipboard-check text-3xl text-blue-500"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Quality Assurance</h3>
-                    <p class="text-gray-600 mb-4">Rigorous quality control standards for superior project outcomes.</p>
+                    <h3 class="text-xl font-bold mb-3">Auditor & Loss Adjuster</h3>
+                    <p class="text-gray-600 mb-4">Professional project auditing and loss assessment services.</p>
                     <a href="#quality-assurance" class="text-blue-500 hover:text-blue-600 flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
                     </a>
                 </div>
 
-                <!-- Cost Estimation Card -->
+                <!-- Quantity Surveyor & Construction Management Card -->
                 <div class="bg-white rounded-xl shadow-lg p-6 transform hover:-translate-y-2 transition duration-300">
                     <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center">
                         <i class="fas fa-calculator text-3xl text-blue-500"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Cost Estimation</h3>
-                    <p class="text-gray-600 mb-4">Accurate project cost analysis and budgeting services.</p>
+                    <h3 class="text-xl font-bold mb-3">Quantity Surveyor & Construction Management</h3>
+                    <p class="text-gray-600 mb-4">Detailed cost analysis and construction planning services.</p>
                     <a href="#cost-estimation" class="text-blue-500 hover:text-blue-600 flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
                     </a>
                 </div>
 
-                <!-- Contract Administration Card -->
+                <!-- Other Engineering Consultation Card -->
                 <div class="bg-white rounded-xl shadow-lg p-6 transform hover:-translate-y-2 transition duration-300">
                     <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center">
-                        <i class="fas fa-file-contract text-3xl text-blue-500"></i>
+                        <i class="fas fa-cogs text-3xl text-blue-500"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-3">Contract Administration</h3>
-                    <p class="text-gray-600 mb-4">Comprehensive contract management and compliance services.</p>
+                    <h3 class="text-xl font-bold mb-3">Other Engineering Consultation</h3>
+                    <p class="text-gray-600 mb-4">Specialized engineering solutions and technical expertise.</p>
                     <a href="#contract-administration" class="text-blue-500 hover:text-blue-600 flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
                     </a>
                 </div>
 
                 <!-- Sustainability Consulting Card -->
-                <div class="bg-white rounded-xl shadow-lg p-6 transform hover:-translate-y-2 transition duration-300">
+                <!-- <div class="bg-white rounded-xl shadow-lg p-6 transform hover:-translate-y-2 transition duration-300">
                     <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center">
                         <i class="fas fa-leaf text-3xl text-blue-500"></i>
                     </div>
@@ -278,7 +279,7 @@
                     <a href="#sustainability-consulting" class="text-blue-500 hover:text-blue-600 flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
                     </a>
-                </div>
+                </div> -->
             </div>
 
             <!-- Detailed Service Sections -->
@@ -295,30 +296,31 @@
                         <div class="space-y-6">
                             <div class="flex items-center space-x-4">
                                 <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                    <i class="fas fa-tasks text-2xl text-blue-500"></i>
+                                    <i class="fas fa-chart-line text-2xl text-blue-500"></i>
                                 </div>
-                                <h3 class="text-2xl font-bold">Project Management</h3>
+                                <h3 class="text-2xl font-bold">Feasibility Study</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
                                 Our project management services ensure your construction projects are completed on time,
                                 within budget, and to the highest quality standards. We provide:
                             </p>
+                            <!-- Project Management - Feasibility Study -->
                             <ul class="space-y-3 text-gray-600">
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Comprehensive planning and coordination</span>
+                                    <span>Project Economic Analysis</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Resource and schedule management</span>
+                                    <span>Market Research & Analysis</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Risk assessment and mitigation</span>
+                                    <span>Technical Assessment</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Stakeholder communication</span>
+                                    <span>Financial Modeling</span>
                                 </li>
                             </ul>
                         </div>
@@ -337,29 +339,30 @@
                         <div class="space-y-6 order-1 md:order-1">
                             <div class="flex items-center space-x-4">
                                 <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                    <i class="fas fa-drafting-compass text-2xl text-blue-500"></i>
+                                    <i class="fas fa-shield-alt text-2xl text-blue-500"></i>
                                 </div>
-                                <h3 class="text-2xl font-bold">Design Consultation</h3>
+                                <h3 class="text-2xl font-bold">Risk Analysis</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
                                 Our expert design consultation services help create functional and aesthetically pleasing spaces that meet your specific requirements.
                             </p>
+                            <!-- Design Consultation - Risk Analysis -->
                             <ul class="space-y-3 text-gray-600">
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>3D visualization and modeling</span>
+                                    <span>Risk Identification & Assessment</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Material and finish selection</span>
+                                    <span>Risk Mitigation Planning</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Building code compliance</span>
+                                    <span>Risk Monitoring & Control</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Sustainable design solutions</span>
+                                    <span>Safety Management Planning</span>
                                 </li>
                             </ul>
                         </div>
@@ -378,29 +381,30 @@
                         <div class="space-y-6">
                             <div class="flex items-center space-x-4">
                                 <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                    <i class="fas fa-hard-hat text-2xl text-blue-500"></i>
+                                    <i class="fas fa-clipboard-check text-2xl text-blue-500"></i>
                                 </div>
-                                <h3 class="text-2xl font-bold">Construction Supervision</h3>
+                                <h3 class="text-2xl font-bold">Claim, Contract, Dispute Resolution</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
                                 Ensuring all construction activities meet the highest standards of quality and safety through rigorous oversight.
                             </p>
+                            <!-- Construction Supervision - Claim, Contract, Dispute Resolution -->
                             <ul class="space-y-3 text-gray-600">
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>On-site progress monitoring</span>
+                                    <span>Contract Review & Analysis</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Quality control inspections</span>
+                                    <span>Claim Assessment & Management</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Safety protocol enforcement</span>
+                                    <span>Dispute Resolution Services</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Contractor coordination</span>
+                                    <span>Negotiation Support</span>
                                 </li>
                             </ul>
                         </div>
@@ -421,27 +425,28 @@
                                 <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
                                     <i class="fas fa-clipboard-check text-2xl text-blue-500"></i>
                                 </div>
-                                <h3 class="text-2xl font-bold">Quality Assurance</h3>
+                                <h3 class="text-2xl font-bold">Auditor & Loss Adjuster</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
                                 Implementing comprehensive quality control processes to ensure excellence in every aspect of construction.
                             </p>
+                            <!-- Quality Assurance - Auditor & Loss Adjuster -->
                             <ul class="space-y-3 text-gray-600">
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Material testing and verification</span>
+                                    <span>Project Audit Services</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Workmanship inspection</span>
+                                    <span>Loss Assessment</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Documentation and reporting</span>
+                                    <span>Insurance Claim Support</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Compliance verification</span>
+                                    <span>Compliance Verification</span>
                                 </li>
                             </ul>
                         </div>
@@ -461,116 +466,117 @@
                                 <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
                                     <i class="fas fa-calculator text-2xl text-blue-500"></i>
                                 </div>
-                                <h3 class="text-2xl font-bold">Cost Estimation</h3>
+                                <h3 class="text-2xl font-bold">Quantity Surveyor & Construction Management</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
                                 Providing accurate and detailed cost projections to help you plan and manage your construction budget effectively.
                             </p>
+                            <!-- Cost Estimation - Quantity Surveyor & Construction Management -->
                             <ul class="space-y-3 text-gray-600">
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Detailed quantity takeoffs</span>
+                                    <span>Quantity Take-off & BOQ</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Material and labor cost analysis</span>
+                                    <span>Cost Planning & Control</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Value engineering options</span>
+                                    <span>Progress Payment Valuation</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Budget optimization strategies</span>
+                                    <span>Final Account Preparation</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
 
-                <!-- Contract Administration Section -->
-                <div id="contract-administration" class="scroll-mt-24">
-                    <div class="grid md:grid-cols-2 gap-12 items-center">
-                        <div class="relative order-2 md:order-2">
-                            <img src="https://storage.googleapis.com/a1aa/image/eTg-aMXKwKecyXLE26BBZE26rYG4psckkPw44NGO9CY.jpg"
-                                alt="Contract administration team reviewing documents"
-                                class="rounded-lg shadow-xl w-full h-[400px] object-cover transform hover:scale-105 transition duration-500" />
-                            <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-500 rounded-lg opacity-10 z-0"></div>
-                        </div>
-                        <div class="space-y-6 order-1 md:order-1">
-                            <div class="flex items-center space-x-4">
-                                <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                    <i class="fas fa-file-contract text-2xl text-blue-500"></i>
-                                </div>
-                                <h3 class="text-2xl font-bold">Contract Administration</h3>
+                    <!-- Contract Administration Section -->
+                    <div id="contract-administration" class="scroll-mt-24">
+                        <div class="grid md:grid-cols-2 gap-12 items-center">
+                            <div class="relative order-2 md:order-2">
+                                <img src="https://storage.googleapis.com/a1aa/image/eTg-aMXKwKecyXLE26BBZE26rYG4psckkPw44NGO9CY.jpg"
+                                    alt="Contract administration team reviewing documents"
+                                    class="rounded-lg shadow-xl w-full h-[400px] object-cover transform hover:scale-105 transition duration-500" />
+                                <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-500 rounded-lg opacity-10 z-0"></div>
                             </div>
-                            <p class="text-gray-700 leading-relaxed">
-                                Managing all aspects of construction contracts to ensure compliance and successful project delivery.
-                            </p>
-                            <ul class="space-y-3 text-gray-600">
-                                <li class="flex items-center space-x-3">
-                                    <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Contract document preparation</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Change order management</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Payment certification</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Dispute resolution</span>
-                                </li>
-                            </ul>
+                            <div class="space-y-6 order-1 md:order-1">
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-cogs text-2xl text-blue-500"></i>
+                                    </div>
+                                    <h3 class="text-2xl font-bold">Other Engineering Consultation</h3>
+                                </div>
+                                <p class="text-gray-700 leading-relaxed">
+                                    Managing all aspects of construction contracts to ensure compliance and successful project delivery.
+                                </p>
+                                <!-- Contract Administration - Other Engineering Consultation -->
+                                <ul class="space-y-3 text-gray-600">
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-check-circle text-blue-500"></i>
+                                        <span>Technical Design Review</span>
+                                    </li>
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-check-circle text-blue-500"></i>
+                                        <span>Value Engineering</span>
+                                    </li>
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-check-circle text-blue-500"></i>
+                                        <span>Structural Assessment</span>
+                                    </li>
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-check-circle text-blue-500"></i>
+                                        <span>MEP Systems Consultation</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Sustainability Consulting Section -->
-                <div id="sustainability-consulting" class="scroll-mt-24">
-                    <div class="grid md:grid-cols-2 gap-12 items-center">
-                        <div class="relative">
-                            <img src="https://storage.googleapis.com/a1aa/image/zrMvXUGQbzDMl4N_CXGDI3o8Rsq2VDkPq5yHp_Ls5zE.jpg"
-                                alt="Sustainability consulting team discussing eco-friendly solutions"
-                                class="rounded-lg shadow-xl w-full h-[400px] object-cover transform hover:scale-105 transition duration-500" />
-                            <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-blue-500 rounded-lg opacity-10 z-0"></div>
-                        </div>
-                        <div class="space-y-6">
-                            <div class="flex items-center space-x-4">
-                                <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                                    <i class="fas fa-leaf text-2xl text-blue-500"></i>
-                                </div>
-                                <h3 class="text-2xl font-bold">Sustainability Consulting</h3>
+                    <!-- Sustainability Consulting Section -->
+                    <!-- <div id="sustainability-consulting" class="scroll-mt-24">
+                        <div class="grid md:grid-cols-2 gap-12 items-center">
+                            <div class="relative">
+                                <img src="https://storage.googleapis.com/a1aa/image/zrMvXUGQbzDMl4N_CXGDI3o8Rsq2VDkPq5yHp_Ls5zE.jpg"
+                                    alt="Sustainability consulting team discussing eco-friendly solutions"
+                                    class="rounded-lg shadow-xl w-full h-[400px] object-cover transform hover:scale-105 transition duration-500" />
+                                <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-blue-500 rounded-lg opacity-10 z-0"></div>
                             </div>
-                            <p class="text-gray-700 leading-relaxed">
-                                Helping you create environmentally responsible buildings through sustainable design and construction practices.
-                            </p>
-                            <ul class="space-y-3 text-gray-600">
-                                <li class="flex items-center space-x-3">
-                                    <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Green building certification</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Energy efficiency analysis</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Sustainable material selection</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fas fa-check-circle text-blue-500"></i>
-                                    <span>Environmental impact assessment</span>
-                                </li>
-                            </ul>
+                            <div class="space-y-6">
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-leaf text-2xl text-blue-500"></i>
+                                    </div>
+                                    <h3 class="text-2xl font-bold">Sustainability Consulting</h3>
+                                </div>
+                                <p class="text-gray-700 leading-relaxed">
+                                    Helping you create environmentally responsible buildings through sustainable design and construction practices.
+                                </p>
+                                <ul class="space-y-3 text-gray-600">
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-check-circle text-blue-500"></i>
+                                        <span>Green building certification</span>
+                                    </li>
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-check-circle text-blue-500"></i>
+                                        <span>Energy efficiency analysis</span>
+                                    </li>
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-check-circle text-blue-500"></i>
+                                        <span>Sustainable material selection</span>
+                                    </li>
+                                    <li class="flex items-center space-x-3">
+                                        <i class="fas fa-check-circle text-blue-500"></i>
+                                        <span>Environmental impact assessment</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
     </section>
 
     <!-- Services Section -->

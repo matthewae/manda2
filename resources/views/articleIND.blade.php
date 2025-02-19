@@ -71,12 +71,16 @@
                             sets new standards for industrial architecture and operational efficiency.
                         </p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                            <img src="{{ url('images/industrial-interior.jpg') }}"
-                                alt="Facility Interior"
-                                class="rounded-lg shadow-lg">
-                            <img src="{{ url('images/industrial-exterior.jpg') }}"
-                                alt="Facility Exterior"
-                                class="rounded-lg shadow-lg">
+                            <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
+                                <img src="{{ url('images/stsinter.jpeg') }}"
+                                    alt="Station Interior"
+                                    class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
+                                <img src="{{ url('images/stexter.jpeg') }}"
+                                    alt="Train Platform"
+                                    class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
                         </div>
                         <div class="mt-8">
                             <h3 class="text-2xl font-bold mb-4">Facility Features</h3>
