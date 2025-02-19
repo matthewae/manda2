@@ -241,7 +241,8 @@
                         <h3 class="text-2xl font-bold">Our Vision</h3>
                     </div>
                     <p class="text-gray-700 leading-relaxed">
-                        Our vision is to be the most trusted and innovative construction consulting firm, delivering exceptional value to our clients. We aim to set the standard for excellence in the industry by:
+                        Our vision is to be the leading brand in construction recognized for quality and innovation,
+                        supporting our staff and the comunities in which we work, by being the consultant of choice in our market
                     </p>
                     <ul class="space-y-3">
                         <li class="flex items-center space-x-3">
@@ -270,7 +271,10 @@
                         <h3 class="text-2xl font-bold">Our Mission</h3>
                     </div>
                     <p class="text-gray-700 leading-relaxed">
-                        Our mission is to provide top-notch construction consulting services that exceed our clients' expectations through:
+                        To understand our client needs to deliver high-quality output on the time and on budget.
+                        We will recognized for being innovative and collaborative, developing our team, having
+                        long-term relationships with our clients and supply chain, while contributing to the community
+                        in which we operate.
                     </p>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300">
@@ -310,6 +314,68 @@
                     <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-500 rounded-lg opacity-10 z-0"></div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-16 bg-white fade-in">
+        <div class="container mx-auto px-4">
+            <!-- Section Header -->
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Our Values</h2>
+                <div class="w-24 h-1 bg-blue-500 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    The core principles that guide our decisions and shape our company culture
+                </p>
+            </div>
+
+            <<!-- Values Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Commitment -->
+                    <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-handshake text-3xl text-blue-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Commitment</h3>
+                        <p class="text-gray-600">
+                            Dedication to achiveing excellence in all aspects of our our business.
+                        </p>
+                    </div>
+
+                    <!-- Integrity -->
+                    <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-shield-alt text-3xl text-blue-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Integrity</h3>
+                        <p class="text-gray-600">
+                            Understanding, firm but fair, honest and transparent.
+                        </p>
+                    </div>
+
+                    <!-- Teamwork -->
+                    <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-users text-3xl text-blue-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Teamwork</h3>
+                        <p class="text-gray-600">
+                            Encouranging collaboration and mutual support to reinforce our one-team approach.
+                        </p>
+                    </div>
+
+                    <!-- Innovation -->
+                    <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-lightbulb text-3xl text-blue-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Innovation</h3>
+                        <p class="text-gray-600">
+                            Encouranging new ideas that contribute to the success of the company.
+                        </p>
+                    </div>
+                </div>
+        
         </div>
     </section>
 
