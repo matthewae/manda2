@@ -229,67 +229,220 @@
             </div>
 
             <!-- News Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- News Item 1 -->
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <div class="aspect-video">
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
+                <!-- Featured News (4 columns) -->
+                <div class="md:col-span-4 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-[16/9] h-[500px] relative">
                         <iframe
                             src="https://www.constructiondive.com"
                             class="w-full h-full"
                             loading="lazy"
-                            allowfullscreen>
+                            allowfullscreen
+                            scrolling="yes"
+                            frameborder="0"
+                            style="width: 100%; height: 100%; border: none;">
                         </iframe>
+                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <a href="https://www.constructiondive.com"
+                                target="_blank"
+                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                            </a>
+                        </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Construction Dive</h3>
-                        <p class="text-gray-600 mb-4">Latest updates from the construction industry</p>
-                        <a href="https://www.constructiondive.com"
-                            target="_blank"
-                            class="text-blue-500 hover:text-blue-600 inline-flex items-center">
-                            Visit Website <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
+                        <h3 class="font-bold text-2xl mb-2">Construction Dive</h3>
+                        <p class="text-gray-600 mb-4">Global Construction News and Analysis</p>
                     </div>
                 </div>
 
-                <!-- News Item 2 -->
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <div class="aspect-video">
+                <!-- News Item 2 (2 columns) -->
+                <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[400px] relative">
                         <iframe
-                            src="https://www.konstruksi.kompas.com"
+                            src="https://www.medcom.id/tag/2500/konstruksi"
                             class="w-full h-full"
                             loading="lazy"
-                            allowfullscreen>
+                            allowfullscreen
+                            scrolling="yes"
+                            frameborder="0"
+                            style="width: 100%; height: 100%; border: none;">
                         </iframe>
+                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <a href="https://www.medcom.id/tag/2500/konstruksi"
+                                target="_blank"
+                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                            </a>
+                        </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Kompas Konstruksi</h3>
-                        <p class="text-gray-600 mb-4">Indonesian construction news and updates</p>
-                        <a href="https://konstruksi.kompas.com"
-                            target="_blank"
-                            class="text-blue-500 hover:text-blue-600 inline-flex items-center">
-                            Visit Website <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
+                        <h3 class="font-bold text-xl mb-2">Medcom Construction</h3>
+                        <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
 
-                <!-- News Item 3 -->
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <div class="aspect-video">
+                <!-- News Item 3 (2 columns) -->
+                <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[400px] relative">
                         <iframe
-                            src="https://www.constructionreviewonline.com"
+                            src="https://www.bisnis.com/topic/223/konstruksi"
                             class="w-full h-full"
                             loading="lazy"
-                            allowfullscreen>
+                            allowfullscreen
+                            scrolling="yes"
+                            frameborder="0"
+                            style="width: 100%; height: 100%; border: none;">
+                        </iframe>
+                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <a href="https://www.bisnis.com/topic/223/konstruksi"
+                                target="_blank"
+                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Medcom Construction</h3>
+                        <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                    </div>
+                </div>
+
+                <!-- News Item 4 (2 columns) -->
+                <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[400px] relative">
+                        <iframe
+                            src="https://www.merdeka.com/tag/konstruksi-bangunan"
+                            class="w-full h-full"
+                            loading="lazy"
+                            allowfullscreen
+                            scrolling="yes"
+                            frameborder="0"
+                            style="width: 100%; height: 100%; border: none;">
+                        </iframe>
+                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <a href="https://www.merdeka.com/tag/konstruksi-bangunan"
+                                target="_blank"
+                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Medcom Construction</h3>
+                        <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                    </div>
+                </div>
+                <!-- <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="aspect-video h-[400px]">
+                        <iframe
+                            src="https://www.merdeka.com/tag/konstruksi-bangunan"
+                            class="w-full h-full"
+                            loading="lazy"
+                            allowfullscreen
+                            scrolling="yes"
+                            frameborder="0"
+                            style="width: 100%; height: 100%; border: none;">
                         </iframe>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Construction Review</h3>
-                        <p class="text-gray-600 mb-4">Global construction industry insights</p>
-                        <a href="https://constructionreviewonline.com"
-                            target="_blank"
-                            class="text-blue-500 hover:text-blue-600 inline-flex items-center">
-                            Visit Website <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
+                        <h3 class="font-bold text-xl mb-2">Merdeka Construction</h3>
+                        <p class="text-gray-600 mb-4">Construction Industry Updates</p>
+                    </div>
+                </div> -->
+
+                <!-- News Item 5 (2 columns) -->
+                <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[400px] relative">
+                        <iframe
+                            src="https://www.merdeka.com/tag/konstruksi-bangunan"
+                            class="w-full h-full"
+                            loading="lazy"
+                            allowfullscreen
+                            scrolling="yes"
+                            frameborder="0"
+                            style="width: 100%; height: 100%; border: none;">
+                        </iframe>
+                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <a href="https://www.kompas.com/tag/konstruksi-bangunan"
+                                target="_blank"
+                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Medcom Construction</h3>
+                        <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                    </div>
+                </div>
+                <!-- <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="aspect-video h-[400px]">
+                        <iframe
+                            src="https://www.kompas.com/tag/konstruksi-bangunan"
+                            class="w-full h-full"
+                            loading="lazy"
+                            allowfullscreen
+                            scrolling="yes"
+                            frameborder="0"
+                            style="width: 100%; height: 100%; border: none;">
+                        </iframe>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Kompas Construction</h3>
+                        <p class="text-gray-600 mb-4">Construction Technology News</p>
+                    </div>
+                </div> -->
+
+                <!-- News Item 6 (3 columns) -->
+                <div class="md:col-span-3 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[450px] relative">
+                        <iframe
+                            src="https://www.detik.com/tag/konstruksi"
+                            class="w-full h-full"
+                            loading="lazy"
+                            allowfullscreen
+                            scrolling="yes"
+                            frameborder="0"
+                            style="width: 100%; height: 100%; border: none;">
+                        </iframe>
+                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <a href="https://www.detik.com/tag/konstruksi"
+                                target="_blank"
+                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">PU News</h3>
+                        <p class="text-gray-600 mb-4">Government Construction Projects</p>
+                    </div>
+                </div>
+
+                <!-- News Item 7 (3 columns) -->
+                <div class="md:col-span-3 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[450px] relative">
+                        <iframe
+                            src="https://www.tempo.co/tag/pembangunan-gedung"
+                            class="w-full h-full"
+                            loading="lazy"
+                            allowfullscreen
+                            scrolling="yes"
+                            frameborder="0"
+                            style="width: 100%; height: 100%; border: none;">
+                        </iframe>
+                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <a href="https://www.tempo.co/tag/pembangunan-gedung"
+                                target="_blank"
+                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">PU News</h3>
+                        <p class="text-gray-600 mb-4">Government Construction Projects</p>
                     </div>
                 </div>
             </div>
@@ -405,4 +558,5 @@
     </footer>
 
 </body>
+
 </html>
