@@ -333,23 +333,6 @@
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
-                <!-- <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden">
-                    <div class="aspect-video h-[400px]">
-                        <iframe
-                            src="https://www.merdeka.com/tag/konstruksi-bangunan"
-                            class="w-full h-full"
-                            loading="lazy"
-                            allowfullscreen
-                            scrolling="yes"
-                            frameborder="0"
-                            style="width: 100%; height: 100%; border: none;">
-                        </iframe>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Merdeka Construction</h3>
-                        <p class="text-gray-600 mb-4">Construction Industry Updates</p>
-                    </div>
-                </div> -->
 
                 <!-- News Item 5 (2 columns) -->
                 <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
@@ -376,23 +359,6 @@
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
-                <!-- <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden">
-                    <div class="aspect-video h-[400px]">
-                        <iframe
-                            src="https://www.kompas.com/tag/konstruksi-bangunan"
-                            class="w-full h-full"
-                            loading="lazy"
-                            allowfullscreen
-                            scrolling="yes"
-                            frameborder="0"
-                            style="width: 100%; height: 100%; border: none;">
-                        </iframe>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Kompas Construction</h3>
-                        <p class="text-gray-600 mb-4">Construction Technology News</p>
-                    </div>
-                </div> -->
 
                 <!-- News Item 6 (3 columns) -->
                 <div class="md:col-span-3 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
