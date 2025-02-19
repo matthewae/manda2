@@ -189,6 +189,8 @@
                 <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="team">Our Team</a></li>
                 <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="client">Clients</a></li>
                 <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="contact">Contact Us</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="news">News</a></li>
+                <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="news">News</a></li>
                 <!-- <li>
                     <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                         target="_blank"
@@ -411,6 +413,9 @@
                         </li>
                         <li>
                             <a href="client" class="text-gray-400 hover:text-blue-400 transition duration-300">Clients</a>
+                        </li>
+                        <li>
+                            <a href="news" class="text-gray-400 hover:text-blue-400 transition duration-300">News</a>
                         </li>
                     </ul>
                 </div>
