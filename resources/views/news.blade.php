@@ -244,7 +244,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Medcom Construction</h3>
+                        <h3 class="font-bold text-xl mb-2">Medcom Id</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
@@ -270,7 +270,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Bizcom Construction</h3>
+                        <h3 class="font-bold text-xl mb-2">Bisnis.com</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
@@ -296,7 +296,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Merdeka Construction</h3>
+                        <h3 class="font-bold text-xl mb-2">Merdeka.com</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
@@ -322,7 +322,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Kompas Construction</h3>
+                        <h3 class="font-bold text-xl mb-2">Kompas.com</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
                     </div>
                 </div>
@@ -348,7 +348,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Detik News</h3>
+                        <h3 class="font-bold text-xl mb-2">Detik.Com</h3>
                         <p class="text-gray-600 mb-4">Government Construction Projects</p>
                     </div>
                 </div>
@@ -374,7 +374,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">PU News</h3>
+                        <h3 class="font-bold text-xl mb-2">Tempo News</h3>
                         <p class="text-gray-600 mb-4">Government Construction Projects</p>
                     </div>
                 </div>

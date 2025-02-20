@@ -574,7 +574,7 @@ use Illuminate\Support\Facades\Storage;
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-                <!-- Project Management -->
+                <!-- Feasibility Study -->
                 <div class="group">
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center group-hover:bg-orange-500 transition-colors duration-300">
@@ -582,12 +582,12 @@ use Illuminate\Support\Facades\Storage;
                         </div>
                         <h3 class="text-xl font-bold mb-4">Feasibility Study</h3>
                         <p class="text-gray-600 leading-relaxed text-justify">
-                            Professional project planning, execution, and monitoring for optimal results.
+                            Comprehensive analysis of project viability, market conditions, and potential returns on investment.
                         </p>
                     </div>
                 </div>
 
-                <!-- Design Consultation -->
+                <!-- Risk Analysis -->
                 <div class="group">
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center group-hover:bg-orange-500 transition-colors duration-300">
@@ -595,12 +595,12 @@ use Illuminate\Support\Facades\Storage;
                         </div>
                         <h3 class="text-xl font-bold mb-4">Risk Analysis</h3>
                         <p class="text-gray-600 leading-relaxed text-justify">
-                            Expert design solutions that blend functionality with aesthetics.
+                            Detailed assessment of project risks, mitigation strategies, and safety compliance measures.
                         </p>
                     </div>
                 </div>
 
-                <!-- Construction Supervision -->
+                <!-- Claim, Contract, Dispute Resolution -->
                 <div class="group">
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center group-hover:bg-orange-500 transition-colors duration-300">
@@ -608,12 +608,12 @@ use Illuminate\Support\Facades\Storage;
                         </div>
                         <h3 class="text-xl font-bold mb-4">Claim, Contract, Dispute Resolution</h3>
                         <p class="text-gray-600 leading-relaxed text-justify">
-                            Thorough oversight ensuring quality and compliance throughout construction.
+                            Expert handling of construction claims, contract management, and effective dispute resolution services.
                         </p>
                     </div>
                 </div>
 
-                <!-- Quality Assurance -->
+                <!-- Auditor & Loss Adjuster -->
                 <div class="group">
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center group-hover:bg-orange-500 transition-colors duration-300">
@@ -621,30 +621,35 @@ use Illuminate\Support\Facades\Storage;
                         </div>
                         <h3 class="text-xl font-bold mb-4">Auditor & Loss Adjuster</h3>
                         <p class="text-gray-600 leading-relaxed text-justify">
-                            Rigorous quality control standards for superior project outcomes.
+                            Professional assessment of construction losses and thorough project auditing services.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <!-- Additional Services -->
+            <!-- Additional Services (3 columns) -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Cost Estimation -->
+                <!-- Quantity Surveyor & Construction Management -->
                 <div class="bg-white p-6 rounded-xl shadow-lg group hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                     <i class="fas fa-calculator text-3xl text-orange-500 mb-4"></i>
                     <h3 class="text-lg font-bold mb-2">Quantity Surveyor & Construction Management</h3>
-                    <p class="text-gray-600 text-sm">Accurate project cost analysis and budgeting</p>
+                    <p class="text-gray-600 text-sm">
+                        Expert cost estimation, quantity take-offs, and comprehensive construction project management.
+                    </p>
                 </div>
 
-                <!-- Contract Administration -->
+                <!-- Other Engineering Consultation -->
                 <div class="bg-white p-6 rounded-xl shadow-lg group hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                     <i class="fas fa-cogs text-3xl text-orange-500 mb-4"></i>
                     <h3 class="text-lg font-bold mb-2">Other Engineering Consultation</h3>
-                    <p class="text-gray-600 text-sm">Comprehensive contract management services</p>
+                    <p class="text-gray-600 text-sm">
+                        Specialized engineering solutions and technical consultation across various construction disciplines.
+                    </p>
                 </div>
+            </div>
 
-                <!-- Sustainability Consulting -->
-                <!-- <div class="bg-white p-6 rounded-xl shadow-lg group hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
+            <!-- Sustainability Consulting -->
+            <!-- <div class="bg-white p-6 rounded-xl shadow-lg group hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                     <i class="fas fa-recycle text-3xl text-orange-500 mb-4"></i>
                     <h3 class="text-lg font-bold mb-2">Sustainability Consulting</h3>
                     <p class="text-gray-600 text-sm">Green building and sustainable development solutions</p>
