@@ -101,15 +101,20 @@
         #mobile-menu {
             position: fixed;
             top: 0;
-            left: -300px;
-            width: 300px;
+            right: -100%;
+            /* Changed from left to right */
+            width: 100%;
             height: 100vh;
-            background-color: rgb(17, 24, 39);
-            z-index: 50;
-            transition: left 0.3s ease-in-out;
-            padding: 1.5rem;
-            overflow-y: auto;
+            background-color: rgba(17, 24, 39, 0.98);
+            backdrop-filter: blur(8px);
+            z-index: 60;
+            /* Increased z-index to be above overlay */
+            transition: right 0.3s ease-in-out;
+            /* Changed from left to right transition */
+            padding-top: 80px;
+            /* Add space for the header */
         }
+
 
         #mobile-menu.active {
             left: 0;
@@ -122,7 +127,8 @@
             opacity: 0;
             visibility: hidden;
             transition: all 0.3s ease;
-            z-index: 40;
+            z-index: 50;
+            /* Keep overlay below mobile menu */
         }
 
         #mobile-menu.hidden {
@@ -151,6 +157,35 @@
             #menu-toggle {
                 display: block;
             }
+        }
+
+        #mobile-menu.active {
+            right: 0;
+            /* Changed from left to right */
+        }
+
+        /* Update menu toggle button styles */
+        #menu-toggle {
+            position: fixed;
+            top: 1.5rem;
+            right: 1.5rem;
+            z-index: 70;
+            /* Increased z-index to be above mobile menu */
+        }
+
+        #mobile-menu .flex-col {
+            height: 100%;
+            padding-top: 2rem;
+        }
+
+        #mobile-menu ul {
+            text-align: center;
+        }
+
+        #mobile-menu li a {
+            font-size: 1.25rem;
+            padding: 1rem 2rem;
+            display: block;
         }
     </style>
 </head>
@@ -195,15 +230,15 @@
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="md:hidden">
                 <div class="flex flex-col h-full">
-                    <ul class="flex flex-col space-y-4 mt-16">
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
-                        <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="news">News</a></li>
-                        <!-- <li class="pt-4">
+                    <ul class="flex flex-col space-y-6">
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="/">Home</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="service">Services</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="project">Projects</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="team">Our Team</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="client">Clients</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="contact">Contact Us</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300" href="news">News</a></li>
+                    <!-- <li class="pt-4">
                             <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                                 target="_blank"
                                 class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
