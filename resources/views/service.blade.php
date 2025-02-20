@@ -155,33 +155,32 @@
             </ul>
             <!-- Mobile Menu Button -->
             <div class="md:hidden">
-                <button class="text-gray-300 focus:outline-none text-2xl" id="menu-toggle">
-                    <i class="fas fa-bars">
-                    </i>
+                <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2 rounded-lg">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
             </div>
-        </div>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="md:hidden">
-            <div class="flex flex-col h-full">
-                <ul class="flex flex-col space-y-4 mt-16">
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
-                    <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="news">News</a></li>
-                    <!-- <li class="pt-4">
-                        <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
-                            target="_blank"
-                            class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
-                            <i class="fas fa-download mr-2"></i>Company Profile
-                        </a>
-                    </li> -->
-                </ul>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu">
+                <div class="container px-4 py-2">
+                    <ul class="flex flex-col space-y-4">
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="news">News</a></li>
+                        <!-- <li class="pt-4">
+                            <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
+                                target="_blank"
+                                class="block w-full text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
+                                <i class="fas fa-download mr-2"></i>Company Profile
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
             </div>
-        </div>
     </nav>
 
     <!-- Services Section -->

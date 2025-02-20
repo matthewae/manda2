@@ -523,6 +523,38 @@
         </div>
     </footer>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            // Create overlay
+            const overlay = document.createElement('div');
+            overlay.className = 'menu-overlay';
+            document.body.appendChild(overlay);
+
+            function toggleMenu() {
+                mobileMenu.classList.toggle('active');
+                overlay.classList.toggle('active');
+                document.body.classList.toggle('overflow-hidden');
+            }
+
+            // Toggle menu
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                toggleMenu();
+            });
+
+            // Close on overlay click
+            overlay.addEventListener('click', toggleMenu);
+
+            // Close on link click
+            const mobileLinks = mobileMenu.getElementsByTagName('a');
+            Array.from(mobileLinks).forEach(link => {
+                link.addEventListener('click', toggleMenu);
+            });
+        });
+    </script>
 </body>
 
 </html>

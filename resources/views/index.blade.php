@@ -578,9 +578,9 @@ use Illuminate\Support\Facades\Storage;
                 <div class="group">
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center group-hover:bg-orange-500 transition-colors duration-300">
-                            <i class="fas fa-hard-hat text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
+                            <i class="fas fa-chart-line text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Project Management</h3>
+                        <h3 class="text-xl font-bold mb-4">Feasibility Study</h3>
                         <p class="text-gray-600 leading-relaxed text-justify">
                             Professional project planning, execution, and monitoring for optimal results.
                         </p>
@@ -591,9 +591,9 @@ use Illuminate\Support\Facades\Storage;
                 <div class="group">
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center group-hover:bg-orange-500 transition-colors duration-300">
-                            <i class="fas fa-drafting-compass text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
+                            <i class="fas fa-shield-alt text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Design Consultation</h3>
+                        <h3 class="text-xl font-bold mb-4">Risk Analysis</h3>
                         <p class="text-gray-600 leading-relaxed text-justify">
                             Expert design solutions that blend functionality with aesthetics.
                         </p>
@@ -604,9 +604,9 @@ use Illuminate\Support\Facades\Storage;
                 <div class="group">
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center group-hover:bg-orange-500 transition-colors duration-300">
-                            <i class="fas fa-tools text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
+                            <i class="fas fa-gavel text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Construction Supervision</h3>
+                        <h3 class="text-xl font-bold mb-4">Claim, Contract, Dispute Resolution</h3>
                         <p class="text-gray-600 leading-relaxed text-justify">
                             Thorough oversight ensuring quality and compliance throughout construction.
                         </p>
@@ -617,9 +617,9 @@ use Illuminate\Support\Facades\Storage;
                 <div class="group">
                     <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-50 rounded-lg mb-6 flex items-center justify-center group-hover:bg-orange-500 transition-colors duration-300">
-                            <i class="fas fa-building text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
+                            <i class="fas fa-clipboard-check text-3xl text-orange-500 group-hover:text-white transition-colors duration-300"></i>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Quality Assurance</h3>
+                        <h3 class="text-xl font-bold mb-4">Auditor & Loss Adjuster</h3>
                         <p class="text-gray-600 leading-relaxed text-justify">
                             Rigorous quality control standards for superior project outcomes.
                         </p>
@@ -631,33 +631,33 @@ use Illuminate\Support\Facades\Storage;
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Cost Estimation -->
                 <div class="bg-white p-6 rounded-xl shadow-lg group hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
-                    <i class="fas fa-chart-line text-3xl text-orange-500 mb-4"></i>
-                    <h3 class="text-lg font-bold mb-2">Cost Estimation</h3>
+                    <i class="fas fa-calculator text-3xl text-orange-500 mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Quantity Surveyor & Construction Management</h3>
                     <p class="text-gray-600 text-sm">Accurate project cost analysis and budgeting</p>
                 </div>
 
                 <!-- Contract Administration -->
                 <div class="bg-white p-6 rounded-xl shadow-lg group hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
-                    <i class="fas fa-file-contract text-3xl text-orange-500 mb-4"></i>
-                    <h3 class="text-lg font-bold mb-2">Contract Administration</h3>
+                    <i class="fas fa-cogs text-3xl text-orange-500 mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Other Engineering Consultation</h3>
                     <p class="text-gray-600 text-sm">Comprehensive contract management services</p>
                 </div>
 
                 <!-- Sustainability Consulting -->
-                <div class="bg-white p-6 rounded-xl shadow-lg group hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
+                <!-- <div class="bg-white p-6 rounded-xl shadow-lg group hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                     <i class="fas fa-recycle text-3xl text-orange-500 mb-4"></i>
                     <h3 class="text-lg font-bold mb-2">Sustainability Consulting</h3>
                     <p class="text-gray-600 text-sm">Green building and sustainable development solutions</p>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Call to Action -->
-            <div class="text-center mt-12">
+            <!-- <div class="text-center mt-12">
                 <a href="service" class="inline-flex items-center px-8 py-3 bg-blue-500 text-white rounded-full hover:bg-orange-600 transition duration-300">
                     <span>View All Services</span>
                     <i class="fas fa-arrow-right ml-2"></i>
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Projects Section -->
