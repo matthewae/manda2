@@ -929,12 +929,6 @@ use Illuminate\Support\Facades\Storage;
                     <button class="dot client-dot" onclick="showClientSlide(4)" aria-label="Client slide 5"></button>
                     <!-- <button class="dot client-dot" onclick="showClientSlide(5)" aria-label="Client slide 6"></button> -->
                 </div>
-                <!-- <button class="carousel-arrow prev" onclick="prevClientSlide()" aria-label="Previous clients">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button class="carousel-arrow next" onclick="nextClientSlide()" aria-label="Next clients">
-                    <i class="fas fa-chevron-right"></i>
-                </button> -->
             </div>
         </div>
         </div>
@@ -962,22 +956,22 @@ use Illuminate\Support\Facades\Storage;
                     <h4 class="text-lg font-semibold text-white mb-6">Quick Links</h4>
                     <ul class="space-y-3">
                         <li>
-                            <a href="/" class="text-gray-400 hover:text-blue-400 transition duration-300">Home</a>
+                            <a href="/" class="text-gray-400 hover:text-yellow-400 transition duration-300">Home</a>
                         </li>
                         <li>
-                            <a href="service" class="text-gray-400 hover:text-blue-400 transition duration-300">Services</a>
+                            <a href="service" class="text-gray-400 hover:text-yellow-400 transition duration-300">Services</a>
                         </li>
                         <li>
-                            <a href="project" class="text-gray-400 hover:text-blue-400 transition duration-300">Projects</a>
+                            <a href="project" class="text-gray-400 hover:text-yellow-400 transition duration-300">Projects</a>
                         </li>
                         <li>
-                            <a href="team" class="text-gray-400 hover:text-blue-400 transition duration-300">Our Team</a>
+                            <a href="team" class="text-gray-400 hover:text-yellow-400 transition duration-300">Our Team</a>
                         </li>
                         <li>
-                            <a href="client" class="text-gray-400 hover:text-blue-400 transition duration-300">Clients</a>
+                            <a href="client" class="text-gray-400 hover:text-yellow-400 transition duration-300">Clients</a>
                         </li>
                         <li>
-                            <a href="news" class="text-gray-400 hover:text-blue-400 transition duration-300">News</a>
+                            <a href="news" class="text-gray-400 hover:text-yellow-400 transition duration-300">News</a>
                         </li>
                     </ul>
                 </div>
@@ -996,7 +990,7 @@ use Illuminate\Support\Facades\Storage;
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fas fa-envelope text-white-400"></i>
-                            <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                            <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-yellow-400 transition duration-300">
                                 contact.us@mandajayarekayasakonstruksi.com
                             </a>
                         </li>

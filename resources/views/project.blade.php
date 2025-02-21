@@ -400,22 +400,22 @@
                     <h4 class="text-lg font-semibold text-white mb-6">Quick Links</h4>
                     <ul class="space-y-3">
                         <li>
-                            <a href="/" class="text-gray-400 hover:text-blue-400 transition duration-300">Home</a>
+                            <a href="/" class="text-gray-400 hover:text-yellow-400 transition duration-300">Home</a>
                         </li>
                         <li>
-                            <a href="service" class="text-gray-400 hover:text-blue-400 transition duration-300">Services</a>
+                            <a href="service" class="text-gray-400 hover:text-yellow-400 transition duration-300">Services</a>
                         </li>
                         <li>
-                            <a href="project" class="text-gray-400 hover:text-blue-400 transition duration-300">Projects</a>
+                            <a href="project" class="text-gray-400 hover:text-yellow-400 transition duration-300">Projects</a>
                         </li>
                         <li>
-                            <a href="team" class="text-gray-400 hover:text-blue-400 transition duration-300">Our Team</a>
+                            <a href="team" class="text-gray-400 hover:text-yellow-400 transition duration-300">Our Team</a>
                         </li>
                         <li>
-                            <a href="client" class="text-gray-400 hover:text-blue-400 transition duration-300">Clients</a>
+                            <a href="client" class="text-gray-400 hover:text-yellow-400 transition duration-300">Clients</a>
                         </li>
                         <li>
-                            <a href="news" class="text-gray-400 hover:text-blue-400 transition duration-300">News</a>
+                            <a href="news" class="text-gray-400 hover:text-yellow-400 transition duration-300">News</a>
                         </li>
                     </ul>
                 </div>
@@ -434,7 +434,7 @@
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fas fa-envelope text-white-400"></i>
-                            <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                            <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-yellow-400 transition duration-300">
                                 contact.us@mandajayarekayasakonstruksi.com
                             </a>
                         </li>
