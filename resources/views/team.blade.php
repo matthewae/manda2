@@ -246,7 +246,7 @@
                                 <img
                                     alt="Portrait of John Doe, Founder and CEO"
                                     class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="{{ url('images/F111.jpg') }}" />
+                                    src="{{ url('images/F11.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
@@ -258,14 +258,14 @@
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Dr (c)., Ir., Lukman Subangi, SPd., MT., IPM., Asean Eng
+                                    Dr (c)., Ir., Lukman Subangi, S.Pd., M.T., IPM., Asean Eng
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">
                                     Commissioner
                                 </p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
+                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
                                     John has over 20 years of experience in the construction industry and is the visionary behind our company.
-                                </p>
+                                </p> -->
                             </div>
 
                             <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
@@ -286,7 +286,7 @@
                                 <img
                                     alt="Portrait of Jane Smith, Co-Founder and COO"
                                     class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="{{ url('images/F113.jpg') }}" />
+                                    src="{{ url('images/F13.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
@@ -298,14 +298,14 @@
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    M. Sarwono Purwa Jayadi, ST., M.T.
+                                    M. Sarwono Purwa Jayadi, S.T., M.T.
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">
                                     Director
                                 </p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
+                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
                                     Jane oversees the daily operations and ensures that our projects run smoothly and efficiently.
-                                </p>
+                                </p> -->
                             </div>
 
                             <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
@@ -326,7 +326,7 @@
                                 <img
                                     alt="Portrait of Michael Brown, Co-Founder and CFO"
                                     class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="{{ url('images/F112.jpg') }}" />
+                                    src="{{ url('images/F12.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
@@ -338,13 +338,13 @@
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Dr., Ir., Felix H., ST., MT., IPU., Asean Eng. </h3>
+                                    Dr., Ir., Felix H., S.T., M.T., IPU., Asean Eng. </h3>
                                 <p class="text-blue-500 font-semibold mb-3">
                                     Deputy Director
                                 </p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
+                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
                                     Michael manages the financial aspects of the company, ensuring fiscal responsibility and growth.
-                                </p>
+                                </p> -->
                             </div>
 
                             <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
@@ -511,12 +511,12 @@
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Ryan Gilang Wicaksono, ST.
+                                    Ryan Gilang Wicaksono, S.T.
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">Chief Engineer</p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
+                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
-                                </p>
+                                </p> -->
                             </div>
 
                             <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
@@ -552,9 +552,9 @@
                                     Krisma Jumeindri, A.Md.T
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">Head Finance/GA</p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
+                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
-                                </p>
+                                </p> -->
                             </div>
 
                             <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
@@ -587,12 +587,12 @@
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Rahadya Darajat, SS.
+                                    Rahadya Darajat, S.S.
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">Digital Engineer</p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
+                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
-                                </p>
+                                </p> -->
                             </div>
 
                             <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
@@ -630,9 +630,9 @@
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">Support Engineer
                                 </p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
+                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
-                                </p>
+                                </p> -->
                             </div>
 
                             <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
@@ -668,9 +668,9 @@
                                     Abdul Aziz Mundzir, S.Tr.T.
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">Support Engineer</p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
+                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
-                                </p>
+                                </p> -->
                             </div>
 
                             <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
@@ -706,9 +706,9 @@
                                     Yana Suryana
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">Building Management</p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
+                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
-                                </p>
+                                </p> -->
                             </div>
 
                             <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
