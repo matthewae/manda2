@@ -245,37 +245,37 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of John Doe, Founder and CEO"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/Z4uwvphkmZKGGoxWqyz4DmpIBef1kzfxJkmLfpo2n9c.jpg" />
+                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="{{ url('images/F111.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
+                                    <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
                                             <i class="fab fa-linkedin text-2xl"></i>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    John Doe
+                                    Dr (c)., Ir., Lukman Subangi, SPd., MT., IPM., Asean Eng
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">
-                                    Founder & CEO
+                                    Commissioner
                                 </p>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     John has over 20 years of experience in the construction industry and is the visionary behind our company.
                                 </p>
                             </div>
 
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
                                 <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
                                     <i class="fab fa-linkedin text-xl"></i>
                                 </a>
                                 <a href="mailto:john@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
                                     <i class="fas fa-envelope text-xl"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -285,37 +285,37 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Jane Smith, Co-Founder and COO"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/1w8b2Pk0ZBhruWcTFdXRP_QVVeiXNt-2z_7g0_XukOY.jpg" />
+                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="{{ url('images/F113.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
+                                    <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
                                             <i class="fab fa-linkedin text-2xl"></i>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Jane Smith
+                                    M. Sarwono Purwa Jayadi, ST., M.T.
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">
-                                    Co-Founder & COO
+                                    Director
                                 </p>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Jane oversees the daily operations and ensures that our projects run smoothly and efficiently.
                                 </p>
                             </div>
 
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
                                 <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
                                     <i class="fab fa-linkedin text-xl"></i>
                                 </a>
                                 <a href="mailto:jane@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
                                     <i class="fas fa-envelope text-xl"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -325,48 +325,47 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Michael Brown, Co-Founder and CFO"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/jdzTtnwfCpb3tZFPmfMYb4ZmqV3ZysS9YqQ0uvCFnA0.jpg" />
+                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="{{ url('images/F112.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
+                                    <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
                                             <i class="fab fa-linkedin text-2xl"></i>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Michael Brown
-                                </h3>
+                                    Dr., Ir., Felix H., ST., MT., IPU., Asean Eng. </h3>
                                 <p class="text-blue-500 font-semibold mb-3">
-                                    Co-Founder & CFO
+                                    Deputy Director
                                 </p>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Michael manages the financial aspects of the company, ensuring fiscal responsibility and growth.
                                 </p>
                             </div>
 
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
                                 <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
                                     <i class="fab fa-linkedin text-xl"></i>
                                 </a>
                                 <a href="mailto:michael@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
                                     <i class="fas fa-envelope text-xl"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Experts Section -->
-            <div class="mb-16">
+            <!-- <div class="mb-16">
                 <h3 class="text-2xl font-bold mb-8">Experts</h3>
-                <div class="flex flex-wrap justify-center -mx-4">
-                    <!-- Project Manager Card -->
-                    <div class="w-full md:w-1/3 p-4 card">
+                <div class="flex flex-wrap justify-center -mx-4"> -->
+            <!-- Project Manager Card -->
+            <!-- <div class="w-full md:w-1/3 p-4 card">
                         <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
@@ -403,10 +402,10 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <!-- Lead Architect Card -->
-                    <div class="w-full md:w-1/3 p-4 card">
+            <!-- Lead Architect Card -->
+            <!-- <div class="w-full md:w-1/3 p-4 card">
                         <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
@@ -443,10 +442,10 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <!-- Construction Supervisor Card -->
-                    <div class="w-full md:w-1/3 p-4 card">
+            <!-- Construction Supervisor Card -->
+            <!-- <div class="w-full md:w-1/3 p-4 card">
                         <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
@@ -485,11 +484,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <!-- Staff Section -->
+            <!-- Expert Section -->
             <div class="mb-16">
-                <h3 class="text-2xl font-bold mb-8">Staff</h3>
+                <h3 class="text-2xl font-bold mb-8">Experts</h3>
 
                 <!-- First Row - 3 Cards -->
                 <div class="flex flex-wrap justify-center -mx-4 mb-8">
@@ -499,35 +498,35 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/-BMTdgGSJ9Hi9fL1JONZS1bGjUBtAiJrDWAef3eHrPY.jpg" />
+                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="{{ url('images/E15.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
+                                    <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
                                             <i class="fab fa-linkedin text-2xl"></i>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Mark Andrew
+                                    Ryan Gilang Wicaksono, ST.
                                 </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Administrative Assistant</p>
+                                <p class="text-blue-500 font-semibold mb-3">Chief Engineer</p>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
                                 </p>
                             </div>
 
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
                                 <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
                                     <i class="fab fa-linkedin text-xl"></i>
                                 </a>
                                 <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
                                     <i class="fas fa-envelope text-xl"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -537,35 +536,35 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/z6m57vf5iQew7k92qHzsXpDHjJi1DR3T8liAANP3UbY.jpg" />
+                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="{{ url('images/E12.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
+                                    <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
                                             <i class="fab fa-linkedin text-2xl"></i>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Emily Davis
+                                    Krisma Jumeindri, A.Md.T
                                 </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Technical Assistant</p>
+                                <p class="text-blue-500 font-semibold mb-3">Head Finance/GA</p>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
                                 </p>
                             </div>
 
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
                                 <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
                                     <i class="fab fa-linkedin text-xl"></i>
                                 </a>
                                 <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
                                     <i class="fas fa-envelope text-xl"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -575,35 +574,35 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/fv8YkifnZpn2OxU6PJ3B8Q5Jsyl9uC9MvlJelhjZifs.jpg" />
+                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="{{ url('images/E14.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
+                                    <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
                                             <i class="fab fa-linkedin text-2xl"></i>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Frank Johnson
+                                    Rahadya Darajat, SS.
                                 </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Site Inspector</p>
+                                <p class="text-blue-500 font-semibold mb-3">Digital Engineer</p>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
                                 </p>
                             </div>
 
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
                                 <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
                                     <i class="fab fa-linkedin text-xl"></i>
                                 </a>
                                 <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
                                     <i class="fas fa-envelope text-xl"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -614,35 +613,36 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/FlEnDH2myV0hHDJFpjHIw7FeaHx3O0zloBFz1CWy6BA.jpg" />
+                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="{{ url('images/E13.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
+                                    <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
                                             <i class="fab fa-linkedin text-2xl"></i>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Maria Brinson
+                                    M. Zidan Pahlevi, S.Tr.T.
                                 </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Safety Officer</p>
+                                <p class="text-blue-500 font-semibold mb-3">Support Engineer
+                                </p>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
                                 </p>
                             </div>
 
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
                                 <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
                                     <i class="fab fa-linkedin text-xl"></i>
                                 </a>
                                 <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
                                     <i class="fas fa-envelope text-xl"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -652,35 +652,73 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/a33wk-58zXK8TPPi7tkOj5ZnKYvMAmqBgqyC8Zr9UlI.jpg" />
+                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="{{ url('images/E11.jpg') }}" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
+                                    <!-- <div class="absolute bottom-4 right-4">
                                         <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
                                             <i class="fab fa-linkedin text-2xl"></i>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Kurt Morse
+                                    Abdul Aziz Mundzir, S.Tr.T.
                                 </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Quality Control</p>
+                                <p class="text-blue-500 font-semibold mb-3">Support Engineer</p>
                                 <p class="text-gray-600 text-sm leading-relaxed">
                                     Manages office operations and provides excellent administrative support.
                                 </p>
                             </div>
 
                             <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
+                                <!-- <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
+                                    <i class="fab fa-linkedin text-xl"></i>
+                                </a>
+                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 6 -->
+                    <div class="w-full md:w-1/3 p-4 card">
+                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                            <div class="relative overflow-hidden rounded-lg mb-4">
+                                <img
+                                    alt="Portrait of Emily Davis, Administrative Assistant"
+                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    src="{{ url('images/E16.jpg') }}" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <!-- <div class="absolute bottom-4 right-4">
+                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
+                                            <i class="fab fa-linkedin text-2xl"></i>
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                    Yana Suryana
+                                </h3>
+                                <p class="text-blue-500 font-semibold mb-3">Building Management</p>
+                                <p class="text-gray-600 text-sm leading-relaxed">
+                                    Manages office operations and provides excellent administrative support.
+                                </p>
+                            </div>
+
+                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
                                 <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
                                     <i class="fab fa-linkedin text-xl"></i>
                                 </a>
                                 <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
                                     <i class="fas fa-envelope text-xl"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -758,10 +796,10 @@
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#"
+                        <!-- <a href="#"
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition duration-300">
                             <i class="fab fa-linkedin-in"></i>
-                        </a>
+                        </a> -->
                         <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition duration-300">
                             <i class="fab fa-instagram"></i>

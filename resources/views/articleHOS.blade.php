@@ -190,7 +190,7 @@
                 <div>
                     <h4 class="text-xl font-bold mb-4">Quick Links</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li>
+                        <!-- <li>
                             <a href="#" class="hover:text-blue-400 transition-colors flex items-center gap-2">
                                 <i class="fas fa-file-pdf"></i>
                                 Download Facility Guide
@@ -201,7 +201,7 @@
                                 <i class="fas fa-images"></i>
                                 View Gallery
                             </a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="/contact" class="hover:text-blue-400 transition-colors flex items-center gap-2">
                                 <i class="fas fa-envelope"></i>
@@ -218,10 +218,10 @@
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#"
+                        <!-- <a href="#"
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition duration-300">
                             <i class="fab fa-linkedin-in"></i>
-                        </a>
+                        </a> -->
                         <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition duration-300">
                             <i class="fab fa-instagram"></i>

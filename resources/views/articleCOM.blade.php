@@ -191,7 +191,7 @@
                 <div class="p-4 md:p-0">
                     <h4 class="text-lg md:text-xl font-bold mb-3 md:mb-4">Quick Links</h4>
                     <ul class="space-y-3 md:space-y-2 text-gray-400">
-                        <li>
+                        <!-- <li>
                             <a href="#" class="flex items-center gap-2 text-sm md:text-base hover:text-blue-400 transition-colors p-2 md:p-0 hover:bg-gray-800 md:hover:bg-transparent rounded-lg md:rounded-none">
                                 <i class="fas fa-file-pdf w-5"></i>
                                 <span>Download Project Brief</span>
@@ -202,7 +202,7 @@
                                 <i class="fas fa-images w-5"></i>
                                 <span>View Gallery</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="/contact" class="flex items-center gap-2 text-sm md:text-base hover:text-blue-400 transition-colors p-2 md:p-0 hover:bg-gray-800 md:hover:bg-transparent rounded-lg md:rounded-none">
                                 <i class="fas fa-envelope w-5"></i>
@@ -220,10 +220,10 @@
                             class="w-12 h-12 md:w-10 md:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
                             <i class="fab fa-facebook-f text-lg md:text-base"></i>
                         </a>
-                        <a href="#"
+                        <!-- <a href="#"
                             class="w-12 h-12 md:w-10 md:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition-colors">
                             <i class="fab fa-linkedin-in text-lg md:text-base"></i>
-                        </a>
+                        </a> -->
                         <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
                             class="w-12 h-12 md:w-10 md:h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition-colors">
                             <i class="fab fa-instagram text-lg md:text-base"></i>

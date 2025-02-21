@@ -655,14 +655,6 @@ use Illuminate\Support\Facades\Storage;
                     <p class="text-gray-600 text-sm">Green building and sustainable development solutions</p>
                 </div>
             </div> -->
-
-            <!-- Call to Action -->
-            <!-- <div class="text-center mt-12">
-                <a href="service" class="inline-flex items-center px-8 py-3 bg-blue-500 text-white rounded-full hover:bg-orange-600 transition duration-300">
-                    <span>View All Services</span>
-                    <i class="fas fa-arrow-right ml-2"></i>
-                </a>
-            </div> -->
         </div>
     </section>
     <!-- Projects Section -->
@@ -727,9 +719,9 @@ use Illuminate\Support\Facades\Storage;
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-6 group-hover:translate-y-0 transition duration-300">
-                        <h3 class="text-xl font-bold mb-2">Industrial Facility</h3>
+                        <h3 class="text-xl font-bold mb-2">Infrastructure Facility</h3>
                         <p class="text-sm text-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 delay-100">
-                            A high-tech industrial facility built to meet modern manufacturing needs.
+                            A comfortable infratructure facility that fullfill the needs.
                         </p>
                         <a href="project" class="inline-flex items-center mt-4 text-blue-400 hover:text-blue-300">
                             Learn More <i class="fas fa-arrow-right ml-2"></i>
@@ -1005,10 +997,10 @@ use Illuminate\Support\Facades\Storage;
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#"
+                        <!-- <a href="#"
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition duration-300">
                             <i class="fab fa-linkedin-in"></i>
-                        </a>
+                        </a> -->
                         <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition duration-300">
                             <i class="fab fa-instagram"></i>
