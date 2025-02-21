@@ -177,13 +177,13 @@
 
             <!-- Desktop Menu -->
             <ul class="hidden md:flex space-x-8 items-center">
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="/">Home</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="service">Services</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="project">Projects</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="team">Our Team</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="client">Clients</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="contact">Contact Us</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="news">News</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="/">Home</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="service">Services</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="project">Projects</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="team">Our Team</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="client">Clients</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="contact">Contact Us</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="news">News</a></li>
                 <!-- <li>
                     <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                         target="_blank"
@@ -204,13 +204,13 @@
         <div id="mobile-menu" class="md:hidden">
             <div class="flex flex-col h-full">
                 <ul class="flex flex-col space-y-4 mt-16">
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
-                    <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
-                    <li><a class="block text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="news">News</a></li>
+                    <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="/">Home</a></li>
+                    <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="service">Services</a></li>
+                    <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="project">Projects</a></li>
+                    <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="team">Our Team</a></li>
+                    <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="client">Clients</a></li>
+                    <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+                    <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="news">News</a></li>
                     <!-- <li class="pt-4">
                         <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                             target="_blank"

@@ -136,13 +136,13 @@
 
             <!-- Desktop Menu -->
             <ul class="hidden md:flex space-x-8 items-center">
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="/">Home</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="service">Services</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="project">Projects</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="team">Our Team</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="client">Clients</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="contact">Contact Us</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-blue-400 transition duration-300" href="news">News</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="/">Home</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="service">Services</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="project">Projects</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="team">Our Team</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="client">Clients</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="contact">Contact Us</a></li>
+                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="news">News</a></li>
                 <!-- <li>
                     <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                         target="_blank"
@@ -163,13 +163,13 @@
             <div id="mobile-menu">
                 <div class="container px-4 py-2">
                     <ul class="flex flex-col space-y-4">
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="/">Home</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="service">Services</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="project">Projects</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="team">Our Team</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="client">Clients</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
-                        <li><a class="block text-lg text-gray-300 hover:text-blue-400 transition duration-300 py-2" href="news">News</a></li>
+                        <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="/">Home</a></li>
+                        <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="service">Services</a></li>
+                        <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="project">Projects</a></li>
+                        <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="team">Our Team</a></li>
+                        <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="client">Clients</a></li>
+                        <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="contact">Contact Us</a></li>
+                        <li><a class="block text-gray-300 hover:text-yellow-400 transition duration-300 py-2" href="news">News</a></li>
                         <!-- <li class="pt-4">
                             <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
                                 target="_blank"
@@ -197,8 +197,8 @@
             <!-- News Grid -->
             <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
                 <!-- Featured News (4 columns) -->
-                <div class="md:col-span-4 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-                    <div class="aspect-[16/9] h-[500px] relative">
+                <div class="w-full md:col-span-4 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-[16/9] h-[300px] md:h-[500px] relative">
                         <iframe
                             src="https://www.constructiondive.com"
                             class="w-full h-full"
@@ -208,28 +208,24 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <a href="https://www.constructiondive.com"
-                                target="_blank"
-                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
-                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
-                            </a>
-                        </div> -->
                     </div>
-                    <div class="p-6">
-                        <h3 class="font-bold text-2xl mb-2">Construction Dive</h3>
-                        <p class="text-gray-600 mb-4">Global Construction News and Analysis</p>
+                    <div class="p-4 md:p-6">
+                        <h3 class="font-bold text-xl md:text-2xl mb-2">Construction Dive</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-4">
+                            Stay ahead in the construction industry with in-depth news and analysis from Construction Dive. Explore trends, innovations, and strategic insights impacting the global construction market. Get updates on major projects, business strategies, and regulatory changes to make informed decisions and grow your business.
+                        </p>
                         <a href="https://www.constructiondive.com"
                             target="_blank"
-                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            class="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                             <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                         </a>
                     </div>
                 </div>
 
+
                 <!-- News Item 2 (2 columns) -->
-                <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-                    <div class="aspect-video h-[400px] relative">
+                <div class="w-full md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[300px] md:h-[400px] relative">
                         <iframe
                             src="https://www.medcom.id/tag/2500/konstruksi"
                             class="w-full h-full"
@@ -239,28 +235,23 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <a href="https://www.medcom.id/tag/2500/konstruksi"
-                                target="_blank"
-                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
-                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
-                            </a>
-                        </div> -->
                     </div>
-                    <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Medcom Id</h3>
-                        <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                    <div class="p-4 md:p-6">
+                        <h3 class="font-bold text-lg md:text-xl mb-2">Medcom Id</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-4">
+                            Discover the latest construction industry news and updates in Indonesia with Medcom Id. Stay informed about infrastructure projects, market trends, and government regulations that impact the construction sector. Get reliable insights and comprehensive reports to keep you ahead in the industry.
+                        </p>
                         <a href="https://www.medcom.id/tag/2500/konstruksi"
                             target="_blank"
-                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            class="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                             <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                         </a>
                     </div>
                 </div>
 
                 <!-- News Item 3 (2 columns) -->
-                <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-                    <div class="aspect-video h-[400px] relative">
+                <div class="w-full md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[300px] md:h-[400px] relative">
                         <iframe
                             src="https://www.bisnis.com/topic/223/konstruksi"
                             class="w-full h-full"
@@ -270,28 +261,24 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <a href="https://www.bisnis.com/topic/223/konstruksi"
-                                target="_blank"
-                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
-                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
-                            </a>
-                        </div> -->
                     </div>
-                    <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Bisnis.com</h3>
-                        <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                    <div class="p-4 md:p-6">
+                        <h3 class="font-bold text-lg md:text-xl mb-2">Bisnis.com</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-4">
+                            Stay informed with the latest news on construction and infrastructure development in Indonesia. Bisnis.com provides in-depth analysis, market trends, and updates on major construction projects, helping you stay ahead in the industry with reliable insights and reports.
+                        </p>
                         <a href="https://www.bisnis.com/topic/223/konstruksi"
                             target="_blank"
-                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            class="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                             <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                         </a>
                     </div>
                 </div>
 
+
                 <!-- News Item 4 (2 columns) -->
-                <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-                    <div class="aspect-video h-[400px] relative">
+                <div class="w-full md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[300px] md:h-[400px] relative">
                         <iframe
                             src="https://www.merdeka.com/tag/konstruksi-bangunan"
                             class="w-full h-full"
@@ -301,59 +288,50 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <a href="https://www.merdeka.com/tag/konstruksi-bangunan"
-                                target="_blank"
-                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
-                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
-                            </a>
-                        </div> -->
                     </div>
-                    <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Merdeka.com</h3>
-                        <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                    <div class="p-4 md:p-6">
+                        <h3 class="font-bold text-lg md:text-xl mb-2">Merdeka.com</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-4">
+                            Discover the latest updates on construction and building projects across Indonesia. Get insights into urban development, infrastructure advancements, and industry trends from Merdeka.com, a trusted news source with comprehensive coverage on construction-related topics.
+                        </p>
                         <a href="https://www.merdeka.com/tag/konstruksi-bangunan"
                             target="_blank"
-                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            class="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                             <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                         </a>
                     </div>
                 </div>
 
+
                 <!-- News Item 5 (2 columns) -->
-                <div class="md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-                    <div class="aspect-video h-[400px] relative">
+                <div class="w-full md:col-span-2 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[300px] md:h-[400px] relative">
                         <iframe
                             src="https://www.kompas.com/tag/konstruksi-bangunan"
                             class="w-full h-full"
                             loading="lazy"
-                            allowfullscreen
                             scrolling="yes"
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <a href="https://www.kompas.com/tag/konstruksi-bangunan"
-                                target="_blank"
-                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
-                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
-                            </a>
-                        </div> -->
                     </div>
-                    <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Kompas.com</h3>
-                        <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                    <div class="p-4 md:p-6">
+                        <h3 class="font-bold text-lg md:text-xl mb-2">Kompas.com</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-4">
+                            Stay updated with the latest Indonesian construction news, trends, and project developments. Discover in-depth articles, expert opinions, and real-time updates on infrastructure projects across Indonesia.
+                        </p>
                         <a href="https://www.kompas.com/tag/konstruksi-bangunan"
                             target="_blank"
-                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            class="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                             <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                         </a>
                     </div>
                 </div>
 
+
                 <!-- News Item 6 (3 columns) -->
-                <div class="md:col-span-3 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-                    <div class="aspect-video h-[450px] relative">
+                <div class="w-full md:col-span-3 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[300px] md:h-[450px] relative">
                         <iframe
                             src="https://www.detik.com/tag/konstruksi"
                             class="w-full h-full"
@@ -363,28 +341,24 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <a href="https://www.detik.com/tag/konstruksi"
-                                target="_blank"
-                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
-                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
-                            </a>
-                        </div> -->
                     </div>
-                    <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Detik.Com</h3>
-                        <p class="text-gray-600 mb-4">Government Construction Projects</p>
+                    <div class="p-4 md:p-6">
+                        <h3 class="font-bold text-lg md:text-xl mb-2">Detik.Com</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-4">
+                            Discover the latest updates on government construction projects, infrastructure developments, and industry trends in Indonesia. Stay informed with comprehensive news coverage from one of the leading news portals.
+                        </p>
                         <a href="https://www.detik.com/tag/konstruksi"
                             target="_blank"
-                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            class="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                             <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                         </a>
                     </div>
                 </div>
 
+
                 <!-- News Item 7 (3 columns) -->
-                <div class="md:col-span-3 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-                    <div class="aspect-video h-[450px] relative">
+                <div class="w-full md:col-span-3 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                    <div class="aspect-video h-[300px] md:h-[450px] relative">
                         <iframe
                             src="https://www.tempo.co/tag/pembangunan-gedung"
                             class="w-full h-full"
@@ -395,12 +369,14 @@
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
                     </div>
-                    <div class="p-6">
-                        <h3 class="font-bold text-xl mb-2">Tempo News</h3>
-                        <p class="text-gray-600 mb-4">Government Construction Projects</p>
+                    <div class="p-4 md:p-6">
+                        <h3 class="font-bold text-lg md:text-xl mb-2">Tempo News</h3>
+                        <p class="text-gray-600 text-sm md:text-base mb-4">
+                            Stay updated on government construction projects and infrastructure developments. Explore detailed reports and insightful news coverage on building projects and urban planning from one of Indonesia's leading news sources.
+                        </p>
                         <a href="https://www.tempo.co/tag/pembangunan-gedung"
                             target="_blank"
-                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            class="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                             <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                         </a>
                     </div>
@@ -450,26 +426,31 @@
         <!-- Vertical Stack (Spans 5 columns) -->
         <div class="md:col-span-5 space-y-8">
             <!-- Medium Card 1 -->
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-                <div class="h-[300px] relative">
+            <div class="w-full bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                <div class="aspect-video h-[300px] relative">
                     <iframe
                         src="https://wartaekonomi.co.id/read557897/rekonstruksi-anggaran-kementerian-pu-2025-jadi-rp5048-triliun"
                         class="w-full h-full"
                         loading="lazy"
-                        allowfullscreen
+
                         scrolling="yes"
                         frameborder="0"
                         style="width: 100%; height: 100%; border: none;">
                     </iframe>
                 </div>
-                <div class="p-6">
+                <div class="p-4 md:p-6">
                     <h3 class="font-bold text-xl mb-2">Warta Ekonomi</h3>
-                    <p class="text-gray-600 mb-4">Economic impact of construction projects</p>
-                    <a href="https://wartaekonomi.co.id/read557897/rekonstruksi-anggaran-kementerian-pu-2025-jadi-rp5048-triliun" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
-                        Visit Website
+                    <p class="text-gray-600 text-sm md:text-base mb-4">
+                        Discover the economic impact and budget allocations for construction projects by the Ministry of Public Works in 2025. Explore strategic insights and financial implications affecting the industry.
+                    </p>
+                    <a href="https://wartaekonomi.co.id/read557897/rekonstruksi-anggaran-kementerian-pu-2025-jadi-rp5048-triliun"
+                        target="_blank"
+                        class="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                        <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                     </a>
                 </div>
             </div>
+
 
 
             <!-- Medium Card 2 -->
@@ -509,7 +490,7 @@
                 </iframe>
             </div>
             <div class="p-8">
-                <h3 class="font-bold text-2xl mb-3">Contructin Pros</h3>
+                <h3 class="font-bold text-2xl mb-3">Construction Pros</h3>
                 <p class="text-gray-600 mb-4">Discover the latest trends and developments in the construction industry with Construction Pros. </p>
                 <a href="https://www.forconstructionpros.com/" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
                     Visit Website
