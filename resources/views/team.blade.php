@@ -245,7 +245,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of John Doe, Founder and CEO"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/Z4uwvphkmZKGGoxWqyz4DmpIBef1kzfxJkmLfpo2n9c.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -285,7 +285,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Jane Smith, Co-Founder and COO"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/1w8b2Pk0ZBhruWcTFdXRP_QVVeiXNt-2z_7g0_XukOY.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -325,7 +325,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Michael Brown, Co-Founder and CFO"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/jdzTtnwfCpb3tZFPmfMYb4ZmqV3ZysS9YqQ0uvCFnA0.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -371,7 +371,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of John Wilson, Project Manager"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -411,7 +411,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Sarah Anderson, Lead Architect"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/wGh2zXMsGIMx98jqq9xCUCpIdWcUg2OEeKFE6wrSxCo.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -451,7 +451,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of David Chen, Construction Supervisor"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/R-tpEYSnwRmxr50CpHeIbGSRqn5yZUrt2UZxLsEFXf4.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -499,7 +499,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/-BMTdgGSJ9Hi9fL1JONZS1bGjUBtAiJrDWAef3eHrPY.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -537,7 +537,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/z6m57vf5iQew7k92qHzsXpDHjJi1DR3T8liAANP3UbY.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -575,7 +575,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/fv8YkifnZpn2OxU6PJ3B8Q5Jsyl9uC9MvlJelhjZifs.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -614,7 +614,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/FlEnDH2myV0hHDJFpjHIw7FeaHx3O0zloBFz1CWy6BA.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">
@@ -652,7 +652,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="https://storage.googleapis.com/a1aa/image/a33wk-58zXK8TPPi7tkOj5ZnKYvMAmqBgqyC8Zr9UlI.jpg" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <div class="absolute bottom-4 right-4">

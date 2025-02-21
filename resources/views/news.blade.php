@@ -182,7 +182,6 @@
             </div>
     </nav>
 
-
     <!-- Main Content -->
     <main class="py-24">
         <div class="container mx-auto px-4">
@@ -209,17 +208,22 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                             <a href="https://www.constructiondive.com"
                                 target="_blank"
                                 class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                                 <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="p-6">
                         <h3 class="font-bold text-2xl mb-2">Construction Dive</h3>
                         <p class="text-gray-600 mb-4">Global Construction News and Analysis</p>
+                        <a href="https://www.constructiondive.com"
+                            target="_blank"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                        </a>
                     </div>
                 </div>
 
@@ -235,17 +239,22 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                             <a href="https://www.medcom.id/tag/2500/konstruksi"
                                 target="_blank"
                                 class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                                 <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="p-6">
                         <h3 class="font-bold text-xl mb-2">Medcom Id</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                        <a href="https://www.medcom.id/tag/2500/konstruksi"
+                            target="_blank"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                        </a>
                     </div>
                 </div>
 
@@ -261,17 +270,22 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                             <a href="https://www.bisnis.com/topic/223/konstruksi"
                                 target="_blank"
                                 class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                                 <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="p-6">
                         <h3 class="font-bold text-xl mb-2">Bisnis.com</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                        <a href="https://www.bisnis.com/topic/223/konstruksi"
+                            target="_blank"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                        </a>
                     </div>
                 </div>
 
@@ -287,17 +301,22 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                             <a href="https://www.merdeka.com/tag/konstruksi-bangunan"
                                 target="_blank"
                                 class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                                 <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="p-6">
                         <h3 class="font-bold text-xl mb-2">Merdeka.com</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                        <a href="https://www.merdeka.com/tag/konstruksi-bangunan"
+                            target="_blank"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                        </a>
                     </div>
                 </div>
 
@@ -313,17 +332,22 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                             <a href="https://www.kompas.com/tag/konstruksi-bangunan"
                                 target="_blank"
                                 class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                                 <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="p-6">
                         <h3 class="font-bold text-xl mb-2">Kompas.com</h3>
                         <p class="text-gray-600 mb-4">Indonesian Construction Updates</p>
+                        <a href="https://www.kompas.com/tag/konstruksi-bangunan"
+                            target="_blank"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                        </a>
                     </div>
                 </div>
 
@@ -339,17 +363,22 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <!-- <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                             <a href="https://www.detik.com/tag/konstruksi"
                                 target="_blank"
                                 class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                                 <i class="fas fa-external-link-alt mr-2"></i>Visit Website
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="p-6">
                         <h3 class="font-bold text-xl mb-2">Detik.Com</h3>
                         <p class="text-gray-600 mb-4">Government Construction Projects</p>
+                        <a href="https://www.detik.com/tag/konstruksi"
+                            target="_blank"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                        </a>
                     </div>
                 </div>
 
@@ -365,22 +394,131 @@
                             frameborder="0"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
-                        <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <a href="https://www.tempo.co/tag/pembangunan-gedung"
-                                target="_blank"
-                                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
-                                <i class="fas fa-external-link-alt mr-2"></i>Visit Website
-                            </a>
-                        </div>
                     </div>
                     <div class="p-6">
                         <h3 class="font-bold text-xl mb-2">Tempo News</h3>
                         <p class="text-gray-600 mb-4">Government Construction Projects</p>
+                        <a href="https://www.tempo.co/tag/pembangunan-gedung"
+                            target="_blank"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                            <i class="fas fa-external-link-alt mr-2"></i>Visit Website
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <!-- Additional News Section -->
+    <!-- <div class="container mx-auto px-4 my-12"> -->
+    <!-- Section Title -->
+    <!-- <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold mb-4">More Industry Updates</h2>
+            <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+        </div> -->
+
+    <!-- Asymmetrical Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+        <!-- Large Card (Spans 7 columns) -->
+        <div class="md:col-span-7 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+            <div class="h-[500px] relative">
+                <iframe
+                    src="https://www.pikiran-rakyat.com/tag/konstruksi"
+                    class="w-full h-full"
+                    loading="lazy"
+                    allowfullscreen
+                    scrolling="yes"
+                    frameborder="0"
+                    style="width: 100%; height: 100%; border: none;">
+                </iframe>
+            </div>
+            <div class="p-8">
+                <h3 class="font-bold text-2xl mb-3">Pikiran Rakyat</h3>
+                <p class="text-gray-600 mb-4">
+                    Stay updated with the latest construction industry developments, project updates, and insightful analyses.
+                    Pikiran Rakyat provides comprehensive coverage on infrastructure growth, urban planning, and architectural innovations.
+                    Explore expert opinions, industry trends, and in-depth reports on ongoing and upcoming construction projects in Indonesia.
+                </p>
+                <a href="https://www.pikiran-rakyat.com/tag/konstruksi" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
+                    Visit Website
+                </a>
+
+            </div>
+        </div>
+
+
+        <!-- Vertical Stack (Spans 5 columns) -->
+        <div class="md:col-span-5 space-y-8">
+            <!-- Medium Card 1 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                <div class="h-[300px] relative">
+                    <iframe
+                        src="https://wartaekonomi.co.id/read557897/rekonstruksi-anggaran-kementerian-pu-2025-jadi-rp5048-triliun"
+                        class="w-full h-full"
+                        loading="lazy"
+                        allowfullscreen
+                        scrolling="yes"
+                        frameborder="0"
+                        style="width: 100%; height: 100%; border: none;">
+                    </iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Warta Ekonomi</h3>
+                    <p class="text-gray-600 mb-4">Economic impact of construction projects</p>
+                    <a href="https://wartaekonomi.co.id/read557897/rekonstruksi-anggaran-kementerian-pu-2025-jadi-rp5048-triliun" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
+                        Visit Website
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Medium Card 2 -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+                <div class="h-[300px] relative">
+                    <iframe
+                        src="https://edition.cnn.com/2025/01/01/style/new-buildings-architecture-2025/index.html"
+                        class="w-full h-full"
+                        loading="lazy"
+                        allowfullscreen
+                        scrolling="yes"
+                        frameborder="0"
+                        style="width: 100%; height: 100%; border: none;">
+                    </iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Construction News.co.uk</h3>
+                    <p class="text-gray-600 mb-4">Construction industry insights</p>
+                    <a href="https://edition.cnn.com/2025/01/01/style/new-buildings-architecture-2025/index.html" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
+                        Visit Website
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Full Width Card (Spans 12 columns) -->
+        <div class="md:col-span-12 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+            <div class="h-[400px] relative">
+                <iframe
+                    src="https://www.forconstructionpros.com/"
+                    class="w-full h-full"
+                    loading="lazy"
+                    allowfullscreen
+                    scrolling="yes"
+                    frameborder="0"
+                    style="width: 100%; height: 100%; border: none;">
+                </iframe>
+            </div>
+            <div class="p-8">
+                <h3 class="font-bold text-2xl mb-3">Contructin Pros</h3>
+                <p class="text-gray-600 mb-4">Discover the latest trends and developments in the construction industry with Construction Pros. </p>
+                <a href="https://www.forconstructionpros.com/" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
+                    Visit Website
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300">
