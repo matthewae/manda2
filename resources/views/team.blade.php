@@ -11,6 +11,7 @@
     </script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs" defer></script>
     <style>
         .fade-in {
             animation: fadeIn 2s ease-in-out;
@@ -161,6 +162,11 @@
         .card:hover img {
             filter: brightness(0.9);
         }
+
+        .card {
+            cursor: pointer;
+            /* Make cards clickable */
+        }
     </style>
 </head>
 
@@ -239,23 +245,15 @@
             <div class="mb-16">
                 <h3 class="text-2xl font-bold mb-8">Founders</h3>
                 <div class="flex flex-wrap justify-center -mx-4">
-                    <!-- CEO Card -->
+                    <!-- Card 1 -->
                     <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                        <div onclick="openModal('modal1')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
-                                    alt="Portrait of John Doe, Founder and CEO"
+                                    alt="Portrait of Lukman Subangi"
                                     class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="{{ url('images/F11.jpg') }}" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <!-- <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div> -->
-                                </div>
                             </div>
-
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
                                     Dr (c)., Ir., Lukman Subangi, S.Pd., M.T., IPM., Asean Eng
@@ -263,39 +261,19 @@
                                 <p class="text-blue-500 font-semibold mb-3">
                                     Commissioner
                                 </p>
-                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
-                                    John has over 20 years of experience in the construction industry and is the visionary behind our company.
-                                </p> -->
                             </div>
-
-                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:john@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div> -->
                         </div>
                     </div>
 
-                    <!-- COO Card -->
+                    <!-- Card 2 -->
                     <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                        <div onclick="openModal('modal2')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
-                                    alt="Portrait of Jane Smith, Co-Founder and COO"
+                                    alt="Portrait of M. Sarwono Purwa Jayadi"
                                     class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="{{ url('images/F13.jpg') }}" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <!-- <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div> -->
-                                </div>
                             </div>
-
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
                                     M. Sarwono Purwa Jayadi, S.T., M.T.
@@ -303,427 +281,329 @@
                                 <p class="text-blue-500 font-semibold mb-3">
                                     Director
                                 </p>
-                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
-                                    Jane oversees the daily operations and ensures that our projects run smoothly and efficiently.
-                                </p> -->
                             </div>
-
-                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:jane@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div> -->
                         </div>
                     </div>
 
-                    <!-- CFO Card -->
+                    <!-- Card 3 -->
                     <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
+                        <div onclick="openModal('modal3')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
-                                    alt="Portrait of Michael Brown, Co-Founder and CFO"
+                                    alt="Portrait of Felix H."
                                     class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="{{ url('images/F12.jpg') }}" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <!-- <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div> -->
-                                </div>
                             </div>
-
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Dr., Ir., Felix H., S.T., M.T., IPU., Asean Eng. </h3>
+                                    Dr., Ir., Felix H., S.T., M.T., IPU., Asean Eng.
+                                </h3>
                                 <p class="text-blue-500 font-semibold mb-3">
                                     Deputy Director
                                 </p>
-                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
-                                    Michael manages the financial aspects of the company, ensuring fiscal responsibility and growth.
-                                </p> -->
                             </div>
-
-                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:michael@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Experts Section -->
-            <!-- <div class="mb-16">
-                <h3 class="text-2xl font-bold mb-8">Experts</h3>
-                <div class="flex flex-wrap justify-center -mx-4"> -->
-            <!-- Project Manager Card -->
-            <!-- <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
-                            <div class="relative overflow-hidden rounded-lg mb-4">
-                                <img
-                                    alt="Portrait of John Wilson, Project Manager"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/58_rJirqJUCrFjbK-JRYxNxdVa23JJFoGCIq08HRlb4.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="text-center">
-                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    John Wilson
-                                </h3>
-                                <p class="text-blue-500 font-semibold mb-3">
-                                    Project Manager
-                                </p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                    15+ years of experience managing large-scale construction projects with exceptional results.
-                                </p>
-                            </div>
-
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:john.wilson@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-
-            <!-- Lead Architect Card -->
-            <!-- <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
-                            <div class="relative overflow-hidden rounded-lg mb-4">
-                                <img
-                                    alt="Portrait of Sarah Anderson, Lead Architect"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/wGh2zXMsGIMx98jqq9xCUCpIdWcUg2OEeKFE6wrSxCo.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="text-center">
-                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Sarah Anderson
-                                </h3>
-                                <p class="text-blue-500 font-semibold mb-3">
-                                    Lead Architect
-                                </p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                    Passionate about sustainable design and innovative architectural solutions.
-                                </p>
-                            </div>
-
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:sarah.anderson@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
-
-            <!-- Construction Supervisor Card -->
-            <!-- <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
-                            <div class="relative overflow-hidden rounded-lg mb-4">
-                                <img
-                                    alt="Portrait of David Chen, Construction Supervisor"
-                                    class="w-[450px] h-[270px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="https://storage.googleapis.com/a1aa/image/R-tpEYSnwRmxr50CpHeIbGSRqn5yZUrt2UZxLsEFXf4.jpg" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="text-center">
-                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    David Chen
-                                </h3>
-                                <p class="text-blue-500 font-semibold mb-3">
-                                    Construction Supervisor
-                                </p>
-                                <p class="text-gray-600 text-sm leading-relaxed">
-                                    Ensures project quality and safety standards are met with precision and expertise.
-                                </p>
-                            </div>
-
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:david.chen@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div>
+            <!-- Modal 1 -->
+            <div id="modal1" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal1')">
+                <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
+                    <button onclick="closeModal(event, 'modal1')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">
+                        &times;
+                    </button>
+                    <div class="relative">
+                        <img src="{{ url('images/F11.jpg') }}" alt="Lukman Subangi" class="w-full h-[600px] object-contain">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
+                        <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
+                            <h3 class="text-2xl font-bold">Dr (c)., Ir., Lukman Subangi, S.Pd., M.T., IPM., Asean Eng</h3>
+                            <p class="text-blue-200 font-semibold">Commissioner</p>
+                            <p class="text-gray-300 text-sm mt-4">
+                                Lukman Subangi memiliki pengalaman lebih dari 20 tahun di bidang teknik dan manajemen.
+                                Beliau dikenal sebagai pemimpin visioner yang berfokus pada inovasi teknologi.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
+
+            <!-- Modal 2 -->
+            <div id="modal2" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal2')">
+                <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
+                    <button onclick="closeModal(event, 'modal2')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">
+                        &times;
+                    </button>
+                    <div class="relative">
+                        <img src="{{ url('images/F13.jpg') }}" alt="M. Sarwono Purwa Jayadi" class="w-full h-[600px] object-contain">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
+                        <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
+                            <h3 class="text-2xl font-bold">M. Sarwono Purwa Jayadi, S.T., M.T.</h3>
+                            <p class="text-blue-200 font-semibold">Director</p>
+                            <p class="text-gray-300 text-sm mt-4">
+                                M. Sarwono Purwa Jayadi memiliki keahlian dalam pengembangan proyek infrastruktur.
+                                Dedikasinya pada efisiensi operasional telah membawa perusahaan ke level berikutnya.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 3 -->
+            <div id="modal3" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal3')">
+                <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
+                    <button onclick="closeModal(event, 'modal3')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">
+                        &times;
+                    </button>
+                    <div class="relative">
+                        <img src="{{ url('images/F12.jpg') }}" alt="Felix H." class="w-full h-[600px] object-contain">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
+                        <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
+                            <h3 class="text-2xl font-bold">Dr., Ir., Felix H., S.T., M.T., IPU., Asean Eng.</h3>
+                            <p class="text-blue-200 font-semibold">Deputy Director</p>
+                            <p class="text-gray-300 text-sm mt-4">
+                                Felix H. memiliki latar belakang akademis yang kuat dan kepakaran di bidang teknik sipil.
+                                Beliau aktif dalam riset dan pengembangan inovasi struktural.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Expert Section -->
             <div class="mb-16">
-                <h3 class="text-2xl font-bold mb-8">Experts</h3>
+                <h3 class="text-2xl font-bold mb-8 text-center">Experts</h3>
 
-                <!-- First Row - 3 Cards -->
-                <div class="flex flex-wrap justify-center -mx-4 mb-8">
-                    <!-- Staff 1 - Admin Assistant -->
-                    <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
-                            <div class="relative overflow-hidden rounded-lg mb-4">
-                                <img
-                                    alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="{{ url('images/E15.jpg') }}" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <!-- <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div> -->
+                <!-- Founders Section -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-bold mb-8">Founders</h3>
+                    <div class="flex flex-wrap justify-center -mx-4">
+                        <!-- Card 4 -->
+                        <div class="w-full md:w-1/3 p-4 card">
+                            <div onclick="openModal('modal4')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
+                                <div class="relative overflow-hidden rounded-lg mb-4">
+                                    <img alt="Portrait of Founder 4" class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E15.jpg') }}" />
                                 </div>
-                            </div>
-
-                            <div class="text-center">
-                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Ryan Gilang Wicaksono, S.T.
-                                </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Chief Engineer</p>
-                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
-                                    Manages office operations and provides excellent administrative support.
-                                </p> -->
-                            </div>
-
-                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div> -->
-                        </div>
-                    </div>
-
-                    <!-- Staff 2 - Technical Assistant -->
-                    <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
-                            <div class="relative overflow-hidden rounded-lg mb-4">
-                                <img
-                                    alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="{{ url('images/E12.jpg') }}" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <!-- <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div> -->
+                                <div class="text-center">
+                                    <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                        Ryan Gilang Wicaksono, S.T.
+                                    </h3>
+                                    <p class="text-blue-500 font-semibold mb-3">
+                                        Chief Engineer
+                                    </p>
                                 </div>
-                            </div>
-
-                            <div class="text-center">
-                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Krisma Jumeindri, A.Md.T
-                                </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Head Finance/GA</p>
-                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
-                                    Manages office operations and provides excellent administrative support.
-                                </p> -->
-                            </div>
-
-                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div> -->
-                        </div>
-                    </div>
-
-                    <!-- Staff 3 - Site Inspector -->
-                    <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
-                            <div class="relative overflow-hidden rounded-lg mb-4">
-                                <img
-                                    alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="{{ url('images/E14.jpg') }}" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <!-- <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div> -->
-                                </div>
-                            </div>
-
-                            <div class="text-center">
-                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Rahadya Darajat, S.S.
-                                </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Digital Engineer</p>
-                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
-                                    Manages office operations and provides excellent administrative support.
-                                </p> -->
-                            </div>
-
-                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div> -->
-                        </div>
-                    </div>
-
-                    <!-- Second Row - 2 Cards -->
-                    <!-- Staff 4 - Safety Officer -->
-                    <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
-                            <div class="relative overflow-hidden rounded-lg mb-4">
-                                <img
-                                    alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="{{ url('images/E13.jpg') }}" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <!-- <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div> -->
-                                </div>
-                            </div>
-
-                            <div class="text-center">
-                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    M. Zidan Pahlevi, S.Tr.T.
-                                </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Support Engineer
-                                </p>
-                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
-                                    Manages office operations and provides excellent administrative support.
-                                </p> -->
-                            </div>
-
-                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div> -->
-                        </div>
-                    </div>
-
-                    <!-- Staff 5 - Quality Control -->
-                    <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
-                            <div class="relative overflow-hidden rounded-lg mb-4">
-                                <img
-                                    alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="{{ url('images/E11.jpg') }}" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <!-- <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div> -->
-                                </div>
-                            </div>
-
-                            <div class="text-center">
-                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Abdul Aziz Mundzir, S.Tr.T.
-                                </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Support Engineer</p>
-                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
-                                    Manages office operations and provides excellent administrative support.
-                                </p> -->
-                            </div>
-
-                            <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <!-- <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a> -->
                             </div>
                         </div>
-                    </div>
 
-                    <!-- card 6 -->
-                    <div class="w-full md:w-1/3 p-4 card">
-                        <div class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300">
-                            <div class="relative overflow-hidden rounded-lg mb-4">
-                                <img
-                                    alt="Portrait of Emily Davis, Administrative Assistant"
-                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
-                                    src="{{ url('images/E16.jpg') }}" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <!-- <div class="absolute bottom-4 right-4">
-                                        <a href="#" class="text-white hover:text-blue-400 transition-colors duration-300">
-                                            <i class="fab fa-linkedin text-2xl"></i>
-                                        </a>
-                                    </div> -->
+                        <!-- Card 5 -->
+                        <div class="w-full md:w-1/3 p-4 card">
+                            <div onclick="openModal('modal5')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
+                                <div class="relative overflow-hidden rounded-lg mb-4">
+                                    <img alt="Portrait of Founder 5" class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E12.jpg') }}" />
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                        Krisma Jumeindri, A.Md.T
+                                    </h3>
+                                    <p class="text-blue-500 font-semibold mb-3">
+                                        Head Finance/GA
+                                    </p>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="text-center">
-                                <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Yana Suryana
-                                </h3>
-                                <p class="text-blue-500 font-semibold mb-3">Building Management</p>
-                                <!-- <p class="text-gray-600 text-sm leading-relaxed">
-                                    Manages office operations and provides excellent administrative support.
-                                </p> -->
+                        <!-- Card 6 -->
+                        <div class="w-full md:w-1/3 p-4 card">
+                            <div onclick="openModal('modal6')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
+                                <div class="relative overflow-hidden rounded-lg mb-4">
+                                    <img alt="Portrait of Founder 6" class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E14.jpg') }}" />
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                        Rahadya Darajat, S.S.
+                                    </h3>
+                                    <p class="text-blue-500 font-semibold mb-3">
+                                        Digital Engineer
+                                    </p>
+                                </div>
                             </div>
+                        </div>
 
-                            <!-- <div class="mt-4 pt-4 border-t border-gray-100 flex justify-center space-x-4">
-                                <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Connect on LinkedIn">
-                                    <i class="fab fa-linkedin text-xl"></i>
-                                </a>
-                                <a href="mailto:emily.davis@example.com" class="text-gray-400 hover:text-blue-500 transition-colors duration-300" title="Send email">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </a>
-                            </div> -->
+                        <!-- Card 7 -->
+                        <div class="w-full md:w-1/3 p-4 card">
+                            <div onclick="openModal('modal7')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
+                                <div class="relative overflow-hidden rounded-lg mb-4">
+                                    <img alt="Portrait of Founder 7" class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E13.jpg') }}" />
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                        M. Zidan Pahlevi, S.Tr.T.
+                                    </h3>
+                                    <p class="text-blue-500 font-semibold mb-3">
+                                        Support Engineer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 8 -->
+                        <div class="w-full md:w-1/3 p-4 card">
+                            <div onclick="openModal('modal8')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
+                                <div class="relative overflow-hidden rounded-lg mb-4">
+                                    <img alt="Portrait of Founder 8" class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E11.jpg') }}" />
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                        Abdul Aziz Mundzir, S.Tr.T.
+                                    </h3>
+                                    <p class="text-blue-500 font-semibold mb-3">
+                                        Support Engineer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 9 -->
+                        <div class="w-full md:w-1/3 p-4 card">
+                            <div onclick="openModal('modal9')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
+                                <div class="relative overflow-hidden rounded-lg mb-4">
+                                    <img alt="Portrait of Founder 9" class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E16.jpg') }}" />
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
+                                        Yana Suryana
+                                    </h3>
+                                    <p class="text-blue-500 font-semibold mb-3">
+                                        Building Management
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+
+<!-- modal 4 -->
+                <div id="modal4" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal4')">
+                    <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
+                        <button onclick="closeModal(event, 'modal4')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">&times;</button>
+                        <div class="relative">
+                            <img src="{{ url('images/E15.jpg') }}" alt="Ryan Gilang Wicaksono, S.T." class="w-full h-[600px] object-contain">
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
+                            <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
+                                <h3 class="text-2xl font-bold">Ryan Gilang Wicaksono, S.T.</h3>
+                                <p class="text-blue-200 font-semibold">Chief Engineer</p>
+                                <p class="text-gray-300 text-sm mt-4">Deskripsi tentang Ryan Gilang Wicaksono.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal 5 -->
+                <div id="modal5" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal5')">
+                    <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
+                        <button onclick="closeModal(event, 'modal5')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">
+                            &times;
+                        </button>
+                        <div class="relative">
+                            <img src="{{ url('images/E12.jpg') }}" alt="Krisma Jumeindri, A.Md.T" class="w-full h-[600px] object-contain">
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
+                            <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
+                                <h3 class="text-2xl font-bold">Krisma Jumeindri, A.Md.T</h3>
+                                <p class="text-blue-200 font-semibold">Head Finance/GA</p>
+                                <p class="text-gray-300 text-sm mt-4">
+                                    M. Sarwono Purwa Jayadi memiliki keahlian dalam pengembangan proyek infrastruktur.
+                                    Dedikasinya pada efisiensi operasional telah membawa perusahaan ke level berikutnya.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 6 -->
+                <div id="modal6" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal6')">
+                    <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
+                        <button onclick="closeModal(event, 'modal6')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">
+                            &times;
+                        </button>
+                        <div class="relative">
+                            <img src="{{ url('images/E14.jpg') }}" alt="Rahadya Darajat, S.S." class="w-full h-[600px] object-contain">
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
+                            <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
+                                <h3 class="text-2xl font-bold">Rahadya Darajat, S.S.</h3>
+                                <p class="text-blue-200 font-semibold">Digital Engineer</p>
+                                <p class="text-gray-300 text-sm mt-4">
+                                    Felix H. memiliki latar belakang akademis yang kuat dan kepakaran di bidang teknik sipil.
+                                    Beliau aktif dalam riset dan pengembangan inovasi struktural.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- modal 7 -->
+                <div id="modal7" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal7')">
+                    <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
+                        <button onclick="closeModal(event, 'modal7')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">&times;</button>
+                        <div class="relative">
+                            <img src="{{ url('images/E13.jpg') }}" alt="Ryan Gilang Wicaksono, S.T." class="w-full h-[600px] object-contain">
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
+                            <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
+                                <h3 class="text-2xl font-bold">M. Zidan Pahlevi, S.Tr.T.</h3>
+                                <p class="text-blue-200 font-semibold">Support Engineer</p>
+                                <p class="text-gray-300 text-sm mt-4">Deskripsi tentang Ryan Gilang Wicaksono.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal 8 -->
+                <div id="modal8" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal8')">
+                    <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
+                        <button onclick="closeModal(event, 'modal8')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">
+                            &times;
+                        </button>
+                        <div class="relative">
+                            <img src="{{ url('images/E11.jpg') }}" alt="Krisma Jumeindri, A.Md.T" class="w-full h-[600px] object-contain">
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
+                            <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
+                                <h3 class="text-2xl font-bold">Abdul Aziz Mundzir, S.Tr.T.</h3>
+                                <p class="text-blue-200 font-semibold">Support Engineer</p>
+                                <p class="text-gray-300 text-sm mt-4">
+                                    M. Sarwono Purwa Jayadi memiliki keahlian dalam pengembangan proyek infrastruktur.
+                                    Dedikasinya pada efisiensi operasional telah membawa perusahaan ke level berikutnya.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal  -->
+                <div id="modal9" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal9')">
+                    <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
+                        <button onclick="closeModal(event, 'modal9')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">
+                            &times;
+                        </button>
+                        <div class="relative">
+                            <img src="{{ url('images/E14.jpg') }}" alt="Rahadya Darajat, S.S." class="w-full h-[600px] object-contain">
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
+                            <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
+                                <h3 class="text-2xl font-bold">Yana Suryana</h3>
+                                <p class="text-blue-200 font-semibold">Building Management</p>
+                                <p class="text-gray-300 text-sm mt-4">
+                                    Felix H. memiliki latar belakang akademis yang kuat dan kepakaran di bidang teknik sipil.
+                                    Beliau aktif dalam riset dan pengembangan inovasi struktural.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
     </section>
 
     <!-- Footer -->
@@ -864,6 +744,84 @@
                 link.addEventListener('click', toggleMenu);
             });
         });
+
+        function showOverlay(title, subtitle, imageUrl, description) {
+            document.getElementById('overlay-title').innerText = title;
+            document.getElementById('overlay-subtitle').innerText = subtitle;
+            document.getElementById('overlay-image').src = imageUrl;
+            document.getElementById('overlay-description').innerText = description;
+            document.getElementById('overlay-card').classList.remove('hidden');
+        }
+
+        function hideOverlay() {
+            document.getElementById('overlay-card').classList.add('hidden');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all cards
+            const cards = document.querySelectorAll('.card');
+            const modal = document.getElementById('modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalDescription = document.getElementById('modal-description');
+            const closeModal = document.getElementById('closeModal');
+
+            // Sample data for demonstration
+            const modalData = {
+                1: {
+                    title: "Katlya Anggraini Siswosoebrotho",
+                    description: "Warga negara Indonesia. Berlatarkan pendidikan dokter gigi dari Fakultas Kedokteran Gigi (FKG) - Universitas Gadjah Mada dan spesialis orthodontist dari Fakultas Kedokteran Gigi (FKG) - Universitas Gadjah Mada. Saat ini, yang bersangkutan menjabat sebagai komisaris di Varian."
+                }
+            };
+
+            // Add click event to each card
+            cards.forEach(card => {
+                card.addEventListener('click', () => {
+                    const id = card.getAttribute('data-id');
+                    const data = modalData[id];
+                    if (data) {
+                        modalTitle.textContent = data.title;
+                        modalDescription.textContent = data.description;
+                        modal.classList.remove('hidden');
+                        modal.classList.add('flex');
+                    }
+                });
+            });
+
+            // Close modal
+            closeModal.addEventListener('click', () => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            });
+
+            // Close modal when clicking outside the content
+            window.addEventListener('click', (event) => {
+                if (event.target === modal) {
+                    modal.classList.add('hidden');
+                    modal.classList.remove('flex');
+                }
+            });
+        });
+
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.remove('hidden', 'opacity-0', 'scale-95');
+            modal.classList.add('opacity-100', 'scale-100');
+        }
+
+        function closeModal(event, modalId) {
+            const modal = document.getElementById(modalId);
+            if (event.target === modal || event.target.classList.contains('absolute')) {
+                modal.classList.add('opacity-0', 'scale-95');
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                }, 300); // Durasi harus sama dengan duration-300
+            }
+        }
+
+        function toggleModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.toggle('hidden');
+        }
     </script>
 </body>
 
