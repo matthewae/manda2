@@ -457,7 +457,7 @@
             <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
                 <div class="h-[300px] relative">
                     <iframe
-                        src="https://edition.cnn.com/2025/01/01/style/new-buildings-architecture-2025/index.html"
+                        src="https://kanalsatu.com/id/post/64974/pln-percepat-modernisasi-pertanian-dengan-program-electrifying-agriculture"
                         class="w-full h-full"
                         loading="lazy"
                         allowfullscreen
@@ -469,7 +469,7 @@
                 <div class="p-6">
                     <h3 class="font-bold text-xl mb-2">Construction News.co.uk</h3>
                     <p class="text-gray-600 mb-4">Construction industry insights</p>
-                    <a href="https://edition.cnn.com/2025/01/01/style/new-buildings-architecture-2025/index.html" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
+                    <a href="https://kanalsatu.com/id/post/64974/pln-percepat-modernisasi-pertanian-dengan-program-electrifying-agriculture" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
                         Visit Website
                     </a>
                 </div>

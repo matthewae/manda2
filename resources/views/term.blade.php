@@ -23,7 +23,7 @@
                         <p class="text-sm text-gray-400">Company Legal Documents</p>
                     </div>
                 </a>
-                <a href="/" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                <a href="/" class="text-gray-400 hover:text-yellow-400 transition duration-300">
                     <i class="fas fa-home text-xl"></i>
                     <span class="hidden md:inline ml-2">Back to Home</span>
                 </a>
