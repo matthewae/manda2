@@ -586,7 +586,7 @@
                             &times;
                         </button>
                         <div class="relative">
-                            <img src="{{ url('images/E14.jpg') }}" alt="Rahadya Darajat, S.S." class="w-full h-[600px] object-contain">
+                            <img src="{{ url('images/E16.jpg') }}" alt="Rahadya Darajat, S.S." class="w-full h-[600px] object-contain">
                             <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 rounded-[30px]"></div>
                             <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
                                 <h3 class="text-2xl font-bold">Yana Suryana</h3>
