@@ -246,22 +246,29 @@
 
             <!-- Desktop Menu -->
             <ul class="hidden md:flex space-x-8 items-center">
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="/">Home</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="service">Services</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="project">Projects</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="team">Our Team</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="client">Clients</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="contact">Contact Us</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="news">News</a></li>
-                <!-- <li>
-                    <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
-                        target="_blank"
-                        class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition duration-300 flex items-center space-x-2">
-                        <span>Company Profile</span>
-                        <i class="fas fa-external-link-alt text-sm"></i>
-                    </a>
-                </li> -->
+                <li>
+                    <a class="nav-link {{ Request::is('/') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="/">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('service') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="service">Services</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('project') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="project">Projects</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('team') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="team">Our Team</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('client') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="client">Clients</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('contact') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="contact">Contact Us</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('news') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="news">News</a>
+                </li>
             </ul>
+
             <!-- Mobile Menu Button -->
             <div class="md:hidden">
                 <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2 rounded-lg">
@@ -419,24 +426,37 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
 
-                    <!-- Map -->
-                    <div class="bg-white rounded-xl shadow-lg p-8">
-                        <h3 class="text-2xl font-bold mb-6">Our Location</h3>
-                        <div class="map-container shadow-lg">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.58028266450397!2d107.53916944721766!3d-6.866556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTEnNTkuNiJTIDEwN8KwMzInMjEuMiJF!5e0!3m2!1sen!2sid!4v1707732844297!5m2!1sen!2sid"
-                                allowfullscreen=""
-                                loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
+                            <!-- Whatsapp -->
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0">
+                                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
+                                        <i class="fab fa-whatsapp text-xl text-green-500"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold mb-1">Whatsapp</h4>
+                                    <a href="https://wa.me/6285220801593" target="_blank"
+                                        class="text-blue-500 hover:text-blue-600 transition duration-300">Chat With Us</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Map -->
+                        <div class="bg-white rounded-xl shadow-lg p-8">
+                            <h3 class="text-2xl font-bold mb-6">Our Location</h3>
+                            <div class="map-container shadow-lg">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.58028266450397!2d107.53916944721766!3d-6.866556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTEnNTkuNiJTIDEwN8KwMzInMjEuMiJF!5e0!3m2!1sen!2sid!4v1707732844297!5m2!1sen!2sid"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
 

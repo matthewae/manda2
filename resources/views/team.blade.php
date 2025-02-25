@@ -251,7 +251,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Lukman Subangi"
-                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[430px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="{{ url('images/F11.jpg') }}" />
                             </div>
                             <div class="text-center">
@@ -271,7 +271,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of M. Sarwono Purwa Jayadi"
-                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[440px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="{{ url('images/F13.jpg') }}" />
                             </div>
                             <div class="text-center">
@@ -291,7 +291,7 @@
                             <div class="relative overflow-hidden rounded-lg mb-4">
                                 <img
                                     alt="Portrait of Felix H."
-                                    class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500"
+                                    class="w-[450px] h-[435px] object-cover transform group-hover:scale-105 transition duration-500"
                                     src="{{ url('images/F12.jpg') }}" />
                             </div>
                             <div class="text-center">
@@ -382,7 +382,7 @@
                         <div class="w-full md:w-1/3 p-4 card">
                             <div onclick="openModal('modal4')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
                                 <div class="relative overflow-hidden rounded-lg mb-4">
-                                    <img alt="Portrait of Founder 4" class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E15.jpg') }}" />
+                                    <img alt="Portrait of Founder 4" class="w-[450px] h-[440px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E15.jpg') }}" />
                                 </div>
                                 <div class="text-center">
                                     <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
@@ -399,7 +399,7 @@
                         <div class="w-full md:w-1/3 p-4 card">
                             <div onclick="openModal('modal5')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
                                 <div class="relative overflow-hidden rounded-lg mb-4">
-                                    <img alt="Portrait of Founder 5" class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E12.jpg') }}" />
+                                    <img alt="Portrait of Founder 5" class="w-[450px] h-[440px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E12.jpg') }}" />
                                 </div>
                                 <div class="text-center">
                                     <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
@@ -416,7 +416,7 @@
                         <div class="w-full md:w-1/3 p-4 card">
                             <div onclick="openModal('modal6')" class="bg-white p-6 rounded-lg shadow-lg group hover:shadow-xl transition-all duration-300 cursor-pointer">
                                 <div class="relative overflow-hidden rounded-lg mb-4">
-                                    <img alt="Portrait of Founder 6" class="w-[450px] h-[420px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E14.jpg') }}" />
+                                    <img alt="Portrait of Founder 6" class="w-[450px] h-[430px] object-cover transform group-hover:scale-105 transition duration-500" src="{{ url('images/E14.jpg') }}" />
                                 </div>
                                 <div class="text-center">
                                     <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">

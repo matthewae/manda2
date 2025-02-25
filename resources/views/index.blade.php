@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Storage;
     </script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <style>
         /* Animations */
         .fade-in {
@@ -264,6 +266,10 @@ use Illuminate\Support\Facades\Storage;
         .client-box img:hover {
             transform: scale(1.05);
         }
+
+        .swiper-pagination {
+            bottom: -5px !important;
+        }
     </style>
 </head>
 
@@ -280,22 +286,30 @@ use Illuminate\Support\Facades\Storage;
 
             <!-- Desktop Menu -->
             <ul class="hidden md:flex space-x-8 items-center">
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="/">Home</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="service">Services</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="project">Projects</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="team">Our Team</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="client">Clients</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="contact">Contact Us</a></li>
-                <li><a class="nav-link text-gray-300 hover:text-yellow-400 transition duration-300" href="news">News</a></li>
-                <!-- <li>
-                    <a href="https://drive.google.com/file/d/1_OuB8-CuDZPOWyo8zdetd3FRSMIm29gJ/view?usp=sharing"
-                        target="_blank"
-                        class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition duration-300 flex items-center space-x-2">
-                        <span>Company Profile</span>
-                        <i class="fas fa-external-link-alt text-sm"></i>
-                    </a>
-                </li> -->
+                <li>
+                    <a class="nav-link {{ Request::is('/') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="/">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('service') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="service">Services</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('project') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="project">Projects</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('team') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="team">Our Team</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('client') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="client">Clients</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('contact') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="contact">Contact Us</a>
+                </li>
+                <li>
+                    <a class="nav-link {{ Request::is('news') ? 'text-yellow-400 font-bold' : 'text-gray-300 hover:text-yellow-400' }} transition duration-300" href="news">News</a>
+                </li>
             </ul>
+
+
             <!-- mobile -->
             <div class="md:hidden">
                 <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none p-2">
@@ -739,191 +753,132 @@ use Illuminate\Support\Facades\Storage;
             </div>
         </div>
     </section>
+
+
     <!-- Our Clients Section -->
     <section class="py-12 fade-in">
         <div class="container mx-auto text-center px-4">
-            <h2 class="text-3xl font-bold mb-6">
-                Our Clients
-            </h2>
+            <h2 class="text-3xl font-bold mb-6">Our Clients</h2>
             <p class="text-gray-700 mb-6">
                 We are proud to have worked with a diverse range of clients from various industries.
             </p>
-            <div class="carousel">
-                <div class="carousel-track">
+
+            <!-- Swiper Container -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
                     <!-- Slide 1 -->
-                    <div class="carousel-slide flex flex-wrap justify-center">
-                        <!-- Client 1 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                    <div class="swiper-slide flex flex-wrap justify-center">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Bandung" class="w-full h-24 object-contain mb-4" src="{{ url('images/bandung.png') }}" />
+                                <img src="{{ url('images/bandung.png') }}" alt="Bandung" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
-                        <!-- Client 2 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Cimahi" class="w-full h-24 object-contain mb-4" src="{{ url('images/Logo-Cimahi.png') }}" />
+                                <img src="{{ url('images/Logo-Cimahi.png') }}" alt="Cimahi" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
-                        <!-- Client 3 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Bogor" class="w-full h-24 object-contain mb-4" src="{{ url('images/Kota Bogor.png') }}" />
+                                <img src="{{ url('images/Kota Bogor.png') }}" alt="Bogor" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
-                        <!-- Client 4 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Takalar" class="w-full h-24 object-contain mb-4" src="{{ url('images/Kabupaten Takalar.png') }}" />
+                                <img src="{{ url('images/Kabupaten Takalar.png') }}" alt="Takalar" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-slide flex flex-wrap justify-center">
-                        <!-- Client 5 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Jakarta" class="w-full h-24 object-contain mb-4" src="{{ url('images/jakarta.png') }}" />
-                            </div>
-                        </div>
-                        <!-- Client 6 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="ESDM" class="w-full h-24 object-contain mb-4" src="{{ url('images/esdm.png') }}" />
-                            </div>
-                        </div>
-                        <!-- Client 7 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="BAP" class="w-full h-24 object-contain mb-4" src="{{ url('images/BAP.png') }}" />
-                            </div>
-                        </div>
-                        <!-- Client 8 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="PUPR" class="w-full h-24 object-contain mb-4" src="{{ url('images/pupr 2.png') }}" />
-                            </div>
-                        </div>
-                    </div>
+
                     <!-- Slide 2 -->
-                    <div class="carousel-slide flex flex-wrap justify-center">
-                        <!-- Client 9 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                    <div class="swiper-slide flex flex-wrap justify-center">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="BI" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/BI.png') }}" width="200" />
+                                <img src="{{ url('images/jakarta.png') }}" alt="Jakarta" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
-                        <!-- Client 10 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="BNI" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/BNI.png') }}" width="200" />
+                                <img src="{{ url('images/esdm.png') }}" alt="ESDM" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
-                        <!-- Client 11 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="KAI" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/KAI.jpg') }}" width="200" />
+                                <img src="{{ url('images/BAP.png') }}" alt="BAP" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
-                        <!-- Client 12 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="POS" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/POS.png') }}" width="200" />
+                                <img src="{{ url('images/pupr 2.png') }}" alt="PUPR" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-slide flex flex-wrap justify-center">
-                        <!-- Client 13 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Bukit Asam" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/bukit.png') }}" width="200" />
-                            </div>
-                        </div>
-                        <!-- Client 14 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="RSKGM" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/rskgm.png') }}" width="200" />
-                            </div>
-                        </div>
-                        <!-- Client 15 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Kimia Farma" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/KimiaFarma.png') }}" width="200" />
-                            </div>
-                        </div>
-                        <!-- Client 16 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="DPKP" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/dpkp 3.png') }}" width="200" />
-                            </div>
-                        </div>
-                    </div>
+
                     <!-- Slide 3 -->
-                    <div class="carousel-slide flex flex-wrap justify-center">
-                        <!-- Client 17 -->
-                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                    <div class="swiper-slide flex flex-wrap justify-center">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img
-                                    alt="mclarens"
-                                    class="w-full h-32 object-contain mb-4 transform hover:scale-105 transition-transform duration-300"
-                                    src="{{ url('images/mclarens2.png') }}" />
+                                <img src="{{ url('images/BI.png') }}" alt="Jakarta" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
-                        <!-- Client 18 -->
-                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 18" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/S20oaOWT8s2eaTGzdgQmcHZGK8Pq-rJZ39N6lGDbPns.jpg" width="200" />
-                            </div>
-                        </div> -->
-                        <!-- Client 19 -->
-                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 19" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/lg4LKe0I2G2i4tnO0TNoiiOOFPeMm8cGm-Rx6RIICVg.jpg" width="200" />
-                            </div>
-                        </div> -->
-                        <!-- Client 20 -->
-                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
-                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 20" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/Trr55l8kxtQh_CxjmdKKSKfbvtjaKxIUyA7k9R6TkZE.jpg" width="200" />
+                                <img src="{{ url('images/BNI.png') }}" alt="ESDM" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
-                    </div> -->
-                        <!-- <div class="carousel-slide flex flex-wrap justify-center"> -->
-                        <!-- Client 21 -->
-                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 21" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/o1HKmHV7sOv-DjDiJ1vseTQWAs9_TUr68TujvftgpDk.jpg" width="200" />
+                                <img src="{{ url('images/KAI.jpg') }}" alt="BAP" class="w-full h-24 object-contain mb-4" />
                             </div>
-                        </div> -->
-                        <!-- Client 22 -->
-                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        </div>
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 22" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/4aFC0Z4SbYNOTcKproTPHUe6fBMnoFLowsU2Xe6eEVM.jpg" width="200" />
+                                <img src="{{ url('images/POS.png') }}" alt="PUPR" class="w-full h-24 object-contain mb-4" />
                             </div>
-                        </div> -->
-                        <!-- Client 23 -->
-                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide flex flex-wrap justify-center">
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 23" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/f0TneKS1zb9hKsdu27_MMnXvtzcmePNZb6TnLxuiWls.jpg" width="200" />
+                                <img src="{{ url('images/bukit.png') }}" alt="Jakarta" class="w-full h-24 object-contain mb-4" />
                             </div>
-                        </div> -->
-                        <!-- Client 24 -->
-                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        </div>
+                        <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 24" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/WeSuQ5WdirZgN4mu1COHfQh9KSnIDRqPUjzg3kSfFRQ.jpg" width="200" />
+                                <img src="{{ url('images/rskgm.png') }}" alt="ESDM" class="w-full h-24 object-contain mb-4" />
                             </div>
-                        </div> -->
+                        </div>
+                        <div class="w-1/4 p-4">
+                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
+                                <img src="{{ url('images/KimiaFarma.png') }}" alt="BAP" class="w-full h-24 object-contain mb-4" />
+                            </div>
+                        </div>
+                        <div class="w-1/4 p-4">
+                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
+                                <img src="{{ url('images/dpkp 3.png') }}" alt="PUPR" class="w-full h-24 object-contain mb-4" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide flex flex-wrap justify-center">
+                        <div class="w-1/4 p-4">
+                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
+                                <img src="{{ url('images/mclarens2.png') }}" alt="Mclarens" class="w-full h-24 object-contain mb-4" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-dots" style="position: relative; margin-top: 2rem;">
-                    <button class="dot client-dot active" onclick="showClientSlide(0)" aria-label="Client slide 1"></button>
-                    <button class="dot client-dot" onclick="showClientSlide(1)" aria-label="Client slide 2"></button>
-                    <button class="dot client-dot" onclick="showClientSlide(2)" aria-label="Client slide 3"></button>
-                    <button class="dot client-dot" onclick="showClientSlide(3)" aria-label="Client slide 4"></button>
-                    <button class="dot client-dot" onclick="showClientSlide(4)" aria-label="Client slide 5"></button>
-                    <!-- <button class="dot client-dot" onclick="showClientSlide(5)" aria-label="Client slide 6"></button> -->
-                </div>
+
+                <!-- Navigation Arrows -->
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+
+                <!-- Pagination -->
+                <div class="swiper-pagination mt-6"></div>
             </div>
-        </div>
-        </div>
         </div>
     </section>
 
@@ -1142,7 +1097,6 @@ use Illuminate\Support\Facades\Storage;
             const offset = -currentClientSlide * 100;
             document.querySelector('.carousel-track').style.transform = `translateX(${offset}%)`;
 
-            // Update dots
             document.querySelectorAll('.client-dot').forEach((dot, i) => {
                 dot.classList.toggle('active', i === currentClientSlide);
             });
@@ -1204,6 +1158,25 @@ use Illuminate\Support\Facades\Storage;
                     mobileMenu.classList.add('hidden');
                 });
             });
+        });
+
+        var swiper = new Swiper(".mySwiper", {
+            loop: true, // Infinite loop
+            autoplay: {
+                delay: 5000, // 3 seconds per slide
+                disableOnInteraction: false, // Continue autoplay after user interaction
+            },
+            speed: 800, // Smooth transition
+            slidesPerView: 1, // Show one set of clients at a time
+            spaceBetween: 20, // Space between slides
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // navigation: {
+            //     nextEl: ".swiper-button-next",
+            //     prevEl: ".swiper-button-prev",
+            // },
         });
     </script>
 </body>
