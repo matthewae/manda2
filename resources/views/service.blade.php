@@ -309,8 +309,9 @@
                                 <h3 class="text-2xl font-bold">Feasibility Study</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
-                                Our project management services ensure your construction projects are completed on time,
-                                within budget, and to the highest quality standards. We provide:
+                                Our expert design consultation services help create functional, aesthetically pleasing, and efficient spaces tailored to your specific needs.
+                                We work closely with you to ensure that every detail aligns with your vision, incorporating the latest trends, sustainability principles,
+                                and industry best practices to deliver exceptional results.
                             </p>
                             <!-- Project Management - Feasibility Study -->
                             <ul class="space-y-3 text-gray-600">
@@ -352,7 +353,9 @@
                                 <h3 class="text-2xl font-bold">Risk Analysis</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
-                                Our expert design consultation services help create functional and aesthetically pleasing spaces that meet your specific requirements.
+                                Our risk analysis services help identify, assess, and mitigate potential risks in construction projects, ensuring smooth execution and minimal disruptions.
+                                We analyze financial, technical, and operational risks while providing proactive strategies to enhance project stability, safety, and overall success.
+                                By implementing industry best practices and data-driven insights, we help you make informed decisions and reduce uncertainties throughout the project lifecycle.
                             </p>
                             <!-- Design Consultation - Risk Analysis -->
                             <ul class="space-y-3 text-gray-600">
@@ -367,7 +370,7 @@
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
                                     <span>Risk Monitoring & Control</span>
-                                </li>
+                                </li>   
                                 <li class="flex items-center space-x-3">
                                     <i class="fas fa-check-circle text-blue-500"></i>
                                     <span>Safety Management Planning</span>
@@ -394,7 +397,9 @@
                                 <h3 class="text-2xl font-bold">Claim, Contract, Dispute Resolution</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
-                                Ensuring all construction activities meet the highest standards of quality and safety through rigorous oversight.
+                                We provide expert guidance in managing construction claims, contract negotiations, and dispute resolution to protect your project’s interests.
+                                Our team ensures compliance with contractual obligations, mitigates potential conflicts, and facilitates fair resolutions through mediation, arbitration,
+                                or litigation if necessary. With a proactive approach, we help minimize delays, financial risks, and legal complexities, ensuring smooth project execution.
                             </p>
                             <!-- Construction Supervision - Claim, Contract, Dispute Resolution -->
                             <ul class="space-y-3 text-gray-600">
@@ -436,7 +441,10 @@
                                 <h3 class="text-2xl font-bold">Auditor & Loss Adjuster</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
-                                Implementing comprehensive quality control processes to ensure excellence in every aspect of construction.
+                                Our auditor and loss adjustment services provide in-depth evaluations of construction projects to ensure compliance, financial accuracy,
+                                and risk mitigation. We conduct thorough audits to identify discrepancies, assess project losses, and determine fair compensation for damages
+                                or unforeseen circumstances. By implementing stringent quality control and financial oversight, we help maintain project integrity,
+                                prevent disputes, and safeguard your investments.
                             </p>
                             <!-- Quality Assurance - Auditor & Loss Adjuster -->
                             <ul class="space-y-3 text-gray-600">
@@ -477,7 +485,10 @@
                                 <h3 class="text-2xl font-bold">Quantity Surveyor & Construction Management</h3>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
-                                Providing accurate and detailed cost projections to help you plan and manage your construction budget effectively.
+                                Our quantity surveying and construction management services ensure precise cost estimation, budgeting, and financial control throughout
+                                the project lifecycle. We provide detailed cost projections, procurement strategies, and contract administration to optimize resource allocation
+                                and minimize financial risks. By integrating efficient project management techniques, we help maintain schedules, enhance productivity,
+                                and ensure successful project delivery within budget and scope.
                             </p>
                             <!-- Cost Estimation - Quantity Surveyor & Construction Management -->
                             <ul class="space-y-3 text-gray-600">
@@ -518,7 +529,10 @@
                                     <h3 class="text-2xl font-bold">Other Engineering Consultation</h3>
                                 </div>
                                 <p class="text-gray-700 leading-relaxed">
-                                    Managing all aspects of construction contracts to ensure compliance and successful project delivery.
+                                    Our engineering consultation services cover a wide range of specialized expertise, including structural, civil, mechanical,
+                                    and electrical engineering. We provide technical guidance, feasibility assessments, and regulatory compliance support to ensure
+                                    project efficiency and safety. Whether you need assistance with design optimization, risk assessment, or quality assurance,
+                                    our experts help streamline processes and enhance project outcomes.
                                 </p>
                                 <!-- Contract Administration - Other Engineering Consultation -->
                                 <ul class="space-y-3 text-gray-600">

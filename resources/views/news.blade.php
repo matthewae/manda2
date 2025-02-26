@@ -206,7 +206,7 @@
                             loading="lazy"
                             allowfullscreen
                             scrolling="yes"
-                            frameborder="0"
+                            frameborder="1"
                             style="width: 100%; height: 100%; border: none;">
                         </iframe>
                     </div>
@@ -430,7 +430,7 @@
             <div class="w-full bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
                 <div class="aspect-video h-[300px] relative">
                     <iframe
-                        src="https://wartaekonomi.co.id/read557897/rekonstruksi-anggaran-kementerian-pu-2025-jadi-rp5048-triliun"
+                        src="https://wartaekonomi.co.id/category-261/infrastruktur"
                         class="w-full h-full"
                         loading="lazy"
 
@@ -444,7 +444,7 @@
                     <p class="text-gray-600 text-sm md:text-base mb-4">
                         Discover the economic impact and budget allocations for construction projects by the Ministry of Public Works in 2025. Explore strategic insights and financial implications affecting the industry.
                     </p>
-                    <a href="https://wartaekonomi.co.id/read557897/rekonstruksi-anggaran-kementerian-pu-2025-jadi-rp5048-triliun"
+                    <a href="https://wartaekonomi.co.id/category-261/infrastruktur"
                         target="_blank"
                         class="inline-flex items-center justify-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                         <i class="fas fa-external-link-alt mr-2"></i>Visit Website
