@@ -775,7 +775,7 @@ use Illuminate\Support\Facades\Storage;
                         </div>
                         <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img src="{{ url('images/Logo-Cimahi.png') }}" alt="Cimahi" class="w-full h-24 object-contain mb-4" />
+                                <img src="{{ url('images/pertamina.png') }}" alt="Cimahi" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
                         <div class="w-1/4 p-4">
@@ -867,6 +867,11 @@ use Illuminate\Support\Facades\Storage;
                         <div class="w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
                                 <img src="{{ url('images/mclarens2.png') }}" alt="Mclarens" class="w-full h-24 object-contain mb-4" />
+                            </div>
+                        </div>
+                        <div class="w-1/4 p-4">
+                            <div class="bg-white p-6 rounded-lg shadow-lg client-box">
+                                <img src="{{ url('images/angkasa.png') }}" alt="Mclarens" class="w-full h-24 object-contain mb-4" />
                             </div>
                         </div>
                     </div>
@@ -1164,11 +1169,11 @@ use Illuminate\Support\Facades\Storage;
             loop: true, // Infinite loop
             autoplay: {
                 delay: 5000, // 3 seconds per slide
-                disableOnInteraction: false, // Continue autoplay after user interaction
+                disableOnInteraction: false, 
             },
-            speed: 800, // Smooth transition
-            slidesPerView: 1, // Show one set of clients at a time
-            spaceBetween: 20, // Space between slides
+            speed: 800, 
+            slidesPerView: 1, 
+            spaceBetween: 20, 
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,

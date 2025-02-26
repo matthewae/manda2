@@ -118,6 +118,10 @@
                                     <span>Industrial Zone</span>
                                 </li>
                                 <li class="flex justify-between">
+                                    <span>Service:</span>
+                                    <span>Auditor</span>
+                                </li>
+                                <li class="flex justify-between">
                                     <span>Status:</span>
                                     <span class="text-green-500">Operational</span>
                                 </li>
@@ -128,6 +132,10 @@
                                 <li class="flex justify-between">
                                     <span>Area:</span>
                                     <span>100,000 sqft</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>Client:</span>
+                                    <span>Pt.Ateja</span>
                                 </li>
                             </ul>
                         </div>

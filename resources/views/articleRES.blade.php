@@ -118,6 +118,10 @@
                                     <span>Urban Residential Area</span>
                                 </li>
                                 <li class="flex justify-between">
+                                    <span>Service:</span>
+                                    <span>Feasibility Study</span>
+                                </li>
+                                <li class="flex justify-between">
                                     <span>Status:</span>
                                     <span class="text-green-500">Completed</span>
                                 </li>
@@ -128,6 +132,10 @@
                                 <li class="flex justify-between">
                                     <span>Units:</span>
                                     <span>120 Apartments</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>Client:</span>
+                                    <span>Agung Sedayu Group</span>
                                 </li>
                             </ul>
                         </div>

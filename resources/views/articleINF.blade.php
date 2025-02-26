@@ -118,6 +118,10 @@
                                     <span>Central District</span>
                                 </li>
                                 <li class="flex justify-between">
+                                    <span>Service:</span>
+                                    <span>Construction Management</span>
+                                </li>
+                                <li class="flex justify-between">
                                     <span>Status:</span>
                                     <span class="text-yellow-500">In Progress</span>
                                 </li>
@@ -128,6 +132,10 @@
                                 <li class="flex justify-between">
                                     <span>Daily Capacity:</span>
                                     <span>50,000 passengers</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>Client:</span>
+                                    <span>KAI</span>
                                 </li>
                             </ul>
                         </div>

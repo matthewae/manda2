@@ -118,6 +118,10 @@
                                     <span>Medical District</span>
                                 </li>
                                 <li class="flex justify-between">
+                                    <span>Service:</span>
+                                    <span>Supervision</span>
+                                </li>
+                                <li class="flex justify-between">
                                     <span>Status:</span>
                                     <span class="text-green-500">Operational</span>
                                 </li>
@@ -128,6 +132,10 @@
                                 <li class="flex justify-between">
                                     <span>Capacity:</span>
                                     <span>300 Beds</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>Client:</span>
+                                    <span>RSKGM</span>
                                 </li>
                             </ul>
                         </div>

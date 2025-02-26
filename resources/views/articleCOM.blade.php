@@ -117,6 +117,10 @@
                                     <span>Central Business District</span>
                                 </li>
                                 <li class="flex justify-between">
+                                    <span>Service:</span>
+                                    <span>Renovation</span>
+                                </li>
+                                <li class="flex justify-between">
                                     <span>Status:</span>
                                     <span class="text-green-500">Completed</span>
                                 </li>
@@ -127,6 +131,10 @@
                                 <li class="flex justify-between">
                                     <span>Area:</span>
                                     <span>50,000 sqft</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span>Client:</span>
+                                    <span>BNI</span>
                                 </li>
                             </ul>
                         </div>

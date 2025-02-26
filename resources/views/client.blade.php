@@ -13,6 +13,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
 
     <style>
         .fade-in {
@@ -33,6 +39,8 @@
             transform: translateY(-10px);
             transition: transform 0.3s ease-in-out;
         }
+
+        
     </style>
 
     <head>
@@ -306,7 +314,7 @@
                         <!-- Client 2 -->
                         <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Cimahi" class="w-full h-24 object-contain mb-4" src="{{ url('images/Logo-Cimahi.png') }}" />
+                                <img alt="Cimahi" class="w-full h-24 object-contain mb-4" src="{{ url('images/pertamina.png') }}" />
                             </div>
                         </div>
                         <!-- Client 3 -->
@@ -406,11 +414,11 @@
                             </div>
                         </div>
                         <!-- Client 18 -->
-                        <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
+                        <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
-                                <img alt="Logo of Client 18" class="w-full h-24 object-contain mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/S20oaOWT8s2eaTGzdgQmcHZGK8Pq-rJZ39N6lGDbPns.jpg" width="200" />
+                                <img alt="Logo of Client 18" class="w-full h-24 object-contain mb-4" height="100" src="{{ url('images/angkasa.png') }}" width="200" />
                             </div>
-                        </div> -->
+                        </div>
                         <!-- Client 19 -->
                         <!-- <div class="w-full sm:w-1/2 md:w-1/4 p-4">
                             <div class="bg-white p-6 rounded-lg shadow-lg client-box">
