@@ -400,7 +400,7 @@
         <div class="md:col-span-7 bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
             <div class="h-[500px] relative">
                 <iframe
-                    src="https://www.pikiran-rakyat.com/tag/konstruksi"
+                    src="https://www.pikiran-rakyat.com/"
                     class="w-full h-full"
                     loading="lazy"
                     allowfullscreen
@@ -416,7 +416,7 @@
                     Pikiran Rakyat provides comprehensive coverage on infrastructure growth, urban planning, and architectural innovations.
                     Explore expert opinions, industry trends, and in-depth reports on ongoing and upcoming construction projects in Indonesia.
                 </p>
-                <a href="https://www.pikiran-rakyat.com/tag/konstruksi" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
+                <a href="https://www.pikiran-rakyat.com/" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
                     Visit Website
                 </a>
 
@@ -468,8 +468,10 @@
                     </iframe>
                 </div>
                 <div class="p-6">
-                    <h3 class="font-bold text-xl mb-2">Construction News.co.uk</h3>
-                    <p class="text-gray-600 mb-4">Construction industry insights</p>
+                    <h3 class="font-bold text-xl mb-2">Kanal Satu.com</h3>
+                    <p class="text-gray-600 mb-4">
+                        Explore the latest insights into the construction industry, technological innovations, and infrastructure project developments on Kanal Satu. This article discusses how PLN is accelerating agricultural modernization through the Electrifying Agriculture program, providing efficient and sustainable solutions for the farming sector.
+                    </p>
                     <a href="https://kanalsatu.com/id/post/64974/pln-percepat-modernisasi-pertanian-dengan-program-electrifying-agriculture" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
                         Visit Website
                     </a>
