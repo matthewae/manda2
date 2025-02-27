@@ -33,6 +33,9 @@ use App\Mail\ContactMail;
     Route::get('articleINF', [HomeController::class, 'articleINF'])->name('articleINF');
     Route::get('articleHOS', [HomeController::class, 'articleHOS'])->name('articleHOS');
     Route::get('articleEPO', [HomeController::class, 'articleEPO'])->name('articleEPO');
+    Route::get('articleRRD', [HomeController::class, 'articleRRD'])->name('articleRRD');
+    Route::get('articleRSN', [HomeController::class, 'articleRSN'])->name('articleRSN');
+    Route::get('articleSPP', [HomeController::class, 'articleSPP'])->name('articleSPP');
     Route::get('news', [HomeController::class, 'news'])->name('news');
 
 

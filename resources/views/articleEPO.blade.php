@@ -114,19 +114,19 @@
                             <ul class="space-y-3 text-gray-600">
                                 <li class="flex justify-between">
                                     <span>Location:</span>
-                                    <span>Bandung</span>
+                                    <span>Central Jakarta</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Service:</span>
-                                    <span>Design</span>
+                                    <span>Supervision</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Status:</span>
-                                    <span class="text-yellow-500">In Progress</span>
+                                    <span class="text-green-500">Operational</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Completion:</span>
-                                    <span>2024</span>
+                                    <span>2023 - 2024</span>
                                 </li>
                                 <!-- <li class="flex justify-between">
                                     <span>Area:</span>

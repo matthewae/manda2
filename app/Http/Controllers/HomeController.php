@@ -86,6 +86,21 @@ class HomeController extends Controller
         return view('articleEPO');
     }
 
+    public function articleRRD()
+    {
+        return view('articleRRD');
+    }
+
+    public function articleRSN()
+    {
+        return view('articleRSN');
+    }
+
+    public function articleSPP()
+    {
+        return view('articleSPP');
+    }
+
     public function news()
     {
         return view('news');

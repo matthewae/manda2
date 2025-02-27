@@ -49,7 +49,7 @@
             <div class="container mx-auto px-4 h-full flex items-end pb-16">
                 <div class="text-white fade-in">
                     <span class="px-4 py-2 bg-blue-500 rounded-full text-sm">Commercial Project</span>
-                    <h1 class="text-5xl font-bold mt-4 mb-2">Modern Commercial Building</h1>
+                    <h1 class="text-5xl font-bold mt-4 mb-2">Design Gudang Materai SPP Bandung</h1>
                     <p class="text-xl text-gray-200">A state-of-the-art commercial complex in the heart of the city</p>
                 </div>
             </div>

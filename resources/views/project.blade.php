@@ -275,7 +275,7 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Design Gudang PT.POS INDONESIA</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p>
-                        <a href="{{ url('/articleCOM?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleCOM?title=Design Gudang PT.POS INDONESIA') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </a>
@@ -295,7 +295,7 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Renovasi Gedung Penambangan BBPMB Tekmira</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art residential building designed and managed by our expert team.</p>
-                        <a href="{{ url('/articleRES?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleRES?title=Renovasi Gedung BBPMB Tekmira') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </a>
@@ -315,7 +315,7 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Pekerjaan Ruang Customer Service IPC Jakarta</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Industriial building designed and managed by our expert team.</p>
-                        <a href="{{ url('/articleIND?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleIND?title=Ruang Customer Service IPC Jakarta') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </a>
@@ -335,7 +335,7 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Infrastructure Project</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Infrastructure project designed and managed by our expert team.</p>
-                        <a href="{{ url('/articleINF?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleINF?title=Sertidikat Laik Fungsi') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </a>
@@ -355,7 +355,7 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Renovasi Ruang Dewan Komisaris lt.2 GPI Jakarta</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
-                        <a href="{{ url('/articleHOS?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleHOS?title=Ruang Dewan Komisaris') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </a>
@@ -373,9 +373,49 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Epoxy Gedung D lt.1 GPI Jakarta</h3>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Renovasi Ruang Dewan Komisaris lt.2 GPI Jakarta</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
-                        <a href="{{ url('/articleEPO?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleEPO?title=Epoxy Gedung') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
+                            <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RSN Project -->
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="healthcare">
+                    <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
+                        <img alt="Healthcare Building" src="{{ url('images/img218.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Hospital</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Pemasangan Teralis Rusunawa Pulo</h3>
+                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
+                        <a href="{{ url('/articleRSN?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
+                            <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SPP Project -->
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="healthcare">
+                    <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
+                        <img alt="Healthcare Building" src="{{ url('images/img230.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Hospital</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Assessment Struktur SPP Bandung</h3>
+                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
+                        <a href="{{ url('/articleSPP?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </a>
