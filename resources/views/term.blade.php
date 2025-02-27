@@ -329,7 +329,7 @@
                         </li>
                         <li class="flex items-center space-x-3">
                             <i class="fas fa-envelope text-white-400"></i>
-                            <a href="mailto:info@mandajaya.com" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                            <a href="mailto:contact.us@mandajayarekayasakonstruksi.com" class="text-gray-400 hover:text-blue-400 transition duration-300">
                                 contact.us@mandajayarekayasakonstruksi.com
                             </a>
                         </li>
