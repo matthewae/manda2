@@ -43,7 +43,7 @@
 
     <!-- Hero Section -->
     <header class="relative h-[60vh] overflow-hidden">
-        <img src="{{ url('images/hero3.jpeg') }}"
+        <img src="{{ url('images/img163.jpg') }}"
             alt="Residential Building Project"
             class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-black/50">
@@ -72,12 +72,17 @@
                         </p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                             <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
-                                <img src="{{ url('images/stsinter.jpeg') }}"
+                                <img src="{{ url('images/img161.jpg') }}"
                                     alt="Station Interior"
                                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                             </div>
                             <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
-                                <img src="{{ url('images/stexter.jpeg') }}"
+                                <img src="{{ url('images/img160.jpg') }}"
+                                    alt="Train Platform"
+                                    class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
+                                <img src="{{ url('images/img162.jpg') }}"
                                     alt="Train Platform"
                                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                             </div>
@@ -115,27 +120,27 @@
                             <ul class="space-y-3 text-gray-600">
                                 <li class="flex justify-between">
                                     <span>Location:</span>
-                                    <span>Urban Residential Area</span>
+                                    <span>Bandung</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Service:</span>
-                                    <span>Feasibility Study</span>
+                                    <span>Renovation</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Status:</span>
-                                    <span class="text-green-500">Completed</span>
+                                    <span class="text-yellow-500">In Progress</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Completion:</span>
-                                    <span>2024</span>
+                                    <span>2024 -</span>
                                 </li>
-                                <li class="flex justify-between">
+                                <!-- <li class="flex justify-between">
                                     <span>Units:</span>
                                     <span>120 Apartments</span>
-                                </li>
+                                </li> -->
                                 <li class="flex justify-between">
                                     <span>Client:</span>
-                                    <span>Agung Sedayu Group</span>
+                                    <span>BBPMB TEKMIRA</span>
                                 </li>
                             </ul>
                         </div>

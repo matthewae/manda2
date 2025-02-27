@@ -265,7 +265,7 @@
                 <!-- Commercial Project -->
                 <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="commercial">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
-                        <img alt="Commercial Building" src="{{ url('images/office.jpeg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <img alt="Commercial Building" src="{{ url('images/img149.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
                                 <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Commercial</span>
@@ -273,19 +273,19 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Commercial Building</h3>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Design Gudang PT.POS INDONESIA</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p>
-                        <button onclick="showOverlay('Commercial Building', 'A state-of-the-art commercial building designed and managed by our expert team.', 'images/office.jpeg', 'This commercial building features modern architecture and is equipped with the latest technology')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleCOM?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
-                        </button>
+                        </a>
                     </div>
                 </div>
 
                 <!-- Residential Project -->
                 <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="residential">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
-                        <img alt="Residential Building" src="{{ url('images/hero3.jpeg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <img alt="Residential Building" src="{{ url('images/img163.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
                                 <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Residential</span>
@@ -293,19 +293,19 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Residential Building</h3>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Renovasi Gedung Penambangan BBPMB Tekmira</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art residential building designed and managed by our expert team.</p>
-                        <button onclick="showOverlay('Residential Building', 'A state-of-the-art residential building designed and managed by our expert team.', 'images/resident.jpg', 'This residential building features modern architecture and is equipped with the latest technology.')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleRES?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
-                        </button>
+                        </a>
                     </div>
                 </div>
 
                 <!-- Industrial Project -->
                 <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="industrial">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
-                        <img alt="Industrial Building" src="{{ url('images/industrial.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <img alt="Industrial Building" src="{{ url('images/img172.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
                                 <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Industrial</span>
@@ -313,11 +313,12 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Industrial Building</h3>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Pekerjaan Ruang Customer Service IPC Jakarta</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Industriial building designed and managed by our expert team.</p>
-                        <button onclick="showOverlay('Industrial Building', 'A state-of-the-art industrial building designed and managed by our expert team.', 'images/industrial.jpg', 'This industrial building features modern architecture and is equipped with the latest technology.')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2"> Learn More
+                        <a href="{{ url('/articleIND?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -334,18 +335,17 @@
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Infrastructure Project</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Infrastructure project designed and managed by our expert team.</p>
-                        <button onclick="showOverlay('Infrastructure Building', 'A state-of-the-art infrastructure building designed and managed by our expert team.', 'images/infra.jpeg', 'This infrastructure building features modern architecture and is equipped with the latest technology.')"
-                            class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleINF?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
-                        </button>
+                        </a>
                     </div>
                 </div>
 
                 <!-- Healthcare Project -->
                 <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="healthcare">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
-                        <img alt="Healthcare Building" src="{{ url('images/hospital.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <img alt="Healthcare Building" src="{{ url('images/img183.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
                                 <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Hospital</span>
@@ -353,19 +353,39 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Hospital Building</h3>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Renovasi Ruang Dewan Komisaris lt.2 GPI Jakarta</h3>
                         <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
-                        <button onclick="showOverlay('Hospital Building', 'A state-of-the-art hospital building designed and managed by our expert team.', 'images/hospital.jpg', 'This hospital building features modern architecture and is equipped with the latest technology.')" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <a href="{{ url('/articleHOS?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
-                        </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Epoxy Project -->
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="healthcare">
+                    <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
+                        <img alt="Healthcare Building" src="{{ url('images/img195.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Hospital</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Epoxy Gedung D lt.1 GPI Jakarta</h3>
+                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
+                        <a href="{{ url('/articleEPO?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
+                            <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Overlay -->
-    <div class="overlay" id="overlay">
+    <!-- <div class="overlay" id="overlay">
         <div class="overlay-content">
             <button class="text-red-500 hover:text-red-700 float-right" onclick="closeOverlay()">
                 <i class="fas fa-times"></i>
@@ -382,7 +402,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -456,10 +476,6 @@
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition duration-300">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <!-- <a href="#"
-                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-sky-700 transition duration-300">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a> -->
                         <a href="https://www.instagram.com/mandajaya_rekayasa_konstruksi?igsh=MW1kdTFxb2kycWNheg=="
                             class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition duration-300">
                             <i class="fab fa-instagram"></i>
@@ -494,42 +510,45 @@
     </footer>
 
     <script>
-        function showOverlay(title, description, imgSrc, detail) {
-            document.getElementById('overlay-title').innerText = title;
-            document.getElementById('overlay-desc').innerText = description;
-            document.getElementById('overlay-img').src = imgSrc;
-            document.getElementById('overlay-detail').innerText = detail;
+        // function showOverlay(title, description, imgSrc, detail) {
+        //     document.getElementById('overlay-title').innerText = title;
+        //     document.getElementById('overlay-desc').innerText = description;
+        //     document.getElementById('overlay-img').src = imgSrc;
+        //     document.getElementById('overlay-detail').innerText = detail;
 
-            const articleLink = document.getElementById('article-link');
-            if (articleLink) {
-                switch (title) {
-                    case 'Commercial Building':
-                        articleLink.href = '/articleCOM';
-                        break;
-                    case 'Residential Building':
-                        articleLink.href = '/articleRES';
-                        break;
-                    case 'Industrial Building':
-                        articleLink.href = '/articleIND';
-                        break;
-                    case 'Infrastructure Building':
-                        articleLink.href = '/articleINF';
-                        break;
-                    case 'Hospital Building':
-                        articleLink.href = '/articleHOS';
-                        break;
-                    default:
-                        articleLink.href = '/article';
-                }
-            }
+        //     const articleLink = document.getElementById('article-link');
+        //     if (articleLink) {
+        //         switch (title) {
+        //             case 'Commercial Building':
+        //                 articleLink.href = '/articleCOM';
+        //                 break;
+        //             case 'Residential Building':
+        //                 articleLink.href = '/articleRES';
+        //                 break;
+        //             case 'Industrial Building':
+        //                 articleLink.href = '/articleIND';
+        //                 break;
+        //             case 'Infrastructure Building':
+        //                 articleLink.href = '/articleINF';
+        //                 break;
+        //             case 'Hospital Building':
+        //                 articleLink.href = '/articleHOS';
+        //                 break;
+        //             case 'Epoxy Building':
+        //                 articleLink.href = '/articleEPO';
+        //                 break;
+        //             default:
+        //                 articleLink.href = '/article';
+        //         }
+        //     }
 
-            const overlay = document.getElementById('overlay');
-            overlay.classList.add('open');
-        }
+        //     const overlay = document.getElementById('overlay');
+        //     overlay.classList.add('open');
+        // }
 
-        function closeOverlay() {
-            document.getElementById('overlay').classList.remove('open');
-        }
+        // function closeOverlay() {
+        //     document.getElementById('overlay').classList.remove('open');
+        // }
 
         // mobile
         document.addEventListener('DOMContentLoaded', function() {

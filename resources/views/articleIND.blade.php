@@ -43,14 +43,14 @@
 
     <!-- Hero Section -->
     <header class="relative h-[60vh] overflow-hidden">
-        <img src="{{ url('images/industrial.jpg') }}"
+        <img src="{{ url('images/img172.jpg') }}"
             alt="Industrial Building Project"
             class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-black/50">
             <div class="container mx-auto px-4 h-full flex items-end pb-16">
                 <div class="text-white fade-in">
                     <span class="px-4 py-2 bg-blue-500 rounded-full text-sm">Industrial Project</span>
-                    <h1 class="text-5xl font-bold mt-4 mb-2">Modern Industrial Complex</h1>
+                    <h1 class="text-5xl font-bold mt-4 mb-2">Pekerjaan Ruangan Customer Service IPC Jakarta</h1>
                     <p class="text-xl text-gray-200">State-of-the-art industrial facility with advanced manufacturing capabilities</p>
                 </div>
             </div>
@@ -72,12 +72,12 @@
                         </p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                             <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
-                                <img src="{{ url('images/stsinter.jpeg') }}"
+                                <img src="{{ url('images/img174.jpg') }}"
                                     alt="Station Interior"
                                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                             </div>
                             <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
-                                <img src="{{ url('images/stexter.jpeg') }}"
+                                <img src="{{ url('images/img173.jpg') }}"
                                     alt="Train Platform"
                                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
                             </div>
@@ -115,11 +115,11 @@
                             <ul class="space-y-3 text-gray-600">
                                 <li class="flex justify-between">
                                     <span>Location:</span>
-                                    <span>Industrial Zone</span>
+                                    <span>Central Jakarta</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Service:</span>
-                                    <span>Auditor</span>
+                                    <span>Supervision</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Status:</span>
@@ -127,15 +127,15 @@
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Completion:</span>
-                                    <span>2024</span>
+                                    <span>2023 - 2024</span>
                                 </li>
-                                <li class="flex justify-between">
+                                <!-- <li class="flex justify-between">
                                     <span>Area:</span>
                                     <span>100,000 sqft</span>
-                                </li>
+                                </li> -->
                                 <li class="flex justify-between">
                                     <span>Client:</span>
-                                    <span>Pt.Ateja</span>
+                                    <span>PT.POS INDONESIA (PERSERO)</span>
                                 </li>
                             </ul>
                         </div>
