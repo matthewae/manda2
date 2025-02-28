@@ -101,6 +101,31 @@ class HomeController extends Controller
         return view('articleSPP');
     }
 
+    public function articleRAT()
+    {
+        return view('articleRAT');
+    }
+
+    public function articleRAP()
+    {
+        return view('articleRAP');
+    }
+
+    public function articleSDE()
+    {
+        return view('articleSDE');
+    }
+
+    public function articleKPP()
+    {
+        return view('articleKPP');
+    }
+
+    public function articlePPK()
+    {
+        return view('articlePPK');
+    }
+
     public function news()
     {
         return view('news');

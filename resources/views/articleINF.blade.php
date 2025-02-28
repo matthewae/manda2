@@ -50,7 +50,7 @@
             <div class="container mx-auto px-4 h-full flex items-end pb-16">
                 <div class="text-white fade-in">
                     <span class="px-4 py-2 bg-blue-500 rounded-full text-sm">Infrastructure Project</span>
-                    <h1 class="text-5xl font-bold mt-4 mb-2">Modern Train Station Development</h1>
+                    <h1 class="text-5xl font-bold mt-4 mb-2">Sertifikat Laik Fungsi 4 Stasiun</h1>
                     <p class="text-xl text-gray-200">Revolutionizing public transportation with state-of-the-art facilities</p>
                 </div>
             </div>
@@ -115,11 +115,11 @@
                             <ul class="space-y-3 text-gray-600">
                                 <li class="flex justify-between">
                                     <span>Location:</span>
-                                    <span>Central District</span>
+                                    <span>Bogor & Sukabumi</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Service:</span>
-                                    <span>Construction Management</span>
+                                    <span>Functionality Certificate</span>
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Status:</span>
@@ -127,15 +127,15 @@
                                 </li>
                                 <li class="flex justify-between">
                                     <span>Completion:</span>
-                                    <span>2025</span>
+                                    <span>2024 - Ongoing</span>
                                 </li>
-                                <li class="flex justify-between">
+                                <!-- <li class="flex justify-between">
                                     <span>Daily Capacity:</span>
                                     <span>50,000 passengers</span>
-                                </li>
+                                </li> -->
                                 <li class="flex justify-between">
                                     <span>Client:</span>
-                                    <span>KAI</span>
+                                    <span>PT.Ambria Rahma Putri Selaras</span>
                                 </li>
                             </ul>
                         </div>

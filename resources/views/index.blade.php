@@ -687,13 +687,13 @@ use Illuminate\Support\Facades\Storage;
                 <div class="group relative overflow-hidden rounded-xl">
                     <div class="relative overflow-hidden">
                         <img
-                            src="{{ url('images/office.jpeg') }}"
+                            src="{{ url('images/img149.jpg') }}"
                             alt="Commercial Building"
                             class="w-full h-[300px] object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-6 group-hover:translate-y-0 transition duration-300">
-                        <h3 class="text-xl font-bold mb-2">Commercial Building</h3>
+                        <h3 class="text-xl font-bold mb-2">Design</h3>
                         <p class="text-sm text-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 delay-100">
                             A state-of-the-art commercial building designed and managed by our expert team.
                         </p>
@@ -707,13 +707,13 @@ use Illuminate\Support\Facades\Storage;
                 <div class="group relative overflow-hidden rounded-xl">
                     <div class="relative overflow-hidden">
                         <img
-                            src="{{ url('images/hero3.jpeg') }}"
+                            src="{{ url('images/img183.jpg') }}"
                             alt="Residential Complex"
                             class="w-full h-[300px] object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-6 group-hover:translate-y-0 transition duration-300">
-                        <h3 class="text-xl font-bold mb-2">Residential Complex</h3>
+                        <h3 class="text-xl font-bold mb-2">Supervision</h3>
                         <p class="text-sm text-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 delay-100">
                             A luxury residential complex featuring modern amenities and sustainable design.
                         </p>
@@ -727,13 +727,13 @@ use Illuminate\Support\Facades\Storage;
                 <div class="group relative overflow-hidden rounded-xl">
                     <div class="relative overflow-hidden">
                         <img
-                            src="https://storage.googleapis.com/a1aa/image/BRMUZitZ8CbAo1ZZYxgEj4kBzBMkBLsMyNtW5sEl5Z8.jpg"
+                            src="{{ url('images/infra.jpeg') }}"
                             alt="Industrial Facility"
                             class="w-full h-[300px] object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-6 group-hover:translate-y-0 transition duration-300">
-                        <h3 class="text-xl font-bold mb-2">Infrastructure Facility</h3>
+                        <h3 class="text-xl font-bold mb-2">Functionality Certificate</h3>
                         <p class="text-sm text-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 delay-100">
                             A comfortable infratructure facility that fullfill the needs.
                         </p>

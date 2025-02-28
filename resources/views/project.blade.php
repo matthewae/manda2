@@ -240,7 +240,7 @@
         <div class="container mx-auto px-4">
             <!-- Section Header -->
             <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold mb-4">Our Projects</h2>
+                <h2 class="text-4xl font-bold mb-4">Our Selected Projects</h2>
                 <div class="w-24 h-1 bg-blue-500 mx-auto mb-6"></div>
                 <p class="text-gray-600 max-w-2xl mx-auto mb-8">
                     Explore our diverse portfolio of successful projects across various sectors
@@ -252,29 +252,31 @@
             <div class="flex justify-center mb-8">
                 <div class="flex flex-wrap gap-4 justify-center">
                     <button data-category="all" class="filter-btn px-6 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition duration-300">All</button>
-                    <button data-category="commercial" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Commercial</button>
-                    <button data-category="residential" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Residential</button>
-                    <button data-category="industrial" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Industrial</button>
-                    <button data-category="healthcare" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Healthcare</button>
-                    <button data-category="Infrastructure" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Infrastructure</button>
+                    <button data-category="Design" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Design</button>
+                    <button data-category="Supervision" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Supervision</button>
+                    <button data-category="Assessment" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Assessment</button>
+                    <button data-category="RiskAssessment" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Risk Assessment</button>
+                    <button data-category="ScheduleEvaluation" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Schedule Evaluation</button>
+                    <button data-category="FunctionalityCertificate" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Functionality Certificate</button>
+                    <button data-category="StudyOfAdministration" class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition duration-300">Study Of Administration</button>
                 </div>
             </div>
 
             <!-- project cards with different categories -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Commercial Project -->
-                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="commercial">
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="Design">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
                         <img alt="Commercial Building" src="{{ url('images/img149.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Commercial</span>
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Design</span>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Design Gudang PT.POS INDONESIA</h3>
-                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p> -->
                         <a href="{{ url('/articleCOM?title=Design Gudang PT.POS INDONESIA') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
@@ -283,18 +285,18 @@
                 </div>
 
                 <!-- Residential Project -->
-                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="residential">
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="Design">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
                         <img alt="Residential Building" src="{{ url('images/img163.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Residential</span>
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Design</span>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Renovasi Gedung Penambangan BBPMB Tekmira</h3>
-                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art residential building designed and managed by our expert team.</p>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art residential building designed and managed by our expert team.</p> -->
                         <a href="{{ url('/articleRES?title=Renovasi Gedung BBPMB Tekmira') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
@@ -303,18 +305,18 @@
                 </div>
 
                 <!-- Industrial Project -->
-                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="industrial">
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="Supervision">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
                         <img alt="Industrial Building" src="{{ url('images/img172.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Industrial</span>
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Supervision</span>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Pekerjaan Ruang Customer Service IPC Jakarta</h3>
-                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Industriial building designed and managed by our expert team.</p>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Industriial building designed and managed by our expert team.</p> -->
                         <a href="{{ url('/articleIND?title=Ruang Customer Service IPC Jakarta') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
@@ -323,18 +325,18 @@
                 </div>
 
                 <!-- Infrastructure Project -->
-                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="Infrastructure">
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="FunctionalityCertificate">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
                         <img alt="Infrastructure Building" src="{{ url('images/infra.jpeg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Infrastructure</span>
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Functionality Certificate</span>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Infrastructure Project</h3>
-                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Infrastructure project designed and managed by our expert team.</p>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Sertifikat Laik Fungsi 4 Stasiun</h3>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Infrastructure project designed and managed by our expert team.</p> -->
                         <a href="{{ url('/articleINF?title=Sertidikat Laik Fungsi') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
@@ -343,18 +345,18 @@
                 </div>
 
                 <!-- Healthcare Project -->
-                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="healthcare">
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="Supervision">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
                         <img alt="Healthcare Building" src="{{ url('images/img183.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Hospital</span>
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Supervision</span>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Renovasi Ruang Dewan Komisaris lt.2 GPI Jakarta</h3>
-                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p> -->
                         <a href="{{ url('/articleHOS?title=Ruang Dewan Komisaris') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
@@ -363,18 +365,18 @@
                 </div>
 
                 <!-- Epoxy Project -->
-                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="healthcare">
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="Supervision">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
                         <img alt="Healthcare Building" src="{{ url('images/img195.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Hospital</span>
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Supervision</span>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Renovasi Ruang Dewan Komisaris lt.2 GPI Jakarta</h3>
-                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Pekerjaan Epoxy Gedung D lt.1 GPI Jakarta</h3>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p> -->
                         <a href="{{ url('/articleEPO?title=Epoxy Gedung') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
@@ -383,18 +385,18 @@
                 </div>
 
                 <!-- RSN Project -->
-                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="healthcare">
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="Supervision">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
                         <img alt="Healthcare Building" src="{{ url('images/img218.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Hospital</span>
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Supervision</span>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Pemasangan Teralis Rusunawa Pulo</h3>
-                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p> -->
                         <a href="{{ url('/articleRSN?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
@@ -403,19 +405,119 @@
                 </div>
 
                 <!-- SPP Project -->
-                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="healthcare">
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="Assessment">
                     <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
                         <img alt="Healthcare Building" src="{{ url('images/img230.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Hospital</span>
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Assessment</span>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Assessment Struktur SPP Bandung</h3>
-                        <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p>
-                        <a href="{{ url('/articleSPP?title=Design Gudang PT.POS INDONESIA&desc=A state-of-the-art commercial building designed and managed by our expert team.&image=images/img149.jpg') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art Hospital building designed and managed by our expert team.</p> -->
+                        <a href="{{ url('/articleSPP?title=Design Gudang PT.POS INDONESIA') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
+                            <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RAT Project -->
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="RiskAssessment">
+                    <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
+                        <img alt="Commercial Building" src="{{ url('images/img240.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Risk Assessment</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Kajian Resiko Pada Ruas Tol BOCIMI</h3>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p> -->
+                        <a href="{{ url('/articleRAP?title=Risk Assessment Tol BOCIMI') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
+                            <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RAP Project -->
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="RiskAssessment">
+                    <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
+                        <img alt="Commercial Building" src="{{ url('images/img249.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Risk Assessment</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Kajian Resiko Pada Ruas Tol Palembang Betung</h3>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p> -->
+                        <a href="{{ url('/articleRAT?title=Risk Assessment Tol BOCIMI') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
+                            <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SDE Project -->
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="ScheduleEvaluation">
+                    <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
+                        <img alt="Commercial Building" src="{{ url('images/img259.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Schedule Evaluation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Evaluasi Pekerjaan Pembangunan Bendungan </h3>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p> -->
+                        <a href="{{ url('/articleSDE?title=Risk Assessment Tol BOCIMI') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
+                            <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- KPP Project -->
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="FunctionalityCertificate">
+                    <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
+                        <img alt="Commercial Building" src="{{ url('images/img296.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Functionality Certificate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Kajian Pengembangan Perumahan</h3>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p> -->
+                        <a href="{{ url('/articleKPP?title=Risk Assessment Tol BOCIMI') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                            Learn More
+                            <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PPK Project -->
+                <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-lg hover:shadow-xl transition duration-300" data-category="StudyOfAdministration">
+                    <div class="relative overflow-hidden aspect-w-16 aspect-h-9">
+                        <img alt="Commercial Building" src="{{ url('images/img305.jpg') }}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <span class="px-3 py-1 bg-blue-500 text-white text-sm rounded-full">Study Of Administration</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-500 transition duration-300">Panduan Pelaksanaan Konstruksi Di Kota Bandung</h3>
+                        <!-- <p class="text-gray-600 mb-4 line-clamp-2">A state-of-the-art commercial building designed and managed by our expert team.</p> -->
+                        <a href="{{ url('/articleKPP?title=Risk Assessment Tol BOCIMI') }}" class="text-blue-500 hover:text-blue-600 transition duration-300 flex items-center gap-2">
                             Learn More
                             <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
                         </a>

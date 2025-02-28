@@ -51,7 +51,7 @@
                 <div class="text-white fade-in">
                     <span class="px-4 py-2 bg-blue-500 rounded-full text-sm">Industrial Project</span>
                     <h1 class="text-5xl font-bold mt-4 mb-2">Pekerjaan Ruangan Customer Service IPC Jakarta</h1>
-                    <p class="text-xl text-gray-200">State-of-the-art industrial facility with advanced manufacturing capabilities</p>
+                    <p class="text-xl text-gray-200">Creating a comfortable and modern customer service environment</p>
                 </div>
             </div>
         </div>
@@ -66,9 +66,8 @@
                     <section class="bg-white p-8 rounded-xl shadow-lg mb-8">
                         <h2 class="text-3xl font-bold mb-6">Project Overview</h2>
                         <p class="text-gray-600 leading-relaxed mb-8">
-                            Our industrial complex represents the future of manufacturing facilities.
-                            With advanced automation systems and sustainable practices, this facility
-                            sets new standards for industrial architecture and operational efficiency.
+                        This renovation project at IPC Jakarta is focused on enhancing the functionality and aesthetics of the Customer Service Room. 
+                        The new design integrates modern furniture, efficient lighting, and ergonomic layouts to improve customer experience and staff productivity.
                         </p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                             <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
@@ -87,19 +86,19 @@
                             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Automated Production Lines
+                                    Modern and Comfortable Design
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Advanced Security Systems
+                                    Efficient Customer Flow Layout
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Energy Efficient Design
+                                    Advanced Lighting Systems
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Loading Bay Facilities
+                                    Ergonomic Furniture
                                 </li>
                             </ul>
                         </div>
@@ -144,7 +143,7 @@
                         <div class="bg-blue-50 p-6 rounded-xl shadow-lg">
                             <h3 class="text-xl font-bold mb-4">Interested?</h3>
                             <p class="text-gray-600 mb-6">
-                                Contact us to learn more about our industrial facilities or discuss your manufacturing needs.
+                                Contact us to learn more about or discuss your needs.
                             </p>
                             <a href="/contact"
                                 class="block text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
@@ -190,8 +189,8 @@
                 <div>
                     <h4 class="text-xl font-bold mb-4">About This Project</h4>
                     <p class="text-gray-400">
-                        A cutting-edge industrial facility designed to meet modern manufacturing
-                        demands while maintaining environmental responsibility.
+                    This renovation aims to create a comfortable and modern environment, 
+                    enhancing customer experience and staff efficiency.
                     </p>
                 </div>
 

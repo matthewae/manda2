@@ -65,9 +65,10 @@
                     <section class="bg-white p-8 rounded-xl shadow-lg mb-8">
                         <h2 class="text-3xl font-bold mb-6">Project Overview</h2>
                         <p class="text-gray-600 leading-relaxed mb-8">
-                            Our latest commercial development showcases the perfect blend of modern architecture
-                            and sustainable design principles. This 20-story structure stands as a testament to
-                            innovative construction techniques and environmental responsibility.
+                            This project focuses on the structural assessment of the SPP Bandung building.
+                            Through detailed analysis and modern evaluation techniques, we ensure the safety,
+                            durability, and compliance of the structure with current standards. Our approach integrates
+                            advanced engineering practices to deliver reliable and accurate assessments for informed decision-making.
                         </p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                             <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
@@ -86,19 +87,19 @@
                             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    LEED Platinum Certified
+                                    Comprehensive Structural Analysis
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Smart Building Systems
+                                    Advanced Testing and Evaluation Methods
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    24/7 Security
+                                    Compliance with Safety and Building Standards
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Underground Parking
+                                    Detailed Reporting and Recommendations
                                 </li>
                             </ul>
                         </div>
@@ -143,7 +144,7 @@
                         <div class="bg-blue-50 p-6 rounded-xl shadow-lg">
                             <h3 class="text-xl font-bold mb-4">Interested?</h3>
                             <p class="text-gray-600 mb-6">
-                                Contact us to learn more about this project or discuss your own commercial development needs.
+                                Contact us to learn more about this project or discuss your own needs.
                             </p>
                             <a href="/contact"
                                 class="block text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
@@ -190,8 +191,9 @@
                 <div class="p-4 md:p-0">
                     <h4 class="text-lg md:text-xl font-bold mb-3 md:mb-4">About This Project</h4>
                     <p class="text-gray-400 text-sm md:text-base">
-                        A flagship commercial development showcasing our commitment to sustainable
-                        and modern architecture in urban environments.
+                    This project showcases our commitment to structural integrity and safety assessments. 
+                    By utilizing state-of-the-art engineering methods, we provide precise evaluations, ensuring 
+                    the longevity and safety of the building's framework.
                     </p>
                 </div>
 

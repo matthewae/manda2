@@ -256,7 +256,7 @@
                             </div>
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Dr (c)., Ir., Lukman Subangi, S.Pd., M.T., IPM., Asean Eng
+                                    Dr (c). Ir. Lukman Subangi, S.Pd., M.T., IPM., ASEAN Eng. APEC Eng.
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">
                                     Commissioner
@@ -296,7 +296,7 @@
                             </div>
                             <div class="text-center">
                                 <h3 class="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-                                    Dr., Ir., Felix H., S.T., M.T., IPU., Asean Eng.
+                                    Dr. Ir. Felix H., S.T., M.T., IPU., ASEAN Eng.
                                 </h3>
                                 <p class="text-blue-500 font-semibold mb-3">
                                     Deputy Director
@@ -492,7 +492,7 @@
                             <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
                                 <h3 class="text-2xl font-bold">Ryan Gilang Wicaksono, S.T.</h3>
                                 <p class="text-blue-200 font-semibold">Chief Engineer</p>
-                                <p class="text-gray-300 text-sm mt-4">Deskripsi tentang Ryan Gilang Wicaksono.</p>
+                                <!-- <p class="text-gray-300 text-sm mt-4">Deskripsi tentang Ryan Gilang Wicaksono.</p> -->
                             </div>
                         </div>
                     </div>
@@ -511,10 +511,10 @@
                             <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
                                 <h3 class="text-2xl font-bold">Krisma Jumeindri, A.Md.T</h3>
                                 <p class="text-blue-200 font-semibold">Head Finance/GA</p>
-                                <p class="text-gray-300 text-sm mt-4">
+                                <!-- <p class="text-gray-300 text-sm mt-4">
                                     M. Sarwono Purwa Jayadi memiliki keahlian dalam pengembangan proyek infrastruktur.
                                     Dedikasinya pada efisiensi operasional telah membawa perusahaan ke level berikutnya.
-                                </p>
+                                </p> -->
                             </div>
                         </div>
                     </div>
@@ -532,10 +532,10 @@
                             <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
                                 <h3 class="text-2xl font-bold">Rahadya Darajat, S.S.</h3>
                                 <p class="text-blue-200 font-semibold">Digital Engineer</p>
-                                <p class="text-gray-300 text-sm mt-4">
+                                <!-- <p class="text-gray-300 text-sm mt-4">
                                     Felix H. memiliki latar belakang akademis yang kuat dan kepakaran di bidang teknik sipil.
                                     Beliau aktif dalam riset dan pengembangan inovasi struktural.
-                                </p>
+                                </p> -->
                             </div>
                         </div>
                     </div>
@@ -551,7 +551,7 @@
                             <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
                                 <h3 class="text-2xl font-bold">M. Zidan Pahlevi, S.Tr.T.</h3>
                                 <p class="text-blue-200 font-semibold">Support Engineer</p>
-                                <p class="text-gray-300 text-sm mt-4">Deskripsi tentang Ryan Gilang Wicaksono.</p>
+                                <!-- <p class="text-gray-300 text-sm mt-4">Deskripsi tentang Ryan Gilang Wicaksono.</p> -->
                             </div>
                         </div>
                     </div>
@@ -570,10 +570,10 @@
                             <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
                                 <h3 class="text-2xl font-bold">Abdul Aziz Mundzir, S.Tr.T.</h3>
                                 <p class="text-blue-200 font-semibold">Support Engineer</p>
-                                <p class="text-gray-300 text-sm mt-4">
+                                <!-- <p class="text-gray-300 text-sm mt-4">
                                     M. Sarwono Purwa Jayadi memiliki keahlian dalam pengembangan proyek infrastruktur.
                                     Dedikasinya pada efisiensi operasional telah membawa perusahaan ke level berikutnya.
-                                </p>
+                                </p> -->
                             </div>
                         </div>
                     </div>
@@ -591,10 +591,10 @@
                             <div class="absolute bottom-0 left-0 w-full flex flex-col items-center justify-end text-center p-8 text-white">
                                 <h3 class="text-2xl font-bold">Yana Suryana</h3>
                                 <p class="text-blue-200 font-semibold">Building Management</p>
-                                <p class="text-gray-300 text-sm mt-4">
+                                <!-- <p class="text-gray-300 text-sm mt-4">
                                     Felix H. memiliki latar belakang akademis yang kuat dan kepakaran di bidang teknik sipil.
                                     Beliau aktif dalam riset dan pengembangan inovasi struktural.
-                                </p>
+                                </p> -->
                             </div>
                         </div>
                     </div>

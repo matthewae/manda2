@@ -50,7 +50,7 @@
                 <div class="text-white fade-in">
                     <span class="px-4 py-2 bg-blue-500 rounded-full text-sm">Commercial Project</span>
                     <h1 class="text-5xl font-bold mt-4 mb-2">Design Gudang Materai SPP Bandung</h1>
-                    <p class="text-xl text-gray-200">A state-of-the-art commercial complex in the heart of the city</p>
+                    <p class="text-xl text-gray-200">A state-of-the-art warehouse facility ensuring operational efficiency</p>
                 </div>
             </div>
         </div>
@@ -65,9 +65,11 @@
                     <section class="bg-white p-8 rounded-xl shadow-lg mb-8">
                         <h2 class="text-3xl font-bold mb-6">Project Overview</h2>
                         <p class="text-gray-600 leading-relaxed mb-8">
-                            Our latest commercial development showcases the perfect blend of modern architecture
-                            and sustainable design principles. This 20-story structure stands as a testament to
-                            innovative construction techniques and environmental responsibility.
+                        This project focuses on the design of the Gudang Materai SPP in Bandung, a modern warehouse facility 
+                        tailored to meet the operational needs of PT.POS INDONESIA (PERSERO). The architectural approach emphasizes 
+                        efficiency, safety, and sustainability, ensuring an optimal environment for storage and logistics management. 
+                        The design integrates functional 
+                        spaces while maintaining an aesthetically pleasing structure that complements its urban surroundings.
                         </p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                             <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
@@ -86,19 +88,19 @@
                             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    LEED Platinum Certified
+                                    Optimized storage solutions for maximum capacity and easy access
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Smart Building Systems
+                                    Advanced security systems to safeguard valuable assets
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    24/7 Security
+                                    Energy-efficient building design for reduced operational costs
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Underground Parking
+                                    Strategic location for streamlined logistics and distribution
                                 </li>
                             </ul>
                         </div>
@@ -143,7 +145,8 @@
                         <div class="bg-blue-50 p-6 rounded-xl shadow-lg">
                             <h3 class="text-xl font-bold mb-4">Interested?</h3>
                             <p class="text-gray-600 mb-6">
-                                Contact us to learn more about this project or discuss your own commercial development needs.
+                                Are you looking to learn more about this warehouse design or explore how we can support 
+                                your logistics infrastructure needs? Reach out to us to discuss your project requirements.
                             </p>
                             <a href="/contact"
                                 class="block text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">

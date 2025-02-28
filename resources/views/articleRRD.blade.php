@@ -65,9 +65,9 @@
                     <section class="bg-white p-8 rounded-xl shadow-lg mb-8">
                         <h2 class="text-3xl font-bold mb-6">Project Overview</h2>
                         <p class="text-gray-600 leading-relaxed mb-8">
-                            Our latest commercial development showcases the perfect blend of modern architecture
-                            and sustainable design principles. This 20-story structure stands as a testament to
-                            innovative construction techniques and environmental responsibility.
+                        The renovation of the Board of Commissioners room on the 2nd floor of GPI Jakarta aims to create a modern and 
+                        functional space while maintaining a professional atmosphere. This project includes a complete interior redesign, improved room acoustics, 
+                        and the installation of state-of-the-art lighting and presentation technology to enhance meeting productivity.
                         </p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                             <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
@@ -86,19 +86,19 @@
                             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    LEED Platinum Certified
+                                    Modernized Facilities
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Smart Building Systems
+                                    Enhanced Functional Spaces
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    24/7 Security
+                                    Integrated Presentation Technology
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Underground Parking
+                                    Optimal Acoustic Design
                                 </li>
                             </ul>
                         </div>
@@ -190,8 +190,8 @@
                 <div class="p-4 md:p-0">
                     <h4 class="text-lg md:text-xl font-bold mb-3 md:mb-4">About This Project</h4>
                     <p class="text-gray-400 text-sm md:text-base">
-                        A flagship commercial development showcasing our commitment to sustainable
-                        and modern architecture in urban environments.
+                    The renovation project of the Board of Commissioners room on the 2nd floor of GPI Jakarta is a strategic 
+                    step to support performance and productivity in making important decisions.
                     </p>
                 </div>
 

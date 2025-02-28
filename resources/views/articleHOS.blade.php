@@ -66,9 +66,8 @@
                     <section class="bg-white p-8 rounded-xl shadow-lg mb-8">
                         <h2 class="text-3xl font-bold mb-6">Project Overview</h2>
                         <p class="text-gray-600 leading-relaxed mb-8">
-                            Our healthcare facility project represents the pinnacle of medical infrastructure design.
-                            This modern hospital combines cutting-edge medical technology with patient-centered
-                            architecture to create a healing environment that promotes recovery and wellness.
+                            This renovation project of the Board of Commissioners Room at 2nd Floor GPI Jakarta aims to enhance the functionality and aesthetics of the space.
+                            It combines modern design elements with high-quality materials to create an environment that supports productivity and comfort.
                         </p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                             <div class="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
@@ -87,19 +86,19 @@
                             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Advanced Medical Equipment
+                                    Modern Design and Finishes
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Emergency Care Unit
+                                    Enhanced Comfort and Productivity
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Specialized Departments
+                                    Advanced Lighting and AV Systems
                                 </li>
                                 <li class="flex items-center gap-2 text-gray-600">
                                     <i class="fas fa-check-circle text-green-500"></i>
-                                    Patient Recovery Zones
+                                    High-Quality Furnishings
                                 </li>
                             </ul>
                         </div>
@@ -144,7 +143,7 @@
                         <div class="bg-blue-50 p-6 rounded-xl shadow-lg">
                             <h3 class="text-xl font-bold mb-4">Interested?</h3>
                             <p class="text-gray-600 mb-6">
-                                Contact us to learn more about our healthcare facility projects or discuss your medical infrastructure needs.
+                                Contact us to learn more about our projects or discuss your needs.
                             </p>
                             <a href="/contact"
                                 class="block text-center bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
@@ -190,8 +189,8 @@
                 <div>
                     <h4 class="text-xl font-bold mb-4">About This Project</h4>
                     <p class="text-gray-400">
-                        A modern healthcare facility designed to provide excellent medical care while
-                        ensuring comfort and efficiency for both patients and medical staff.
+                    This project involved the renovation of the Board of Commissioners Room on the 2nd floor of GPI Jakarta. 
+                    The design focuses on modern aesthetics, enhanced functionality, and a comfortable environment suitable for executive meetings.
                     </p>
                 </div>
 
