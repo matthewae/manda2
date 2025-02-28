@@ -175,7 +175,7 @@
                         <span class="text-gray-400 text-xs md:text-sm mb-2 md:mb-0"></span>
                         <div class="flex items-center gap-3">
                             <i class="fas fa-arrow-left text-sm md:text-base group-hover:-translate-x-2 transition-transform"></i>
-                            <span class="text-base md:text-xl font-medium">Industrial Complex</span>
+                            <span class="text-base md:text-xl font-medium">Previous Project</span>
                         </div>
                     </div>
                 </a>
@@ -185,7 +185,7 @@
                     <div class="flex flex-col items-end md:block">
                         <span class="text-gray-400 text-xs md:text-sm mb-2 md:mb-0"></span>
                         <div class="flex items-center justify-end gap-3">
-                            <span class="text-base md:text-xl font-medium">Healthcare Facility</span>
+                            <span class="text-base md:text-xl font-medium">Next Project</span>
                             <i class="fas fa-arrow-right text-sm md:text-base group-hover:translate-x-2 transition-transform"></i>
                         </div>
                     </div>

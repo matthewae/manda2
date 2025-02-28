@@ -162,22 +162,22 @@
             <!-- Navigation -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 border-b border-gray-700 pb-8 md:pb-12 mb-8 md:mb-12">
                 <!-- Previous Project - Mobile Optimized -->
-                <a href="/articleHOS" class="group block p-4 md:p-0 bg-gray-800/50 md:bg-transparent rounded-lg md:rounded-none hover:bg-gray-800 md:hover:bg-transparent transition-colors">
+                <a href="/articleSPP" class="group block p-4 md:p-0 bg-gray-800/50 md:bg-transparent rounded-lg md:rounded-none hover:bg-gray-800 md:hover:bg-transparent transition-colors">
                     <div class="flex flex-col md:block">
                         <span class="text-gray-400 text-xs md:text-sm mb-2 md:mb-0"></span>
                         <div class="flex items-center gap-3">
                             <i class="fas fa-arrow-left text-sm md:text-base group-hover:-translate-x-2 transition-transform"></i>
-                            <span class="text-base md:text-xl font-medium">Healthcare Facilities</span>
+                            <span class="text-base md:text-xl font-medium">Previous Project</span>
                         </div>
                     </div>
                 </a>
 
                 <!-- Next Project - Mobile Optimized -->
-                <a href="/articleRES" class="group block p-4 md:p-0 bg-gray-800/50 md:bg-transparent rounded-lg md:rounded-none hover:bg-gray-800 md:hover:bg-transparent transition-colors">
+                <a href="/articleRAP" class="group block p-4 md:p-0 bg-gray-800/50 md:bg-transparent rounded-lg md:rounded-none hover:bg-gray-800 md:hover:bg-transparent transition-colors">
                     <div class="flex flex-col items-end md:block">
                         <span class="text-gray-400 text-xs md:text-sm mb-2 md:mb-0"></span>
                         <div class="flex items-center justify-end gap-3">
-                            <span class="text-base md:text-xl font-medium">Residential Complex</span>
+                            <span class="text-base md:text-xl font-medium">Next Project</span>
                             <i class="fas fa-arrow-right text-sm md:text-base group-hover:translate-x-2 transition-transform"></i>
                         </div>
                     </div>
