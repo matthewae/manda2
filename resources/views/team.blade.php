@@ -320,8 +320,10 @@
                             <h3 class="text-2xl font-bold">Dr (c)., Ir., Lukman Subangi, S.Pd., M.T., IPM., Asean Eng</h3>
                             <p class="text-blue-200 font-semibold">Commissioner</p>
                             <p class="text-gray-300 text-sm mt-4">
-                                Lukman Subangi memiliki pengalaman lebih dari 20 tahun di bidang teknik dan manajemen.
-                                Beliau dikenal sebagai pemimpin visioner yang berfokus pada inovasi teknologi.
+                                A Professional Civil Expert, active as an academic and practitioner, graduated as a Bachelor of Building 
+                                Engineering at Indonesia University of Education (UPI), Postgraduate Masters in Civil Engineering at Parahyangan 
+                                Catholic University (UNPAR), and is currently in the final stages of Doctoral in Civil Engineering at Diponegoro 
+                                University (UNDIP). now holds the position of Commissioner in Mandajaya Construction Engineering.
                             </p>
                         </div>
                     </div>
@@ -341,8 +343,9 @@
                             <h3 class="text-2xl font-bold">M. Sarwono Purwa Jayadi, S.T., M.T.</h3>
                             <p class="text-blue-200 font-semibold">Director</p>
                             <p class="text-gray-300 text-sm mt-4">
-                                M. Sarwono Purwa Jayadi memiliki keahlian dalam pengembangan proyek infrastruktur.
-                                Dedikasinya pada efisiensi operasional telah membawa perusahaan ke level berikutnya.
+                            A Professional Civil Expert, active as practitioner, graduated as a Bachelor of Civil Engineering in Parahyangan 
+                            Catholic University (UNPAR), then graduated with a Postgraduate Master of Civil Engineering in Bandung Insitute of 
+                            Technology (ITB). currently has the position of Director in Mandajaya Construction Engineering.
                             </p>
                         </div>
                     </div>
@@ -362,8 +365,10 @@
                             <h3 class="text-2xl font-bold">Dr., Ir., Felix H., S.T., M.T., IPU., Asean Eng.</h3>
                             <p class="text-blue-200 font-semibold">Deputy Director</p>
                             <p class="text-gray-300 text-sm mt-4">
-                                Felix H. memiliki latar belakang akademis yang kuat dan kepakaran di bidang teknik sipil.
-                                Beliau aktif dalam riset dan pengembangan inovasi struktural.
+                                A Professional Civil Expert, active as an academic and practitioner, graduated as a Bachelor and Postgraduate
+                                Masters in Civil Engineering at Parahyangan Catholic University (UNPAR), then graduated with a Postgraduate
+                                Doctoral in Civil Engineering Bandung Insitute of Technology (ITB). currently has the position of Deputy Director
+                                of Mandajaya Construction Engineering.
                             </p>
                         </div>
                     </div>
@@ -482,7 +487,7 @@
                     </div>
                 </div>
 
-<!-- modal 4 -->
+                <!-- modal 4 -->
                 <div id="modal4" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 p-4 opacity-0 scale-95 transition-transform transition-opacity duration-300" onclick="closeModal(event, 'modal4')">
                     <div class="relative bg-white rounded-[30px] overflow-hidden shadow-xl max-w-[90%] md:max-w-2xl w-full transform transition-transform duration-300" onclick="event.stopPropagation()">
                         <button onclick="closeModal(event, 'modal4')" class="absolute top-4 right-4 text-gray-200 text-3xl hover:text-gray-400 z-10">&times;</button>
